@@ -94,28 +94,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Contact CTA */}
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">
-              Still Have Questions?
-            </h3>
-            <p className="text-green-100 mb-6 text-lg">
-              Our friendly team is here to help you on your wellness journey
-            </p>
-            <button
-              onClick={() => {
-                const element = document.getElementById("contact");
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" });
-                }
-              }}
-              className="bg-white text-[hsl(var(--wellness-green))] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
-            >
-              Contact Us Today
-            </button>
-          </div>
-        </div>
+
       </div>
     </section>
   );
