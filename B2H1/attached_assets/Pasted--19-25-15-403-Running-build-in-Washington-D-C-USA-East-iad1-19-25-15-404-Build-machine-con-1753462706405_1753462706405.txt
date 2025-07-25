@@ -1,0 +1,51 @@
+[19:25:15.403] Running build in Washington, D.C., USA (East) – iad1
+[19:25:15.404] Build machine configuration: 2 cores, 8 GB
+[19:25:15.418] Cloning github.com/VianNovell/B2H1 (Branch: main, Commit: 050c1fc)
+[19:25:15.598] Previous build caches not available
+[19:25:17.006] Cloning completed: 1.588s
+[19:25:18.922] Running "vercel build"
+[19:25:19.641] Vercel CLI 44.5.0
+[19:25:20.218] Installing dependencies...
+[19:25:25.599] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[19:25:25.619] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[19:25:30.628] 
+[19:25:30.628] added 500 packages in 10s
+[19:25:30.632] 
+[19:25:30.632] 77 packages are looking for funding
+[19:25:30.632]   run `npm fund` for details
+[19:25:30.685] Running "npm run build"
+[19:25:30.796] 
+[19:25:30.797] > rest-express@1.0.0 build
+[19:25:30.797] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[19:25:30.797] 
+[19:25:31.125] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[19:25:31.187] transforming...
+[19:25:31.450] Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+[19:25:31.450]   npx update-browserslist-db@latest
+[19:25:31.450]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[19:25:36.558] [32m✓[39m 1841 modules transformed.
+[19:25:36.980] rendering chunks...
+[19:25:36.996] computing gzip size...
+[19:25:37.014] [2m../dist/public/[22m[32mindex.html                                       [39m[1m[2m  4.13 kB[22m[1m[22m[2m │ gzip:   1.37 kB[22m
+[19:25:37.014] [2m../dist/public/[22m[2massets/[22m[32mjoel pic_1753331346323-BeeOzNUB.jpg       [39m[1m[2m 32.01 kB[22m[1m[22m
+[19:25:37.015] [2m../dist/public/[22m[2massets/[22m[32mgregg bio pic_1753331348993-BHwX_4KS.jpg  [39m[1m[2m166.22 kB[22m[1m[22m
+[19:25:37.015] [2m../dist/public/[22m[2massets/[22m[32mb2h-logo-BnHFhJ8m.png                     [39m[1m[2m448.08 kB[22m[1m[22m
+[19:25:37.015] [2m../dist/public/[22m[2massets/[22m[35mindex-ByOF6_Fm.css                        [39m[1m[2m 82.06 kB[22m[1m[22m[2m │ gzip:  13.90 kB[22m
+[19:25:37.016] [2m../dist/public/[22m[2massets/[22m[36mindex-BiLs-vbY.js                         [39m[1m[33m552.39 kB[39m[22m[2m │ gzip: 162.42 kB[22m
+[19:25:37.016] [33m
+[19:25:37.016] (!) Some chunks are larger than 500 kB after minification. Consider:
+[19:25:37.017] - Using dynamic import() to code-split the application
+[19:25:37.017] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[19:25:37.017] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[19:25:37.017] [32m✓ built in 5.86s[39m
+[19:25:37.049] 
+[19:25:37.049]   dist/index.js  23.2kb
+[19:25:37.050] 
+[19:25:37.050] ⚡ Done in 5ms
+[19:25:37.126] Build Completed in /vercel/output [17s]
+[19:25:37.149] Deploying outputs...
+[19:25:38.272] 
+[19:25:38.404] Deployment completed
+[19:25:52.596] Uploading build cache [87.42 MB]...
+[19:25:54.158] Build cache uploaded: 1.566s
+[19:25:56.386] Exiting build container
