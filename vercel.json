@@ -1,20 +1,3 @@
 {
-  "version": 2,
-  "buildCommand": "cp package.deploy.json package.json && cp vite.config.deploy.ts vite.config.ts && npm install && npm run build",
-  "outputDirectory": "dist/public",
-  "functions": {
-    "server/index.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/server/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/public/$1"
-    }
-  ]
+  "version": 2
 }
