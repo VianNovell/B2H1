@@ -58,7 +58,7 @@ export default function ServicesSection() {
       title: "Corporate Wellness",
       description: "Workplace wellness programs for businesses and organizations",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "@assets/Screenshot 2025-07-25 at 8.37.52 am_1753421874850.png",
     },
   ];
 
