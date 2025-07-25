@@ -129,13 +129,11 @@ export default function ContactSection() {
                   <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))]">
                     Hours
                   </h3>
-                  <p className="text-gray-600 text-sm sm:text-base">
-                    Mon-Fri: 8:00 AM - 6:00 PM
-                    <br />
-                    Sat: 9:00 AM - 4:00 PM
-                    <br />
-                    <span className="text-green-600 font-semibold">Open • Closes 5pm</span>
-                  </p>
+                  <div className="text-gray-600 text-sm sm:text-base space-y-1">
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                    <p>Saturday: 9:00 AM - 4:00 PM</p>
+                    <p>Sunday: By Appointment Only</p>
+                  </div>
                 </div>
               </div>
             </div>
