@@ -98,17 +98,26 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-[hsl(var(--wellness-green)_/_10%)] rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+              <div className="flex items-start">
+                <div className="w-12 h-12 bg-[hsl(var(--wellness-green)_/_10%)] rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                   <MapPin className="text-[hsl(var(--wellness-green))] w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))]">
-                    Address
+                    Our Locations
                   </h3>
-                  <p className="text-gray-600 text-sm sm:text-base">
-                    Moyo Cl, Kampala
-                  </p>
+                  <div className="text-gray-600 text-sm sm:text-base space-y-2">
+                    <div>
+                      <p className="font-medium text-[hsl(var(--wellness-green))]">Main Clinic - Bukoto</p>
+                      <p>Moyo Close, Bukoto</p>
+                      <p>Kampala, Uganda</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-[hsl(var(--wellness-blue))]">Branch - Entebbe</p>
+                      <p>Entebbe Road</p>
+                      <p>Entebbe, Uganda</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
