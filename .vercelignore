@@ -4,5 +4,9 @@ node_modules
 .env.production
 .env.development
 .replit
-attached_assets
+attached_assets/*.txt
+attached_assets/*.odt
+attached_assets/*.png
+attached_assets/*bio_*.jpg
+attached_assets/Screenshot*
 *.log
