@@ -1,0 +1,40 @@
+[12:06:59.406] Running build in Washington, D.C., USA (East) – iad1
+[12:06:59.406] Build machine configuration: 2 cores, 8 GB
+[12:06:59.447] Cloning github.com/VianNovell/B2H1 (Branch: main, Commit: fa48e33)
+[12:07:00.850] Cloning completed: 1.402s
+[12:07:00.913] Found .vercelignore
+[12:07:00.931] Removed 138 ignored files defined in .vercelignore
+[12:07:00.932]   /.replit
+[12:07:00.932]   /attached_assets/B2H_LOGO 20x20_1753287102755.png
+[12:07:00.932]   /attached_assets/gregg bio pic_1753331348993.jpg
+[12:07:00.932]   /attached_assets/Gregg bio_1753287884686.jpg
+[12:07:00.932]   /attached_assets/Gregg bio_1753331315360.jpg
+[12:07:00.932]   /attached_assets/Joel bio_1753287886904.jpg
+[12:07:00.932]   /attached_assets/Joel bio_1753331317841.jpg
+[12:07:00.932]   /attached_assets/joel pic_1753331346323.jpg
+[12:07:00.932]   /attached_assets/Pasted--19-25-15-403-Running-build-in-Washington-D-C-USA-East-iad1-19-25-15-404-Build-machine-con-1753462706405_1753462706405.txt
+[12:07:00.932]   /attached_assets/Pasted--19-25-15-403-Running-build-in-Washington-D-C-USA-East-iad1-19-25-15-404-Build-machine-con-1753462776741_1753462776742.txt
+[12:07:00.998] Restored build cache from previous deployment (C3jwuUmUttKyVuqJSrgg3H65VLuL)
+[12:07:01.617] Running "vercel build"
+[12:07:02.814] Vercel CLI 44.5.0
+[12:07:04.207] Running "install" command: `npm install`...
+[12:07:05.936] 
+[12:07:05.936] added 1 package, removed 2 packages, changed 24 packages, and audited 392 packages in 1s
+[12:07:05.937] 
+[12:07:05.937] 65 packages are looking for funding
+[12:07:05.937]   run `npm fund` for details
+[12:07:05.939] 
+[12:07:05.940] 3 low severity vulnerabilities
+[12:07:05.940] 
+[12:07:05.940] To address all issues, run:
+[12:07:05.940]   npm audit fix
+[12:07:05.941] 
+[12:07:05.941] Run `npm audit` for details.
+[12:07:06.196] 
+[12:07:06.197] > rest-express@1.0.0 build
+[12:07:06.197] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[12:07:06.197] 
+[12:07:06.204] sh: line 1: vite: command not found
+[12:07:06.215] Error: Command "NODE_ENV=production REPL_ID= npm run build" exited with 127
+[12:07:06.434] 
+[12:07:09.327] Exiting build container
