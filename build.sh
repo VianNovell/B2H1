@@ -147,7 +147,178 @@ echo "✅ Build preparation complete"
 echo "🔨 Running npm install..."
 npm install
 
-echo "🔨 Running build..."
-npm run build
+echo "🔨 Running frontend build..."
+vite build
+
+echo "🔨 Creating Vercel API functions..."
+mkdir -p api
+
+# Create contact API endpoint
+cat > api/contact.js << 'API_EOF'
+import { storage } from "../server/storage.js";
+import { insertContactSubmissionSchema } from "../shared/schema.js";
+import { sendContactFormNotification } from "../server/email.js";
+import { z } from "zod";
+
+export default async function handler(req, res) {
+  if (req.method === 'POST') {
+    try {
+      const validatedData = insertContactSubmissionSchema.parse(req.body);
+      const submission = await storage.createContactSubmission(validatedData);
+      
+      const emailResult = await sendContactFormNotification({
+        name: validatedData.name,
+        email: validatedData.email,
+        phone: validatedData.phone || '',
+        service: validatedData.service || '',
+        message: validatedData.message,
+      });
+      
+      if (emailResult.success) {
+        console.log('✅ Contact form notification email sent successfully');
+      } else {
+        console.error('❌ Failed to send contact form notification:', emailResult.error);
+      }
+      
+      res.status(201).json({ success: true, id: submission.id });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        res.status(400).json({ 
+          success: false, 
+          message: "Invalid form data",
+          errors: error.errors 
+        });
+      } else {
+        res.status(500).json({ 
+          success: false, 
+          message: "Failed to submit contact form" 
+        });
+      }
+    }
+  } else if (req.method === 'GET') {
+    try {
+      const submissions = await storage.getContactSubmissions();
+      res.json(submissions);
+    } catch (error) {
+      res.status(500).json({ 
+        success: false, 
+        message: "Failed to retrieve contact submissions" 
+      });
+    }
+  } else {
+    res.setHeader('Allow', ['GET', 'POST']);
+    res.status(405).end(`Method ${req.method} Not Allowed`);
+  }
+}
+API_EOF
+
+# Create appointments API endpoint
+cat > api/appointments.js << 'API_EOF'
+import { storage } from "../server/storage.js";
+import { insertAppointmentSchema } from "../shared/schema.js";
+import { sendAppointmentConfirmation } from "../server/email.js";
+import { z } from "zod";
+
+export default async function handler(req, res) {
+  if (req.method === 'POST') {
+    try {
+      const validatedData = insertAppointmentSchema.parse(req.body);
+      const appointment = await storage.createAppointment(validatedData);
+      
+      const emailResult = await sendAppointmentConfirmation({
+        name: validatedData.name,
+        email: validatedData.email,
+        phone: validatedData.phone || '',
+        service: validatedData.service,
+        preferredDate: validatedData.preferredDate,
+        preferredTime: validatedData.preferredTime,
+        message: validatedData.message || '',
+      });
+      
+      if (emailResult.success) {
+        console.log('✅ Appointment confirmation email sent successfully');
+      } else {
+        console.error('❌ Failed to send appointment confirmation:', emailResult.error);
+      }
+      
+      res.status(201).json({ success: true, id: appointment.id });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        res.status(400).json({ 
+          success: false, 
+          message: "Invalid appointment data",
+          errors: error.errors 
+        });
+      } else {
+        res.status(500).json({ 
+          success: false, 
+          message: "Failed to book appointment" 
+        });
+      }
+    }
+  } else if (req.method === 'GET') {
+    try {
+      const appointments = await storage.getAppointments();
+      res.json(appointments);
+    } catch (error) {
+      res.status(500).json({ 
+        success: false, 
+        message: "Failed to retrieve appointments" 
+      });
+    }
+  } else {
+    res.setHeader('Allow', ['GET', 'POST']);
+    res.status(405).end(`Method ${req.method} Not Allowed`);
+  }
+}
+API_EOF
+
+# Create testimonials API endpoint
+cat > api/testimonials.js << 'API_EOF'
+import { storage } from "../server/storage.js";
+import { insertTestimonialSchema } from "../shared/schema.js";
+import { z } from "zod";
+
+export default async function handler(req, res) {
+  if (req.method === 'POST') {
+    try {
+      const validatedData = insertTestimonialSchema.parse(req.body);
+      const testimonial = await storage.createTestimonial(validatedData);
+      
+      res.status(201).json({ success: true, id: testimonial.id });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        res.status(400).json({ 
+          success: false, 
+          message: "Invalid testimonial data",
+          errors: error.errors 
+        });
+      } else {
+        res.status(500).json({ 
+          success: false, 
+          message: "Failed to submit testimonial" 
+        });
+      }
+    }
+  } else if (req.method === 'GET') {
+    try {
+      const testimonials = await storage.getTestimonials();
+      res.json(testimonials);
+    } catch (error) {
+      res.status(500).json({ 
+        success: false, 
+        message: "Failed to retrieve testimonials" 
+      });
+    }
+  } else {
+    res.setHeader('Allow', ['GET', 'POST']);
+    res.status(405).end(`Method ${req.method} Not Allowed`);
+  }
+}
+API_EOF
+
+# Copy necessary server files for API functions
+cp -r server api/
+cp -r shared api/
 
 echo "🎉 Build completed successfully!"
