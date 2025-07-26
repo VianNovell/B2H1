@@ -22,6 +22,8 @@ async function build() {
     console.log('Building backend...');
     await runCommand('npx', ['esbuild', 'server/index.ts', '--platform=node', '--packages=external', '--bundle', '--format=esm', '--outdir=dist']);
     
+
+    
     console.log('Build completed successfully!');
   } catch (error) {
     console.error('Build failed:', error);

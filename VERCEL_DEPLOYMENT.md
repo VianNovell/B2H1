@@ -14,9 +14,10 @@ This guide explains how to deploy the Back 2 Health website to Vercel with all d
 - Created `scripts/build-vercel.js` - custom build script for Vercel
 - Environment variables set to disable Replit-specific features during build
 
-### 3. Vercel Configuration
-- Updated `vercel.json` with proper build commands and routing
-- Set environment variables to ensure production build
+### 3. Vercel Configuration  
+- Simplified `vercel.json` to minimal configuration to avoid conflicts
+- Removed conflicting function definitions and complex routing
+- Created `api/index.js` as Vercel serverless function entry point
 
 ## Environment Variables Required
 
@@ -37,9 +38,10 @@ The custom build script (`scripts/build-vercel.js`) performs:
 
 ## Files Modified/Created
 
-- `vercel.json` - Vercel deployment configuration
+- `vercel.json` - Minimal Vercel configuration (eliminates conflicts)
 - `vite.config.prod.ts` - Production-only Vite config
 - `scripts/build-vercel.js` - Custom build script
+- `api/index.js` - Vercel serverless function entry point
 - `.env.example` - Environment variables template
 
 ## Deployment Steps
