@@ -1,0 +1,55 @@
+[13:54:48.773] Running build in Washington, D.C., USA (East) – iad1
+[13:54:48.774] Build machine configuration: 2 cores, 8 GB
+[13:54:48.802] Cloning github.com/VianNovell/B2H1 (Branch: main, Commit: 9455430)
+[13:54:50.298] Cloning completed: 1.496s
+[13:54:50.358] Found .vercelignore
+[13:54:50.378] Removed 141 ignored files defined in .vercelignore
+[13:54:50.379]   /.replit
+[13:54:50.379]   /attached_assets/B2H_LOGO 20x20_1753287102755.png
+[13:54:50.379]   /attached_assets/gregg bio pic_1753331348993.jpg
+[13:54:50.379]   /attached_assets/Gregg bio_1753287884686.jpg
+[13:54:50.379]   /attached_assets/Gregg bio_1753331315360.jpg
+[13:54:50.379]   /attached_assets/Joel bio_1753287886904.jpg
+[13:54:50.379]   /attached_assets/Joel bio_1753331317841.jpg
+[13:54:50.379]   /attached_assets/joel pic_1753331346323.jpg
+[13:54:50.380]   /attached_assets/Pasted--12-06-59-406-Running-build-in-Washington-D-C-USA-East-iad1-12-06-59-406-Build-machine-con-1753526806037_1753526806038.txt
+[13:54:50.380]   /attached_assets/Pasted--19-25-15-403-Running-build-in-Washington-D-C-USA-East-iad1-19-25-15-404-Build-machine-con-1753462706405_1753462706405.txt
+[13:54:50.444] Restored build cache from previous deployment (C3jwuUmUttKyVuqJSrgg3H65VLuL)
+[13:54:52.422] Running "vercel build"
+[13:54:52.910] Vercel CLI 44.5.0
+[13:54:53.687] Running "install" command: `npm install`...
+[13:54:55.364] 
+[13:54:55.365] changed 11 packages, and audited 391 packages in 1s
+[13:54:55.365] 
+[13:54:55.366] 65 packages are looking for funding
+[13:54:55.366]   run `npm fund` for details
+[13:54:55.367] 
+[13:54:55.367] 3 low severity vulnerabilities
+[13:54:55.367] 
+[13:54:55.368] To address all issues, run:
+[13:54:55.368]   npm audit fix
+[13:54:55.368] 
+[13:54:55.368] Run `npm audit` for details.
+[13:54:55.531] Building for Vercel deployment...
+[13:54:55.532] Building frontend...
+[13:54:56.191] npm warn exec The following package was not found and will be installed: vite@7.0.6
+[13:55:01.857] [31mfailed to load config from /vercel/path0/vite.config.prod.ts[39m
+[13:55:01.858] [31merror during build:
+[13:55:01.858] Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /vercel/path0/node_modules/.vite-temp/vite.config.prod.ts.timestamp-1753527301854-e8639dfdd4c9.mjs
+[13:55:01.858]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+[13:55:01.859]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[13:55:01.859]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[13:55:01.859]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[13:55:01.859]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+[13:55:01.859]     at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+[13:55:01.860]     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+[13:55:01.860]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+[13:55:01.860]     at ModuleJob._link (node:internal/modules/esm/module_job:175:49)[39m
+[13:55:01.879] Build failed: Error: Command failed with exit code 1
+[13:55:01.880]     at ChildProcess.<anonymous> (file:///vercel/path0/scripts/build-vercel.js:45:16)
+[13:55:01.881]     at ChildProcess.emit (node:events:518:28)
+[13:55:01.881]     at maybeClose (node:internal/child_process:1101:16)
+[13:55:01.881]     at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+[13:55:01.885] Error: Command "node scripts/build-vercel.js" exited with 1
+[13:55:02.088] 
+[13:55:04.892] Exiting build container
