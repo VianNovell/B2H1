@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npx vite build --config vite.config.minimal.js",
+  "buildCommand": "npm run build",
   "outputDirectory": "public"
 }
