@@ -31,17 +31,17 @@ NODE_ENV=production
 
 ## Build Process
 
-The production build script (`build-production.js`) performs:
-1. Frontend build using default vite.config.ts (with REPL_ID='' to skip Replit plugins)
+Uses the standard `npm run build` command which:
+1. Frontend build using default vite.config.ts (Replit plugins are skipped when REPL_ID is empty)
 2. Backend build using esbuild
-3. Proper environment variable configuration
+3. All build dependencies moved to regular dependencies for Vercel compatibility
 
 ## Files Modified/Created
 
-- `vercel.json` - Minimal Vercel configuration (eliminates conflicts)
-- `build-production.js` - Simplified production build script
-- `api/index.js` - Vercel serverless function entry point
+- `vercel.json` - Minimal Vercel configuration using standard npm build
+- `api/index.js` - Vercel serverless function entry point  
 - `.env.example` - Environment variables template
+- All build dependencies moved from devDependencies to dependencies
 
 ## Deployment Steps
 
