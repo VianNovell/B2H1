@@ -79,7 +79,7 @@ cat > package.json << 'EOF'
     "tw-animate-css": "^1.2.5",
     "vaul": "^1.1.2",
     "vite": "^5.4.19",
-    "@vitejs/plugin-react": "^4.3.2",
+    "@vitejs/plugin-react": "^4.7.0",
     "wouter": "^3.3.5",
     "ws": "^8.18.0",
     "zod": "^3.24.2",

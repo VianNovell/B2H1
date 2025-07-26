@@ -1,0 +1,74 @@
+[22:27:12.905] Running build in Washington, D.C., USA (East) – iad1
+[22:27:12.905] Build machine configuration: 2 cores, 8 GB
+[22:27:12.932] Cloning github.com/VianNovell/B2H1 (Branch: main, Commit: 30e58a8)
+[22:27:12.950] Skipping build cache, deployment was triggered without cache.
+[22:27:14.037] Cloning completed: 1.105s
+[22:27:14.089] Found .vercelignore
+[22:27:14.114] Removed 139 ignored files defined in .vercelignore
+[22:27:14.115]   /.replit
+[22:27:14.115]   /attached_assets/B2H_LOGO 20x20_1753287102755.png
+[22:27:14.115]   /attached_assets/gregg bio pic_1753331348993.jpg
+[22:27:14.115]   /attached_assets/Gregg bio_1753287884686.jpg
+[22:27:14.115]   /attached_assets/Gregg bio_1753331315360.jpg
+[22:27:14.115]   /attached_assets/Joel bio_1753287886904.jpg
+[22:27:14.115]   /attached_assets/Joel bio_1753331317841.jpg
+[22:27:14.115]   /attached_assets/joel pic_1753331346323.jpg
+[22:27:14.115]   /attached_assets/Pasted--19-25-15-403-Running-build-in-Washington-D-C-USA-East-iad1-19-25-15-404-Build-machine-con-1753462706405_1753462706405.txt
+[22:27:14.115]   /attached_assets/Pasted--19-25-15-403-Running-build-in-Washington-D-C-USA-East-iad1-19-25-15-404-Build-machine-con-1753462776741_1753462776742.txt
+[22:27:15.966] Running "vercel build"
+[22:27:16.457] Vercel CLI 44.5.0
+[22:27:17.062] Running "install" command: `npm install`...
+[22:27:24.706] 
+[22:27:24.706] added 391 packages, and audited 392 packages in 7s
+[22:27:24.707] 
+[22:27:24.707] 65 packages are looking for funding
+[22:27:24.707]   run `npm fund` for details
+[22:27:24.709] 
+[22:27:24.709] 3 low severity vulnerabilities
+[22:27:24.709] 
+[22:27:24.710] To address all issues, run:
+[22:27:24.710]   npm audit fix
+[22:27:24.710] 
+[22:27:24.711] Run `npm audit` for details.
+[22:27:24.870] 🚀 Starting Vercel build process...
+[22:27:24.871] 🔧 Creating deployment package.json...
+[22:27:24.872] 🔧 Creating deployment vite.config.ts...
+[22:27:24.873] ✅ Build preparation complete
+[22:27:24.873] 🔨 Running npm install...
+[22:27:26.797] 
+[22:27:26.798] added 11 packages, and audited 403 packages in 2s
+[22:27:26.798] 
+[22:27:26.799] 69 packages are looking for funding
+[22:27:26.799]   run `npm fund` for details
+[22:27:26.806] 
+[22:27:26.807] 5 vulnerabilities (3 low, 2 moderate)
+[22:27:26.807] 
+[22:27:26.807] To address issues that do not require attention, run:
+[22:27:26.808]   npm audit fix
+[22:27:26.808] 
+[22:27:26.808] To address all issues (including breaking changes), run:
+[22:27:26.808]   npm audit fix --force
+[22:27:26.808] 
+[22:27:26.808] Run `npm audit` for details.
+[22:27:26.817] 🔨 Running build...
+[22:27:26.931] 
+[22:27:26.932] > rest-express@1.0.0 build
+[22:27:26.932] > NODE_ENV=production vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+[22:27:26.932] 
+[22:27:27.148] [31mfailed to load config from /vercel/path0/vite.config.ts[39m
+[22:27:27.150] [31merror during build:
+[22:27:27.152] Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@vitejs/plugin-react' imported from /vercel/path0/vite.config.ts.timestamp-1753471647145-af8095998bcb8.mjs
+[22:27:27.152]     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:256:9)
+[22:27:27.153]     at packageResolve (node:internal/modules/esm/resolve:768:81)
+[22:27:27.153]     at moduleResolve (node:internal/modules/esm/resolve:854:18)
+[22:27:27.153]     at defaultResolve (node:internal/modules/esm/resolve:984:11)
+[22:27:27.153]     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+[22:27:27.153]     at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+[22:27:27.153]     at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+[22:27:27.153]     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+[22:27:27.153]     at ModuleJob._link (node:internal/modules/esm/module_job:175:49)[39m
+[22:27:27.166] 🎉 Build completed successfully!
+[22:27:27.177] Error: No Output Directory named "public" found after the Build completed. You can configure the Output Directory in your Project Settings.
+[22:27:27.177] Learn More: https://vercel.link/missing-public-directory
+[22:27:27.365] 
+[22:27:30.067] Exiting build container

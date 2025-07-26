@@ -4,6 +4,6 @@
       "runtime": "nodejs18.x"
     }
   },
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/public"
+  "buildCommand": "chmod +x build.sh && ./build.sh",
+  "outputDirectory": "public"
 }
