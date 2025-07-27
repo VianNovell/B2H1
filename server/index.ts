@@ -61,47 +61,14 @@ async function initializeApp() {
   return { app, server };
 }
 
-// Initialize app immediately for both environments
-let appInitialized = false;
-
-async function getInitializedApp() {
-  if (!appInitialized) {
-    console.log('🚀 [INIT] Initializing Express app...');
-    await registerRoutes(app);
-    
-    app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-      const status = err.status || err.statusCode || 500;
-      const message = err.message || "Internal Server Error";
-      console.error('Express error:', err);
-      res.status(status).json({ message });
-    });
-
-    if (app.get("env") !== "development" && process.env.VERCEL) {
-      serveStatic(app);
-    }
-    
-    appInitialized = true;
-    console.log('✅ [INIT] Express app initialized');
-  }
-  return app;
-}
-
-// For development/local environment
-if (process.env.NODE_ENV !== "production" || !process.env.VERCEL) {
-  (async () => {
-    const { server } = await initializeApp();
-    const port = process.env.PORT || 5000;
-    server.listen(port, () => {
-      log(`serving on port ${port}`);
-    });
-  })();
-} else {
-  // For Vercel production - ensure app is initialized
-  getInitializedApp().catch(console.error);
-}
-
-// Export the app factory function for Vercel
-export default async function handler(req: any, res: any) {
-  const initializedApp = await getInitializedApp();
-  return initializedApp(req, res);
-};
+// Initialize and start the server
+(async () => {
+  const { server } = await initializeApp();
+  const port = process.env.PORT || 5000;
+  const host = process.env.RENDER ? '0.0.0.0' : 'localhost';
+  
+  server.listen(port, () => {
+    log(`🚀 [${process.env.NODE_ENV?.toUpperCase() || 'DEV'}] Server running on ${host}:${port}`);
+    log(`🌐 Environment: ${process.env.RENDER ? 'Render' : 'Local'}`);
+  });
+})();
