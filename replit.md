@@ -118,7 +118,8 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- July 27, 2025. 🔧 LATEST: Redesigned contact section with professional grid layout showing office location, phone numbers, email addresses, and business hours
+- July 27, 2025. 🔧 LATEST: Added NGO platform links (https://handbackhealth.org/) to navigation and footer, removed from hero section
+- July 27, 2025. Redesigned contact section with professional grid layout showing office location, phone numbers, email addresses, and business hours
 - July 27, 2025. Removed all specific clinic location information and replaced with generic contact information layout
 - July 27, 2025. Successfully configured project for Render deployment with traditional Express.js server
 - July 27, 2025. Created comprehensive Render deployment configuration including render.yaml and documentation
