@@ -1,2 +1,6 @@
 // Vercel serverless function entry point
-export { default } from '../dist/index.js';
+import app from '../dist/index.js';
+
+export default async function handler(req, res) {
+  return app(req, res);
+}
