@@ -104,18 +104,16 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))]">
-                    Our Locations
+                    Contact Information
                   </h3>
                   <div className="text-gray-600 text-sm sm:text-base space-y-2">
                     <div>
-                      <p className="font-medium text-[hsl(var(--wellness-green))]">Main Clinic - Bukoto</p>
-                      <p>Moyo Close, Bukoto</p>
-                      <p>Kampala, Uganda</p>
+                      <p className="font-medium text-[hsl(var(--wellness-green))]">Phone</p>
+                      <p>0758 478992</p>
                     </div>
                     <div>
-                      <p className="font-medium text-[hsl(var(--wellness-blue))]">Branch - Entebbe</p>
-                      <p>Entebbe Road</p>
-                      <p>Entebbe, Uganda</p>
+                      <p className="font-medium text-[hsl(var(--wellness-blue))]">Email</p>
+                      <p>info@back2health.com</p>
                     </div>
                   </div>
                 </div>

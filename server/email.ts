@@ -68,7 +68,7 @@ export async function sendAppointmentConfirmation(appointmentData: AppointmentEm
           
           <div style="background: #f9fafb; padding: 20px; text-align: center; color: #6b7280; font-size: 12px;">
             <p>Back 2 Health - Holistic Wellness Center</p>
-            <p>Moyo Cl, Kampala, Uganda | Phone: 0758 478992</p>
+            <p>Phone: 0758 478992 | Email: info@back2health.com</p>
           </div>
         </div>
       `,

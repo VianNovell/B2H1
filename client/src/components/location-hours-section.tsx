@@ -16,10 +16,10 @@ export default function LocationHoursSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center mb-6">
             <div className="w-12 h-12 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 rounded-full flex items-center justify-center mr-4 shadow-lg animate-bounce">
-              <MapPin className="text-white w-6 h-6" />
+              <Clock className="text-white w-6 h-6" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[hsl(var(--neutral-dark))] to-gray-700 bg-clip-text text-transparent">
-              Visit Our Clinics
+              Operating Hours
             </h2>
           </div>
           <div className="flex items-center justify-center mb-8">
@@ -28,13 +28,13 @@ export default function LocationHoursSection() {
             <div className="h-1 w-16 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-transparent rounded-full"></div>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Experience world-class healthcare at our two convenient locations, 
-            <span className="text-[hsl(var(--wellness-green))] font-semibold"> designed for your wellness journey</span>
+            We're here when you need us most, 
+            <span className="text-[hsl(var(--wellness-green))] font-semibold"> committed to your health and wellness</span>
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Main Clinic - Bukoto */}
+          {/* Operating Hours Card */}
           <div 
             className="group relative bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 overflow-hidden"
             onMouseEnter={() => setHoveredCard(0)}
@@ -45,8 +45,8 @@ export default function LocationHoursSection() {
             
             {/* Featured Badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center shadow-lg">
-              <Star className="w-3 h-3 mr-1 fill-current" />
-              Main Location
+              <Clock className="w-3 h-3 mr-1 fill-current" />
+              Open Daily
             </div>
 
             <div className="relative z-10">
@@ -54,42 +54,25 @@ export default function LocationHoursSection() {
                 <div className="relative w-20 h-20 mx-auto mb-6">
                   <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 rounded-full shadow-lg transform group-hover:scale-110 transition-transform duration-300"></div>
                   <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center">
-                    <MapPin className="text-[hsl(var(--wellness-green))] w-8 h-8" />
+                    <Clock className="text-[hsl(var(--wellness-green))] w-8 h-8" />
                   </div>
                   {hoveredCard === 0 && (
                     <div className="absolute -inset-2 bg-[hsl(var(--wellness-green))] rounded-full opacity-20 animate-ping"></div>
                   )}
                 </div>
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-[hsl(var(--neutral-dark))] to-gray-700 bg-clip-text text-transparent mb-3">
-                  Main Clinic
+                  Operating Hours
                 </h3>
-                <div className="flex items-center justify-center mb-2">
-                  <Navigation className="text-[hsl(var(--wellness-green))] w-4 h-4 mr-2" />
-                  <p className="text-[hsl(var(--wellness-green))] font-bold text-xl">
-                    Bukoto, Kampala
-                  </p>
-                </div>
-                <p className="text-gray-500 text-sm">Primary Healthcare Center</p>
+                <p className="text-gray-500 text-sm">We're here when you need us</p>
               </div>
 
               <div className="space-y-6">
-                <div className="flex items-start group/item">
-                  <div className="w-10 h-10 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 rounded-xl flex items-center justify-center mr-4 shadow-md group-hover/item:scale-110 transition-transform duration-200">
-                    <MapPin className="text-white w-5 h-5" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-gray-900 font-semibold mb-1">Address</p>
-                    <p className="text-gray-600">Moyo Close, Bukoto</p>
-                    <p className="text-gray-600">Kampala, Uganda</p>
-                  </div>
-                </div>
-
                 <div className="flex items-start group/item">
                   <div className="w-10 h-10 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 rounded-xl flex items-center justify-center mr-4 shadow-md group-hover/item:scale-110 transition-transform duration-200">
                     <Clock className="text-white w-5 h-5" />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-900 font-semibold mb-2">Operating Hours</p>
+                    <p className="text-gray-900 font-semibold mb-2">Weekly Schedule</p>
                     <div className="space-y-1 text-sm text-gray-600">
                       <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
                       <p>Saturday: 9:00 AM - 4:00 PM</p>
@@ -103,7 +86,7 @@ export default function LocationHoursSection() {
                     <Phone className="text-white w-5 h-5" />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-900 font-semibold mb-1">Phone</p>
+                    <p className="text-gray-900 font-semibold mb-1">Contact</p>
                     <a href="tel:0758478992" className="text-[hsl(var(--wellness-green))] hover:text-green-700 font-medium text-lg transition-colors duration-200 hover:underline">
                       0758 478992
                     </a>
@@ -114,14 +97,14 @@ export default function LocationHoursSection() {
               {/* Interactive Button */}
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <button className="w-full bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 text-white py-3 px-6 rounded-2xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group/btn">
-                  Get Directions
+                  Book Appointment
                   <ArrowRight className="ml-2 w-5 h-5 group-hover/btn:translate-x-1 transition-transform duration-200" />
                 </button>
               </div>
             </div>
           </div>
 
-          {/* Branch - Entebbe */}
+          {/* Contact Information Card */}
           <div 
             className="group relative bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100 overflow-hidden"
             onMouseEnter={() => setHoveredCard(1)}
@@ -130,10 +113,10 @@ export default function LocationHoursSection() {
             {/* Card Background Gradient */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-green-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
-            {/* Branch Badge */}
+            {/* Contact Badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center shadow-lg">
-              <Navigation className="w-3 h-3 mr-1" />
-              Branch Location
+              <Mail className="w-3 h-3 mr-1" />
+              Contact Us
             </div>
 
             <div className="relative z-10">
@@ -141,47 +124,28 @@ export default function LocationHoursSection() {
                 <div className="relative w-20 h-20 mx-auto mb-6">
                   <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 rounded-full shadow-lg transform group-hover:scale-110 transition-transform duration-300"></div>
                   <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center">
-                    <MapPin className="text-[hsl(var(--wellness-blue))] w-8 h-8" />
+                    <Mail className="text-[hsl(var(--wellness-blue))] w-8 h-8" />
                   </div>
                   {hoveredCard === 1 && (
                     <div className="absolute -inset-2 bg-[hsl(var(--wellness-blue))] rounded-full opacity-20 animate-ping"></div>
                   )}
                 </div>
                 <h3 className="text-3xl font-bold bg-gradient-to-r from-[hsl(var(--neutral-dark))] to-gray-700 bg-clip-text text-transparent mb-3">
-                  Branch Clinic
+                  Contact Us
                 </h3>
-                <div className="flex items-center justify-center mb-2">
-                  <Navigation className="text-[hsl(var(--wellness-blue))] w-4 h-4 mr-2" />
-                  <p className="text-[hsl(var(--wellness-blue))] font-bold text-xl">
-                    Entebbe Road
-                  </p>
-                </div>
-                <p className="text-gray-500 text-sm">Secondary Healthcare Center</p>
+                <p className="text-gray-500 text-sm">Ready to help you</p>
               </div>
 
               <div className="space-y-6">
                 <div className="flex items-start group/item">
                   <div className="w-10 h-10 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 rounded-xl flex items-center justify-center mr-4 shadow-md group-hover/item:scale-110 transition-transform duration-200">
-                    <MapPin className="text-white w-5 h-5" />
+                    <Mail className="text-white w-5 h-5" />
                   </div>
                   <div className="flex-1">
-                    <p className="text-gray-900 font-semibold mb-1">Address</p>
-                    <p className="text-gray-600">Entebbe Road</p>
-                    <p className="text-gray-600">Entebbe, Uganda</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start group/item">
-                  <div className="w-10 h-10 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 rounded-xl flex items-center justify-center mr-4 shadow-md group-hover/item:scale-110 transition-transform duration-200">
-                    <Clock className="text-white w-5 h-5" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-gray-900 font-semibold mb-2">Operating Hours</p>
-                    <div className="space-y-1 text-sm text-gray-600">
-                      <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                      <p>Saturday: 9:00 AM - 4:00 PM</p>
-                      <p>Sunday: By Appointment Only</p>
-                    </div>
+                    <p className="text-gray-900 font-semibold mb-1">Email</p>
+                    <a href="mailto:info@back2health.com" className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 font-medium text-lg transition-colors duration-200 hover:underline">
+                      info@back2health.com
+                    </a>
                   </div>
                 </div>
 
@@ -201,7 +165,7 @@ export default function LocationHoursSection() {
               {/* Interactive Button */}
               <div className="mt-8 pt-6 border-t border-gray-100">
                 <button className="w-full bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 text-white py-3 px-6 rounded-2xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group/btn">
-                  Get Directions
+                  Send Message
                   <ArrowRight className="ml-2 w-5 h-5 group-hover/btn:translate-x-1 transition-transform duration-200" />
                 </button>
               </div>
