@@ -86,6 +86,14 @@ export default function Footer() {
                   Contact
                 </button>
               </li>
+              <li>
+                <a
+                  href="mailto:handbackhealth@gmail.com"
+                  className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+                >
+                  NGO Platform
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -134,10 +142,21 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">
-            &copy; 2024 Back 2 Health. All rights reserved.
-          </p>
+        <div className="border-t border-gray-700 mt-8 pt-8">
+          <div className="text-center mb-4">
+            <p className="text-gray-300 mb-2">Visit our Non-profit NGO:</p>
+            <a 
+              href="mailto:handbackhealth@gmail.com"
+              className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-200 hover:shadow-lg transform hover:scale-105"
+            >
+              handbackhealth@gmail.com
+            </a>
+          </div>
+          <div className="text-center">
+            <p className="text-gray-300">
+              &copy; 2024 Back 2 Health. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
