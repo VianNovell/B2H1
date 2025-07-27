@@ -1,0 +1,91 @@
+[33m0b5030e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/new-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mnew-branch[m[33m)[m HEAD@{0}: reset: moving to origin/main
+[33mf8ab748[m HEAD@{1}: checkout: moving from new-branch to main
+[33m0b5030e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/new-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mnew-branch[m[33m)[m HEAD@{2}: checkout: moving from main to new-branch
+[33mf8ab748[m HEAD@{3}: commit: Add commit-history-backup.txt and h
+[33m0b5030e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/new-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mnew-branch[m[33m)[m HEAD@{4}: reset: moving to origin/main
+[33ma8d6c8f[m HEAD@{5}: checkout: moving from temp-branch to main
+[33ma8d6c8f[m HEAD@{6}: commit (initial): Re-adding commits
+[33m1bc3e19[m HEAD@{7}: commit: Ensure the application functions correctly when deployed to the cloud
+[33m780a379[m HEAD@{8}: commit: Ensure the application runs correctly both locally and on the Vercel platform
+[33m0b5030e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/new-branch[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mnew-branch[m[33m)[m HEAD@{9}: commit: Ensure the platform builds correctly on Vercel hosting service
+[33m6c1c796[m HEAD@{10}: commit: Simplify deployment process for improved reliability on Vercel
+[33m9455430[m HEAD@{11}: commit: Simplify deployment process and resolve build configuration issues
+[33m234f27c[m HEAD@{12}: commit: Ensure website works seamlessly on Vercel by fixing deployment issues
+[33mfa48e33[m HEAD@{13}: reset: moving to fa48e338b9c7613ef774b8fe90a5fff0e7039b7f
+[33m12d9248[m HEAD@{14}: commit: Saved your changes before rolling back
+[33m080b3b2[m HEAD@{15}: reset: moving to 080b3b2fc63c8ae1bbebbfe1fa98195bd96b6db0
+[33m28f73a3[m HEAD@{16}: commit: Saved your changes before rolling back
+[33m9065715[m HEAD@{17}: reset: moving to 9065715b2d378fd37fb1ac915b5d38a9b5126304
+[33mbd121f5[m HEAD@{18}: commit: Saved your changes before rolling back
+[33m35201b0[m HEAD@{19}: commit: Restore website's visual styling and ensure consistent look and feel
+[33m21fab35[m HEAD@{20}: commit: Announce successful launch of Back 2 Health website with all features working
+[33mb81f7cc[m HEAD@{21}: commit: Improve website deployment by removing the PostCSS configuration
+[33m6a7b340[m HEAD@{22}: commit: Ensure website functions correctly on cloud platforms like Vercel
+[33m9d007b2[m HEAD@{23}: commit: Resolve website build errors by updating key styling dependencies
+[33mbd8e443[m HEAD@{24}: commit: Allow doctor photos on the website while excluding unnecessary content
+[33m17edfde[m HEAD@{25}: reset: moving to 17edfde42313a6c9b24f1556a23655d9f717a664
+[33meaef38a[m HEAD@{26}: commit: Saved your changes before rolling back
+[33mfb936d1[m HEAD@{27}: commit: Add images of doctors to improve visual appeal of the website
+[33m220b22a[m HEAD@{28}: commit: Improve site styling by streamlining the PostCSS configuration process
+[33ma3f9ea2[m HEAD@{29}: commit: Resolve styling issues and ensure consistent look across all browsers
+[33m6d3495d[m HEAD@{30}: commit: Simplify the build process for reliable website deployment
+[33mc3f1f1c[m HEAD@{31}: commit: Adjust project configuration to ensure successful deployment
+[33m5904353[m HEAD@{32}: commit: Restore API functionality for the contact form and appointment bookings
+[33m1cea892[m HEAD@{33}: commit: Streamline Vercel deployment by simplifying the build process and configuration
+[33m4b0c261[m HEAD@{34}: commit: Fix Vercel deployment: update runtime configuration
+[33mc810848[m HEAD@{35}: commit: Enable forms and testimonials submission with serverless API architecture
+[33m347495a[m HEAD@{36}: commit: Update the website's deployment configuration and routing instructions
+[33m4f8da38[m HEAD@{37}: commit: Improve website build and fix deployment configuration for smooth updates
+[33m0890215[m HEAD@{38}: commit: Ensure website builds correctly by adding missing React plugin
+[33m7294a86[m HEAD@{39}: commit: Update build process to use standard Vite configuration and dependencies
+[33m47bc7cc[m HEAD@{40}: commit: Ensure website functions correctly after deployment to the hosting platform
+[33ma0a7469[m HEAD@{41}: commit: Diagnose and address build errors related to missing React plugin
+[33m30e58a8[m HEAD@{42}: commit: Configure the build process and API routing for the deployment server
+[33mda864c2[m HEAD@{43}: commit: Add screenshot to help explain the time discrepancy issue being reported
+[33m3f4c878[m HEAD@{44}: commit: Improve website deployment process and configuration for reliable hosting
+[33m65a9c35[m HEAD@{45}: rebase (abort): returning to refs/heads/main
+[33m65a9c35[m HEAD@{46}: rebase (abort): returning to refs/heads/main
+[33m65a9c35[m HEAD@{47}: checkout: moving from 57344610ffd804fda5f5c365e5300788cc0ed417 to main
+[33m5734461[m HEAD@{48}: commit: Fix Vercel runtime error
+[33mde10a28[m HEAD@{49}: commit: Force push local changes
+[33m65e9aa2[m HEAD@{50}: pull origin main --rebase (start): checkout 65e9aa2600f964f650c25e4f8d9364d58fbea363
+[33m65a9c35[m HEAD@{51}: commit: Ensure website builds correctly by including necessary build tools
+[33m9958383[m HEAD@{52}: commit: Add visual resources to help explain features and functionality to users
+[33m950b570[m HEAD@{53}: commit: Add visual assets to improve the website's overall aesthetic appeal
+[33m54f7af9[m HEAD@{54}: commit: Enable professional deployment of website with documentation guide
+[33md468fa4[m HEAD@{55}: commit: Enable website deployment on Vercel by removing Replit dependencies
+[33m29452ca[m HEAD@{56}: commit: Configure application for deployment on Vercel hosting platform
+[33m53f0c21[m HEAD@{57}: commit: Streamline the deployment configuration for faster and more reliable builds
+[33m3b39c9c[m HEAD@{58}: commit: Update website deployment configuration to point to the compiled output
+[33m5d69dc1[m HEAD@{59}: commit: Confirm website build and deployment completed successfully on Vercel
+[33ma0179bb[m HEAD@{60}: commit: Deploy website and enhance user experience with interactive elements
+[33m5073461[m HEAD@{61}: commit: Add screenshot to assist with debugging and visualizing the current state
+[33mfd15db2[m HEAD@{62}: commit: Add visual aid demonstrating a key website element for clarity
+[33m7cbfe01[m HEAD@{63}: commit: Add new visual assets to better illustrate features and services on the website
+[33m521bf62[m HEAD@{64}: commit: Improve website deployment process and correct build configurations
+[33m334a74b[m HEAD@{65}: commit: Configure website deployment settings for optimal online accessibility
+[33m5d54f82[m HEAD@{66}: commit: Enhance clinic visit section with interactive map and appealing design
+[33me3ad6e0[m HEAD@{67}: commit: Update the wellness program section image to better reflect services
+[33md1fe521[m HEAD@{68}: commit: Update image to better represent corporate wellness program offerings
+[33m4cc70c8[m HEAD@{69}: commit: Ensure website can handle multiple users and update website content
+[33m050c1fc[m HEAD@{70}: pull --no-rebase origin main: Merge made by the 'ort' strategy.
+[33m95cc208[m HEAD@{71}: commit: Show clinic locations and hours of operation on the website landing page
+[33mceda556[m HEAD@{72}: commit: Remove 'Contact Us' call to action from the frequently asked questions
+[33m3ed2ff5[m HEAD@{73}: commit: Update clinic hours of operation and add weekend appointment information
+[33m2484e4f[m HEAD@{74}: commit: Display multiple clinic locations with addresses on the contact section
+[33m2fb6001[m HEAD@{75}: commit: Update the image displayed for the corporate wellness program section
+[33m33cc5d1[m HEAD@{76}: commit: Update documentation to reflect successful local Back 2 Health website migration
+[33m0805ce6[m HEAD@{77}: commit: Add screenshot to document successful local development setup
+[33m838cb76[m HEAD@{78}: commit: Address a problem that users encountered while using the website
+[33m7e7a89f[m HEAD@{79}: commit: Address project setup issues and improve initial development environment
+[33m3f26092[m HEAD@{80}: commit: Ensure the application can connect to the database properly upon startup
+[33m8f6f93a[m HEAD@{81}: commit: Add new screenshot showcasing the website's user interface for review
+[33m1bcf036[m HEAD@{82}: commit: Add screenshot to illustrate the intended state of a user interface
+[33m8e5fb07[m HEAD@{83}: commit: Add visual aid showcasing the updated user interface design proposal
+[33m3ac21ab[m HEAD@{84}: commit: Add screenshot to better illustrate current design and functionality
+[33mcc12561[m HEAD@{85}: commit: Add a visual demonstration showcasing the clinic's modern website design
+[33mdc7cd94[m HEAD@{86}: commit: Add screenshot to help clarify the recent visual changes for the website
+[33m0a935e3[m HEAD@{87}: commit: Guide new developers to quickly set up their local environment
+[33m6b8c987[m HEAD@{88}: commit: Add visual resources to enhance the website's overall aesthetic and appeal
+[33m94ab81e[m HEAD@{89}: commit: Provide guidance to resolve local setup issues and missing dependencies
+[33m7de4c73[m HEAD@{90}: commit (initial): Clean reinitialization from Replit
