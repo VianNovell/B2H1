@@ -118,10 +118,10 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- July 27, 2025. 🔧 LATEST: Fixed Vercel serverless function configuration to resolve API "NOT_FOUND" errors
+- July 27, 2025. 🔧 LATEST: Fixed Node.js version compatibility issue by adding nodeVersion 18.x to vercel.json
+- July 27, 2025. Resolved Vercel runtime specification error by using @vercel/node@3.0.0 format
+- July 27, 2025. Fixed Vercel serverless function configuration to resolve API "NOT_FOUND" errors
 - July 27, 2025. Updated server/index.ts to properly export Express app for serverless deployment
-- July 27, 2025. Created proper async handler function in api/index.js for Vercel functions
-- July 27, 2025. Verified all API endpoints working locally before GitHub deployment
 - July 26, 2025. Successfully resolved Vercel deployment by moving build dependencies to regular dependencies
 - July 26, 2025. Installed essential build tools (vite, esbuild, typescript) as regular dependencies for Vercel
 - July 26, 2025. Updated vercel.json with proper build commands and environment configuration

@@ -19,5 +19,6 @@
     }
   ],
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/public"
+  "outputDirectory": "dist/public",
+  "nodeVersion": "18.x"
 }

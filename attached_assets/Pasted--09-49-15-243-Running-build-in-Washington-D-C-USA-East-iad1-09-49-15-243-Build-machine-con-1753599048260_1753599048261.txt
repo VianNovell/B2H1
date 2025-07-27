@@ -1,0 +1,49 @@
+[09:49:15.243] Running build in Washington, D.C., USA (East) – iad1
+[09:49:15.243] Build machine configuration: 2 cores, 8 GB
+[09:49:15.293] Cloning github.com/VianNovell/B2H1 (Branch: main, Commit: e7bd80b)
+[09:49:16.778] Cloning completed: 1.485s
+[09:49:16.838] Found .vercelignore
+[09:49:16.842] Removed 2 ignored files defined in .vercelignore
+[09:49:16.842]   /.replit
+[09:49:16.842]   /B2H1/.replit
+[09:49:16.910] Restored build cache from previous deployment (DrNAaBrqKiRUCMHAn8faAUkomcWK)
+[09:49:19.150] Running "vercel build"
+[09:49:19.637] Vercel CLI 44.5.0
+[09:49:20.230] > Installing Builder: @vercel/node@3.0.0
+[09:49:29.136] Running "install" command: `npm install`...
+[09:49:31.532] 
+[09:49:31.533] up to date, audited 479 packages in 1s
+[09:49:31.533] 
+[09:49:31.534] 80 packages are looking for funding
+[09:49:31.534]   run `npm fund` for details
+[09:49:31.534] 
+[09:49:31.535] found 0 vulnerabilities
+[09:49:31.779] 
+[09:49:31.779] > rest-express@1.0.0 build
+[09:49:31.780] > vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/index.js
+[09:49:31.780] 
+[09:49:32.117] [36mvite v7.0.6 [32mbuilding for production...[36m[39m
+[09:49:32.591] transforming...
+[09:49:37.480] [32m✓[39m 1838 modules transformed.
+[09:49:37.954] rendering chunks...
+[09:49:37.971] computing gzip size...
+[09:49:37.989] [2m../dist/public/[22m[32mindex.html                                       [39m[1m[2m  4.13 kB[22m[1m[22m[2m │ gzip:   1.37 kB[22m
+[09:49:37.990] [2m../dist/public/[22m[2massets/[22m[32mjoel pic_1753331346323-BeeOzNUB.jpg       [39m[1m[2m 32.01 kB[22m[1m[22m
+[09:49:37.991] [2m../dist/public/[22m[2massets/[22m[32mgregg bio pic_1753331348993-BHwX_4KS.jpg  [39m[1m[2m166.22 kB[22m[1m[22m
+[09:49:37.993] [2m../dist/public/[22m[2massets/[22m[32mb2h-logo-BnHFhJ8m.png                     [39m[1m[2m448.08 kB[22m[1m[22m
+[09:49:37.993] [2m../dist/public/[22m[2massets/[22m[35mindex-CsbCXHfM.css                        [39m[1m[2m 84.52 kB[22m[1m[22m[2m │ gzip:  14.18 kB[22m
+[09:49:37.993] [2m../dist/public/[22m[2massets/[22m[36mindex-H-1xSAXh.js                         [39m[1m[33m551.65 kB[39m[22m[2m │ gzip: 160.13 kB[22m
+[09:49:37.994] [33m
+[09:49:37.994] (!) Some chunks are larger than 500 kB after minification. Consider:
+[09:49:37.994] - Using dynamic import() to code-split the application
+[09:49:37.994] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+[09:49:37.995] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[09:49:37.995] [32m✓ built in 5.59s[39m
+[09:49:38.048] 
+[09:49:38.049]   dist/index.js  23.5kb
+[09:49:38.049] 
+[09:49:38.049] ⚡ Done in 5ms
+[09:49:38.088] Error: Found invalid Node.js Version: "22.x". Please set Node.js Version to 18.x in your Project Settings to use Node.js 18.
+[09:49:38.089] Learn More: http://vercel.link/node-version
+[09:49:38.345] 
+[09:49:40.969] Exiting build container
