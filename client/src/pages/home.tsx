@@ -7,7 +7,7 @@ import ConditionsSection from "@/components/conditions-section";
 import TestimonialsSection from "@/components/testimonials-section";
 import AppointmentBooking from "@/components/appointment-booking";
 import FAQSection from "@/components/faq-section";
-
+import LocationDetailsSection from "@/components/location-details-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <TestimonialsSection />
       <AppointmentBooking />
       <FAQSection />
-
+      <LocationDetailsSection />
       <Footer />
     </div>
   );
