@@ -110,6 +110,17 @@ export default function HeroSection() {
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light leading-relaxed text-shadow-medium max-w-2xl px-2">
                 {slides[currentSlide].subtitle}
               </p>
+
+              {/* Non-profit NGO Link */}
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 max-w-md mx-auto lg:mx-0">
+                <p className="text-white/80 text-sm mb-2 text-center lg:text-left">Visit our Non-profit NGO:</p>
+                <a 
+                  href="mailto:handbackhealth@gmail.com"
+                  className="block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg text-center font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-sm sm:text-base"
+                >
+                  handbackhealth@gmail.com
+                </a>
+              </div>
             </div>
             
             {/* CTA Buttons */}
