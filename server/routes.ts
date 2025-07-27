@@ -59,11 +59,26 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   // Appointment booking endpoints
   app.post("/api/appointments", async (req, res) => {
+    console.log('🚀 [VERCEL] Appointment booking request received');
+    console.log('🚀 [VERCEL] Request body:', JSON.stringify(req.body, null, 2));
+    console.log('🚀 [VERCEL] Environment:', {
+      NODE_ENV: process.env.NODE_ENV,
+      VERCEL: process.env.VERCEL,
+      DATABASE_URL: process.env.DATABASE_URL ? 'Set' : 'Missing',
+      RESEND_API_KEY: process.env.RESEND_API_KEY ? 'Set' : 'Missing'
+    });
+
     try {
+      console.log('🚀 [VERCEL] Validating appointment data...');
       const validatedData = insertAppointmentSchema.parse(req.body);
+      console.log('🚀 [VERCEL] Data validation successful');
+      
+      console.log('🚀 [VERCEL] Creating appointment in database...');
       const appointment = await storage.createAppointment(validatedData);
+      console.log('🚀 [VERCEL] Appointment created with ID:', appointment.id);
       
       // Send confirmation emails
+      console.log('🚀 [VERCEL] Sending confirmation emails...');
       const emailResult = await sendAppointmentConfirmation({
         name: validatedData.name,
         email: validatedData.email,
@@ -75,23 +90,29 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
       
       if (emailResult.success) {
-        console.log('✅ Appointment emails sent successfully');
+        console.log('✅ [VERCEL] Appointment emails sent successfully');
       } else {
-        console.error('❌ Failed to send appointment emails:', emailResult.error);
+        console.error('❌ [VERCEL] Failed to send appointment emails:', emailResult.error);
       }
       
+      console.log('🚀 [VERCEL] Sending success response');
       res.status(201).json({ success: true, id: appointment.id });
     } catch (error) {
+      console.error('❌ [VERCEL] Appointment booking error:', error);
+      
       if (error instanceof z.ZodError) {
+        console.error('❌ [VERCEL] Validation error details:', error.errors);
         res.status(400).json({ 
           success: false, 
           message: "Invalid appointment data",
           errors: error.errors 
         });
       } else {
+        console.error('❌ [VERCEL] Unexpected error:', error.message, error.stack);
         res.status(500).json({ 
           success: false, 
-          message: "Failed to book appointment" 
+          message: "Failed to book appointment",
+          error: process.env.NODE_ENV === 'development' ? error.message : undefined
         });
       }
     }

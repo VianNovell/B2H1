@@ -61,6 +61,31 @@ async function initializeApp() {
   return { app, server };
 }
 
+// Initialize app immediately for both environments
+let appInitialized = false;
+
+async function getInitializedApp() {
+  if (!appInitialized) {
+    console.log('🚀 [INIT] Initializing Express app...');
+    await registerRoutes(app);
+    
+    app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+      const status = err.status || err.statusCode || 500;
+      const message = err.message || "Internal Server Error";
+      console.error('Express error:', err);
+      res.status(status).json({ message });
+    });
+
+    if (app.get("env") !== "development" && process.env.VERCEL) {
+      serveStatic(app);
+    }
+    
+    appInitialized = true;
+    console.log('✅ [INIT] Express app initialized');
+  }
+  return app;
+}
+
 // For development/local environment
 if (process.env.NODE_ENV !== "production" || !process.env.VERCEL) {
   (async () => {
@@ -71,9 +96,12 @@ if (process.env.NODE_ENV !== "production" || !process.env.VERCEL) {
     });
   })();
 } else {
-  // For Vercel production - initialize routes but don't start server
-  initializeApp().catch(console.error);
+  // For Vercel production - ensure app is initialized
+  getInitializedApp().catch(console.error);
 }
 
-// Export the initialized app for Vercel serverless function
-export default app;
+// Export the app factory function for Vercel
+export default async function handler(req: any, res: any) {
+  const initializedApp = await getInitializedApp();
+  return initializedApp(req, res);
+};
