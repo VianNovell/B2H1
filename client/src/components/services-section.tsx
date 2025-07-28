@@ -23,7 +23,7 @@ export default function ServicesSection() {
       title: "Physiotherapy",
       description: "Rehabilitation and movement therapy to restore function and strength",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1594824309628-7d4e3e6c2b86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559056961-84d0d0389b0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Hand,
