@@ -64,7 +64,7 @@ export default function Navigation() {
               <DropdownMenu open={isAboutHovered} onOpenChange={setIsAboutHovered}>
                 <DropdownMenuTrigger asChild>
                   <button 
-                    className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50 flex items-center gap-1"
+                    className="text-[hsl(var(--neutral-dark))] hover:text-purple-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-purple-50 flex items-center gap-1"
                     onMouseEnter={() => setIsAboutHovered(true)}
                     onMouseLeave={() => setIsAboutHovered(false)}
                   >
@@ -73,22 +73,22 @@ export default function Navigation() {
                   </button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent 
-                  className="w-56 bg-white/95 backdrop-blur-sm border border-green-100 shadow-lg"
+                  className="w-56 bg-white/95 backdrop-blur-sm border border-purple-100 shadow-lg"
                   onMouseEnter={() => setIsAboutHovered(true)}
                   onMouseLeave={() => setIsAboutHovered(false)}
                 >
                   <DropdownMenuItem asChild>
-                    <Link href="/about" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/about" className="cursor-pointer hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600">
                       About Us
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/doctors" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/doctors" className="cursor-pointer hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600">
                       Our Doctors
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/about" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/about" className="cursor-pointer hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600">
                       Our Mission
                     </Link>
                   </DropdownMenuItem>
@@ -97,7 +97,7 @@ export default function Navigation() {
               <DropdownMenu open={isServicesHovered} onOpenChange={setIsServicesHovered}>
                 <DropdownMenuTrigger asChild>
                   <button 
-                    className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50 flex items-center gap-1"
+                    className="text-[hsl(var(--neutral-dark))] hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50 flex items-center gap-1"
                     onMouseEnter={() => setIsServicesHovered(true)}
                     onMouseLeave={() => setIsServicesHovered(false)}
                   >
@@ -106,33 +106,33 @@ export default function Navigation() {
                   </button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent 
-                  className="w-56 bg-white/95 backdrop-blur-sm border border-green-100 shadow-lg"
+                  className="w-56 bg-white/95 backdrop-blur-sm border border-blue-100 shadow-lg"
                   onMouseEnter={() => setIsServicesHovered(true)}
                   onMouseLeave={() => setIsServicesHovered(false)}
                 >
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       All Services
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       Chiropractic Care
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       Physiotherapy
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       Massage Therapy
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))]">
+                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       PEMF Therapy
                     </Link>
                   </DropdownMenuItem>
@@ -140,7 +140,7 @@ export default function Navigation() {
                   <DropdownMenuItem asChild>
                     <button 
                       onClick={() => scrollToSection("appointment")}
-                      className="cursor-pointer hover:bg-green-50 hover:text-[hsl(var(--wellness-green))] focus:bg-green-50 focus:text-[hsl(var(--wellness-green))] font-medium w-full text-left px-2 py-1.5 rounded-sm"
+                      className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600 font-medium w-full text-left px-2 py-1.5 rounded-sm"
                     >
                       Book Now
                     </button>
@@ -149,13 +149,13 @@ export default function Navigation() {
               </DropdownMenu>
               <button
                 onClick={() => scrollToSection("programs")}
-                className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50"
+                className="text-[hsl(var(--neutral-dark))] hover:text-orange-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-orange-50"
               >
                 Programs
               </button>
               <button
                 onClick={() => scrollToSection("appointment")}
-                className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50"
+                className="text-[hsl(var(--neutral-dark))] hover:text-teal-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-teal-50"
               >
                 Contact
               </button>
@@ -178,7 +178,7 @@ export default function Navigation() {
               variant="ghost"
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50"
+              className="text-[hsl(var(--neutral-dark))] hover:text-indigo-600 hover:bg-indigo-50"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>
@@ -189,7 +189,7 @@ export default function Navigation() {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="lg:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm border-t border-green-100">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm border-t border-gray-100">
             <Link
               href="/"
               className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
@@ -198,25 +198,25 @@ export default function Navigation() {
             </Link>
             <Link
               href="/about"
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-purple-600 hover:bg-purple-50 w-full text-left rounded-lg transition-all duration-200"
             >
               About
             </Link>
             <Link
               href="/services"
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-blue-600 hover:bg-blue-50 w-full text-left rounded-lg transition-all duration-200"
             >
               Services
             </Link>
             <button
               onClick={() => scrollToSection("programs")}
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-orange-600 hover:bg-orange-50 w-full text-left rounded-lg transition-all duration-200"
             >
               Programs
             </button>
             <button
               onClick={() => scrollToSection("appointment")}
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-teal-600 hover:bg-teal-50 w-full text-left rounded-lg transition-all duration-200"
             >
               Contact
             </button>
