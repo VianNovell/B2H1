@@ -66,7 +66,14 @@ export default function LocationDetailsSection() {
                 <div>
                   <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Contact</h4>
                   <p className="text-gray-600">📞 0758 478992</p>
-                  <p className="text-gray-600">✉️ entebbe@back2health.com</p>
+                  <p className="text-gray-600">
+                    ✉️ <a 
+                      href="mailto:back2healthug@gmail.com" 
+                      className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 hover:underline transition-colors duration-200"
+                    >
+                      back2healthug@gmail.com
+                    </a>
+                  </p>
                 </div>
               </div>
 
