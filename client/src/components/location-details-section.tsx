@@ -8,100 +8,26 @@ export default function LocationDetailsSection() {
           <div className="flex items-center justify-center mb-4">
             <MapPin className="text-[hsl(var(--wellness-green))] w-8 h-8 mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))]">
-              Visit Our Clinics
+              Visit Our Clinic
             </h2>
           </div>
           <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conveniently located to serve you better. Find the clinic nearest to you and plan your visit.
+            Conveniently located in Entebbe to serve you better. Plan your visit to our healthcare facility.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Main Clinic - Bukoto */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border border-green-100">
-            <div className="text-center mb-8">
-              <div className="w-20 h-20 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="text-white w-10 h-10" />
-              </div>
-              <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-2">
-                Main Clinic - Bukoto
-              </h3>
-              <p className="text-[hsl(var(--wellness-green))] font-semibold">Primary Healthcare Center</p>
-            </div>
-
-            <div className="space-y-6">
-              {/* Address */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="text-[hsl(var(--wellness-green))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Address</h4>
-                  <p className="text-gray-600">Moyo Close, Bukoto</p>
-                  <p className="text-gray-600">Kampala, Uganda</p>
-                </div>
-              </div>
-
-              {/* Hours */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Clock className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Opening Hours</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <p><span className="font-medium">Mon - Fri:</span> 8:00 AM - 6:00 PM</p>
-                    <p><span className="font-medium">Saturday:</span> 9:00 AM - 4:00 PM</p>
-                    <p><span className="font-medium">Sunday:</span> Emergency Only</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Contact */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-yellow-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="text-yellow-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Contact</h4>
-                  <p className="text-gray-600">📞 0758 478992</p>
-                  <p className="text-gray-600">✉️ info@back2health.com</p>
-                </div>
-              </div>
-
-              {/* Transportation */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Navigation className="text-purple-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Getting There</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <div className="flex items-center">
-                      <Car className="w-4 h-4 mr-2" />
-                      <span>Parking available on-site</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Bus className="w-4 h-4 mr-2" />
-                      <span>Bus routes: 14, 16, 22</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Branch Clinic - Entebbe */}
+        <div className="max-w-2xl mx-auto">
+          {/* Clinic - Entebbe */}
           <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border border-blue-100">
             <div className="text-center mb-8">
               <div className="w-20 h-20 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="text-white w-10 h-10" />
               </div>
               <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-2">
-                Branch Clinic - Entebbe
+                Our Clinic - Entebbe
               </h3>
-              <p className="text-[hsl(var(--wellness-blue))] font-semibold">Specialized Services</p>
+              <p className="text-[hsl(var(--wellness-blue))] font-semibold">Comprehensive Healthcare Services</p>
             </div>
 
             <div className="space-y-6">
