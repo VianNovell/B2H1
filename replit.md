@@ -118,7 +118,8 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- July 28, 2025. 🔧 LATEST: Enhanced navigation with colorful hover states - each menu item now has unique colors (Home: green, About: purple, Services: blue, Programs: orange, Contact: teal)
+- July 28, 2025. 🔧 LATEST: Updated physiotherapy service image to show physiotherapist actively helping patient with mobility exercises and rehabilitation therapy
+- July 28, 2025. Enhanced navigation with colorful hover states - each menu item now has unique colors (Home: green, About: purple, Services: blue, Programs: orange, Contact: teal)
 - July 27, 2025. Added comprehensive location details section after FAQ with clinic information, hours, contact details, and transportation options
 - July 27, 2025. Added NGO platform links (https://handbackhealth.org/) to navigation and footer, removed from hero section
 - July 27, 2025. Redesigned contact section with professional grid layout showing office location, phone numbers, email addresses, and business hours
