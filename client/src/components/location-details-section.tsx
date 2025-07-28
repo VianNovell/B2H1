@@ -93,26 +93,7 @@ export default function LocationDetailsSection() {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-[hsl(var(--wellness-green))] to-[hsl(var(--wellness-blue))] rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Ready to Visit Us?</h3>
-            <p className="text-lg mb-6 opacity-90">
-              Book your appointment today and take the first step towards better health
-            </p>
-            <button
-              onClick={() => {
-                document.getElementById('appointment')?.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start'
-                });
-              }}
-              className="bg-white text-[hsl(var(--wellness-green))] px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-all duration-200 transform hover:scale-105 shadow-lg"
-            >
-              Book Appointment Now
-            </button>
-          </div>
-        </div>
+
       </div>
     </section>
   );
