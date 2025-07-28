@@ -31,61 +31,28 @@ export default function LocationDetailsSection() {
             </div>
 
             <div className="space-y-6">
-              {/* Address */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="text-[hsl(var(--wellness-green))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Address</h4>
-                  <p className="text-gray-600">Moyo Close, Bukoto</p>
-                  <p className="text-gray-600">Kampala, Uganda</p>
-                </div>
-              </div>
-
-              {/* Hours */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Clock className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Opening Hours</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <p><span className="font-medium">Mon - Fri:</span> 8:00 AM - 6:00 PM</p>
-                    <p><span className="font-medium">Saturday:</span> 9:00 AM - 4:00 PM</p>
-                    <p><span className="font-medium">Sunday:</span> Emergency Only</p>
+              <div className="text-center py-8">
+                <p className="text-lg text-gray-600 mb-4">
+                  Professional healthcare services available at our main location
+                </p>
+                <div className="flex justify-center space-x-6">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Clock className="text-[hsl(var(--wellness-green))] w-8 h-8" />
+                    </div>
+                    <p className="text-sm font-medium text-gray-700">Extended Hours</p>
                   </div>
-                </div>
-              </div>
-
-              {/* Contact */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-yellow-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="text-yellow-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Contact</h4>
-                  <p className="text-gray-600">📞 0758 478992</p>
-                  <p className="text-gray-600">✉️ info@back2health.com</p>
-                </div>
-              </div>
-
-              {/* Transportation */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Navigation className="text-purple-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Getting There</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <div className="flex items-center">
-                      <Car className="w-4 h-4 mr-2" />
-                      <span>Parking available on-site</span>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Phone className="text-[hsl(var(--wellness-blue))] w-8 h-8" />
                     </div>
-                    <div className="flex items-center">
-                      <Bus className="w-4 h-4 mr-2" />
-                      <span>Bus routes: 14, 16, 22</span>
+                    <p className="text-sm font-medium text-gray-700">24/7 Support</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Car className="text-yellow-600 w-8 h-8" />
                     </div>
+                    <p className="text-sm font-medium text-gray-700">Easy Access</p>
                   </div>
                 </div>
               </div>
@@ -105,61 +72,28 @@ export default function LocationDetailsSection() {
             </div>
 
             <div className="space-y-6">
-              {/* Address */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="text-[hsl(var(--wellness-green))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Address</h4>
-                  <p className="text-gray-600">Entebbe Road</p>
-                  <p className="text-gray-600">Entebbe, Uganda</p>
-                </div>
-              </div>
-
-              {/* Hours */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Clock className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Opening Hours</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <p><span className="font-medium">Mon - Fri:</span> 9:00 AM - 5:00 PM</p>
-                    <p><span className="font-medium">Saturday:</span> 10:00 AM - 3:00 PM</p>
-                    <p><span className="font-medium">Sunday:</span> Closed</p>
+              <div className="text-center py-8">
+                <p className="text-lg text-gray-600 mb-4">
+                  Specialized treatment services and wellness programs
+                </p>
+                <div className="flex justify-center space-x-6">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Mail className="text-[hsl(var(--wellness-green))] w-8 h-8" />
+                    </div>
+                    <p className="text-sm font-medium text-gray-700">Online Booking</p>
                   </div>
-                </div>
-              </div>
-
-              {/* Contact */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-yellow-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="text-yellow-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Contact</h4>
-                  <p className="text-gray-600">📞 0758 478992</p>
-                  <p className="text-gray-600">✉️ entebbe@back2health.com</p>
-                </div>
-              </div>
-
-              {/* Transportation */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Navigation className="text-purple-600 w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Getting There</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <div className="flex items-center">
-                      <Car className="w-4 h-4 mr-2" />
-                      <span>Street parking available</span>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Navigation className="text-[hsl(var(--wellness-blue))] w-8 h-8" />
                     </div>
-                    <div className="flex items-center">
-                      <Plane className="w-4 h-4 mr-2" />
-                      <span>15 mins from Entebbe Airport</span>
+                    <p className="text-sm font-medium text-gray-700">Convenient Location</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <Plane className="text-purple-600 w-8 h-8" />
                     </div>
+                    <p className="text-sm font-medium text-gray-700">Travel Friendly</p>
                   </div>
                 </div>
               </div>
