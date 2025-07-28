@@ -8,6 +8,7 @@ import {
   Users,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 
 export default function ServicesSection() {
   const services = [
@@ -23,7 +24,7 @@ export default function ServicesSection() {
       title: "Physiotherapy",
       description: "Rehabilitation and movement therapy to restore function and strength",
       color: "wellness-blue",
-      image: "/attached_assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg",
+      image: physiotherapyImage,
     },
     {
       icon: Hand,
