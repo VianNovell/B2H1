@@ -11,13 +11,6 @@ import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 
 export default function ServicesSection() {
-  const scrollToAppointment = () => {
-    const element = document.getElementById("appointment");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const services = [
     {
       icon: Activity,
@@ -120,18 +113,19 @@ export default function ServicesSection() {
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <Button
-                    onClick={scrollToAppointment}
-                    variant="outline"
-                    size="sm"
-                    className={`border-2 ${
-                      service.color === "wellness-green"
-                        ? "border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white"
-                        : "border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white"
-                    } transition-colors duration-200`}
-                  >
-                    Book Now
-                  </Button>
+                  <a href="/services">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className={`border-2 ${
+                        service.color === "wellness-green"
+                          ? "border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white"
+                          : "border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white"
+                      } transition-colors duration-200`}
+                    >
+                      Learn More
+                    </Button>
+                  </a>
                 </div>
               </div>
             );
