@@ -15,19 +15,19 @@
   --card-foreground: hsl(220, 13%, 28%);
   --border: hsl(220, 13%, 91%);
   --input: hsl(220, 13%, 91%);
-  --primary: hsl(156, 73%, 40%);
+  --primary: hsl(189, 70%, 42%);
   --primary-foreground: hsl(210, 40%, 98%);
   --secondary: hsl(189, 70%, 42%);
   --secondary-foreground: hsl(210, 40%, 98%);
-  --accent: hsl(158, 64%, 52%);
+  --accent: hsl(189, 70%, 42%);
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 84%, 60%);
   --destructive-foreground: hsl(210, 40%, 98%);
-  --ring: hsl(156, 73%, 40%);
+  --ring: hsl(189, 70%, 42%);
   --radius: 0.5rem;
-  --wellness-green: hsl(156, 73%, 40%);
+  --wellness-green: hsl(189, 70%, 42%);
   --wellness-blue: hsl(189, 70%, 42%);
-  --wellness-accent: hsl(158, 64%, 52%);
+  --wellness-accent: hsl(189, 70%, 42%);
   --neutral-dark: hsl(220, 13%, 28%);
 }
 
@@ -42,18 +42,18 @@
   --card-foreground: hsl(0, 0%, 98%);
   --border: hsl(240, 3.7%, 15.9%);
   --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(156, 73%, 40%);
+  --primary: hsl(189, 70%, 42%);
   --primary-foreground: hsl(210, 40%, 98%);
   --secondary: hsl(189, 70%, 42%);
   --secondary-foreground: hsl(210, 40%, 98%);
-  --accent: hsl(158, 64%, 52%);
+  --accent: hsl(189, 70%, 42%);
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 62.8%, 30.6%);
   --destructive-foreground: hsl(0, 0%, 98%);
   --ring: hsl(240, 4.9%, 83.9%);
-  --wellness-green: hsl(156, 73%, 40%);
+  --wellness-green: hsl(189, 70%, 42%);
   --wellness-blue: hsl(189, 70%, 42%);
-  --wellness-accent: hsl(158, 64%, 52%);
+  --wellness-accent: hsl(189, 70%, 42%);
   --neutral-dark: hsl(220, 13%, 28%);
 }
 
@@ -82,11 +82,11 @@
   }
 
   .bg-wellness-gradient {
-    background: linear-gradient(135deg, hsl(156, 73%, 40%) 0%, hsl(189, 70%, 42%) 100%);
+    background: linear-gradient(135deg, hsl(189, 70%, 42%) 0%, hsl(189, 70%, 42%) 100%);
   }
 
   .bg-wellness-light {
-    background: linear-gradient(135deg, hsl(156, 73%, 95%) 0%, hsl(189, 70%, 95%) 100%);
+    background: linear-gradient(135deg, hsl(189, 70%, 95%) 0%, hsl(189, 70%, 95%) 100%);
   }
 
   /* Hero Animations */
@@ -231,7 +231,7 @@
   /* Focus improvements for accessibility */
   button:focus,
   a:focus {
-    outline: 2px solid hsl(var(--wellness-green));
+    outline: 2px solid hsl(var(--wellness-blue));
     outline-offset: 2px;
   }
 

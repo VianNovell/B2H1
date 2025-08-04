@@ -144,8 +144,6 @@ export default function ContactSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 md:gap-12 max-w-2xl mx-auto">
           <div>
-
-          <div>
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <FormField
