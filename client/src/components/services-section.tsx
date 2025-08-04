@@ -36,17 +36,17 @@ export default function ServicesSection() {
     },
     {
       icon: Hand,
-      title: "Massage Therapy",
-      description: "Therapeutic massage to relieve tension and promote healing",
+      title: "Therapeutic Massage",
+      description: "Professional therapeutic massage to relieve tension and promote healing",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559062163-e5c1b8fcb9dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Zap,
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Activity,
@@ -60,14 +60,14 @@ export default function ServicesSection() {
       title: "Diabetes & Weight Loss Programs",
       description: "Comprehensive programs for metabolic health and sustainable weight management",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Users,
       title: "Corporate Wellness",
       description: "Workplace wellness programs for businesses and organizations",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
   ];
 
