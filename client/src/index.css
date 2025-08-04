@@ -6,29 +6,35 @@
 
 :root {
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(220, 13%, 28%);
+  --foreground: hsl(210, 12%, 35%);
   --muted: hsl(210, 40%, 98%);
-  --muted-foreground: hsl(215, 16%, 47%);
+  --muted-foreground: hsl(210, 8%, 55%);
   --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(220, 13%, 28%);
+  --popover-foreground: hsl(210, 12%, 35%);
   --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(220, 13%, 28%);
-  --border: hsl(220, 13%, 91%);
-  --input: hsl(220, 13%, 91%);
-  --primary: hsl(156, 73%, 40%);
+  --card-foreground: hsl(210, 12%, 35%);
+  --border: hsl(210, 15%, 91%);
+  --input: hsl(210, 15%, 91%);
+  --primary: hsl(215, 85%, 40%);
   --primary-foreground: hsl(210, 40%, 98%);
-  --secondary: hsl(189, 70%, 42%);
+  --secondary: hsl(210, 8%, 55%);
   --secondary-foreground: hsl(210, 40%, 98%);
-  --accent: hsl(158, 64%, 52%);
+  --accent: hsl(215, 75%, 55%);
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 84%, 60%);
   --destructive-foreground: hsl(210, 40%, 98%);
-  --ring: hsl(156, 73%, 40%);
+  --ring: hsl(215, 85%, 40%);
   --radius: 0.5rem;
+  --brand-blue: hsl(215, 85%, 40%);
+  --brand-blue-light: hsl(215, 75%, 55%);
+  --brand-blue-dark: hsl(215, 95%, 25%);
+  --brand-grey: hsl(210, 8%, 55%);
+  --brand-grey-light: hsl(210, 15%, 75%);
+  --brand-grey-dark: hsl(210, 12%, 35%);
   --wellness-green: hsl(156, 73%, 40%);
-  --wellness-blue: hsl(189, 70%, 42%);
-  --wellness-accent: hsl(158, 64%, 52%);
-  --neutral-dark: hsl(220, 13%, 28%);
+  --wellness-blue: hsl(215, 85%, 40%);
+  --wellness-accent: hsl(215, 75%, 55%);
+  --neutral-dark: hsl(210, 12%, 35%);
 }
 
 .dark {
@@ -42,19 +48,25 @@
   --card-foreground: hsl(0, 0%, 98%);
   --border: hsl(240, 3.7%, 15.9%);
   --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(156, 73%, 40%);
+  --primary: hsl(215, 85%, 40%);
   --primary-foreground: hsl(210, 40%, 98%);
-  --secondary: hsl(189, 70%, 42%);
+  --secondary: hsl(210, 8%, 55%);
   --secondary-foreground: hsl(210, 40%, 98%);
-  --accent: hsl(158, 64%, 52%);
+  --accent: hsl(215, 75%, 55%);
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 62.8%, 30.6%);
   --destructive-foreground: hsl(0, 0%, 98%);
   --ring: hsl(240, 4.9%, 83.9%);
+  --brand-blue: hsl(215, 85%, 40%);
+  --brand-blue-light: hsl(215, 75%, 55%);
+  --brand-blue-dark: hsl(215, 95%, 25%);
+  --brand-grey: hsl(210, 8%, 55%);
+  --brand-grey-light: hsl(210, 15%, 75%);
+  --brand-grey-dark: hsl(210, 12%, 35%);
   --wellness-green: hsl(156, 73%, 40%);
-  --wellness-blue: hsl(189, 70%, 42%);
-  --wellness-accent: hsl(158, 64%, 52%);
-  --neutral-dark: hsl(220, 13%, 28%);
+  --wellness-blue: hsl(215, 85%, 40%);
+  --wellness-accent: hsl(215, 75%, 55%);
+  --neutral-dark: hsl(210, 12%, 35%);
 }
 
 @layer base {
@@ -82,11 +94,15 @@
   }
 
   .bg-wellness-gradient {
-    background: linear-gradient(135deg, hsl(156, 73%, 40%) 0%, hsl(189, 70%, 42%) 100%);
+    background: linear-gradient(135deg, hsl(215, 85%, 40%) 0%, hsl(215, 75%, 55%) 100%);
+  }
+
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, hsl(215, 85%, 40%) 0%, hsl(210, 8%, 55%) 100%);
   }
 
   .bg-wellness-light {
-    background: linear-gradient(135deg, hsl(156, 73%, 95%) 0%, hsl(189, 70%, 95%) 100%);
+    background: linear-gradient(135deg, hsl(215, 85%, 95%) 0%, hsl(210, 15%, 95%) 100%);
   }
 
   /* Hero Animations */
