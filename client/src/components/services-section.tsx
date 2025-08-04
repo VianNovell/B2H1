@@ -39,14 +39,14 @@ export default function ServicesSection() {
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Bone,
       title: "Qigong and Breathwork",
       description: "Ancient practices for mind-body wellness and stress reduction",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Target,
