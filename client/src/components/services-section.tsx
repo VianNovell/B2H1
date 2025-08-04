@@ -9,6 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import spineImage from "@assets/Spine.png";
+// Using spine rehabilitation image from assets
 
 export default function ServicesSection() {
   const scrollToAppointment = () => {
@@ -52,7 +53,7 @@ export default function ServicesSection() {
       title: "Spinal Rehabilitation",
       description: "Targeted exercises and therapies for spine health and back pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1594736797933-d0781c468e78?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Target,
