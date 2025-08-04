@@ -3,18 +3,24 @@ import {
   Hand,
   Zap,
   Activity,
-  Bone,
+  Brain,
   Target,
   Users,
-  Activity as Spine,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 
 export default function ServicesSection() {
+  const scrollToAppointment = () => {
+    const element = document.getElementById("appointment");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const services = [
     {
-      icon: Spine,
+      icon: Activity,
       title: "Chiropractic",
       description: "Spinal adjustments and manual therapy to restore proper alignment and function",
       color: "wellness-green",
@@ -29,24 +35,24 @@ export default function ServicesSection() {
     },
     {
       icon: Hand,
-      title: "Therapeutic Massage",
-      description: "Medical massage therapy for pain relief, injury recovery and muscle tension",
+      title: "Massage Therapy",
+      description: "Therapeutic massage to relieve tension and promote healing",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Zap,
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
-      icon: Bone,
+      icon: Brain,
       title: "Qigong and Breathwork",
       description: "Ancient practices for mind-body wellness and stress reduction",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Target,
@@ -114,19 +120,18 @@ export default function ServicesSection() {
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <a href="/services">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className={`border-2 ${
-                        service.color === "wellness-green"
-                          ? "border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white"
-                          : "border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white"
-                      } transition-colors duration-200`}
-                    >
-                      Learn More
-                    </Button>
-                  </a>
+                  <Button
+                    onClick={scrollToAppointment}
+                    variant="outline"
+                    size="sm"
+                    className={`border-2 ${
+                      service.color === "wellness-green"
+                        ? "border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white"
+                        : "border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white"
+                    } transition-colors duration-200`}
+                  >
+                    Book Now
+                  </Button>
                 </div>
               </div>
             );

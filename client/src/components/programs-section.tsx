@@ -4,46 +4,61 @@ import { Button } from "@/components/ui/button";
 export default function ProgramsSection() {
   const programs = [
     {
-      icon: Building2,
-      title: "Corporate Wellness",
-      subtitle: "Workplace Health Solutions",
-      description: "Comprehensive workplace wellness programs designed to enhance employee health, reduce workplace injuries, and boost productivity through expert chiropractic and holistic health services.",
-      features: [
-        "On-site chiropractic consultations",
-        "Ergonomic assessments & workplace setup",
-        "Stress management workshops",
-        "Health screening & prevention programs",
-        "Employee wellness coaching",
-        "Injury prevention training"
-      ],
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-blue-600 to-blue-800",
-      bgColor: "bg-blue-50",
-      textColor: "text-blue-700",
-      iconBg: "bg-blue-100",
-      duration: "Custom programs",
-      price: "Contact for pricing"
-    },
-    {
       icon: Heart,
-      title: "Diabetes & Weight Loss",
-      subtitle: "Metabolic Health Programs",
-      description: "Specialized comprehensive programs combining nutritional guidance, lifestyle coaching, and therapeutic support for sustainable weight management and diabetes control through natural health approaches.",
+      title: "Individual Care",
+      subtitle: "Personalized Healing Journey",
+      description: "One-on-one sessions tailored to your unique wellness goals.",
       features: [
-        "Personalized nutrition planning",
-        "Blood sugar management support",
-        "Therapeutic exercise programs",
-        "Lifestyle modification coaching",
-        "Holistic health assessments",
-        "Ongoing monitoring & support"
+        "Comprehensive health assessment",
+        "Customized treatment plans",
+        "Progress tracking & adjustments",
+        "Flexible scheduling options"
       ],
-      image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-green-600 to-green-800",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      gradient: "from-green-500 to-emerald-600",
       bgColor: "bg-green-50",
       textColor: "text-green-700",
       iconBg: "bg-green-100",
-      duration: "12-week programs",
-      price: "Contact for consultation"
+      duration: "60-90 min",
+      price: "Starting at $150"
+    },
+    {
+      icon: Users,
+      title: "Group Sessions",
+      subtitle: "Community Wellness",
+      description: "Connect with others on similar healing journeys in supportive group settings.",
+      features: [
+        "Qigong & meditation classes",
+        "Wellness workshops",
+        "Peer support network",
+        "Group exercise programs"
+      ],
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      gradient: "from-blue-500 to-cyan-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-700",
+      iconBg: "bg-blue-100",
+      duration: "45-60 min",
+      price: "Starting at $35"
+    },
+    {
+      icon: Building2,
+      title: "Corporate Wellness",
+      subtitle: "Workplace Health Solutions",
+      description: "Comprehensive programs designed to boost employee health and productivity.",
+      features: [
+        "On-site consultations",
+        "Stress management workshops",
+        "Health screening programs",
+        "Employee wellness coaching"
+      ],
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      gradient: "from-purple-500 to-indigo-600",
+      bgColor: "bg-purple-50",
+      textColor: "text-purple-700",
+      iconBg: "bg-purple-100",
+      duration: "Custom programs",
+      price: "Contact for pricing"
     },
   ];
 

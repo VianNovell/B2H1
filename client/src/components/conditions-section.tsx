@@ -12,8 +12,8 @@ export default function ConditionsSection() {
   const conditions = [
     {
       icon: ArrowDownToLine,
-      title: "Back Pain",
-      description: "Comprehensive treatment for acute and chronic back pain using chiropractic care, physiotherapy, and rehabilitation.",
+      title: "Low Back Pain",
+      description: "Comprehensive treatment for acute and chronic lower back pain using chiropractic care, physiotherapy, and rehabilitation.",
       color: "wellness-green",
     },
     {
@@ -42,15 +42,9 @@ export default function ConditionsSection() {
     },
     {
       icon: Zap,
-      title: "Joint Pain",
-      description: "Comprehensive management of joint conditions including arthritis, stiffness, and mobility issues with natural pain relief solutions.",
+      title: "Arthritis",
+      description: "Comprehensive management of osteoarthritis and rheumatoid arthritis with pain relief and mobility improvement.",
       color: "wellness-blue",
-    },
-    {
-      icon: Heart,
-      title: "Pregnancy and Paediatric Care",
-      description: "Gentle, specialized care for expecting mothers and children, supporting healthy development and addressing pregnancy-related discomfort.",
-      color: "wellness-green",
     },
   ];
 

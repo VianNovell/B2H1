@@ -66,8 +66,8 @@ export default function ContactSection() {
           </h2>
           <div className="w-20 md:w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-6 md:mb-8"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Ready to start your journey to better health? Contact us today for a consultation 
-            and discover how we can help you achieve optimal wellness.
+            Ready to take your business to the next level? Contact us today for a consultation and 
+            discover how we can help guide your business home.
           </p>
         </div>
 
@@ -80,46 +80,46 @@ export default function ContactSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Office Location */}
             <div className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <MapPin className="text-white w-6 h-6" />
               </div>
               <div>
-                <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Clinic Locations</h4>
+                <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Office Location</h4>
                 <div className="text-gray-600 space-y-1">
-                  <p><strong>Bukoto Clinic:</strong> Kampala</p>
-                  <p><strong>Entebbe Clinic:</strong> Entebbe</p>
-                  <p>Full addresses available upon appointment</p>
+                  <p>Level 4 Baba TV Complex, Ntinda</p>
+                  <p>Kisaasi Road, Kampala, Uganda</p>
+                  <p>P.O BOX 16951, Kampala</p>
                 </div>
               </div>
             </div>
 
             {/* Phone Number */}
             <div className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <Phone className="text-white w-6 h-6" />
               </div>
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Phone Number</h4>
                 <div className="text-gray-600 space-y-1">
-                  <p>+256 758 478 992</p>
-                  <p>+256 704 123 456</p>
+                  <p>+256-706-789012</p>
+                  <p>+256-752-123456</p>
                 </div>
               </div>
             </div>
 
             {/* Email Address */}
             <div className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <Mail className="text-white w-6 h-6" />
               </div>
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Email Address</h4>
                 <div className="text-gray-600 space-y-1">
-                  <a href="mailto:back2healthug@gmail.com" className="text-blue-600 hover:underline">
-                    back2healthug@gmail.com
+                  <a href="mailto:info.uniquemanagement@gmail.com" className="text-blue-600 hover:underline">
+                    info.uniquemanagement@gmail.com
                   </a>
-                  <a href="mailto:info@back2health.ug" className="text-blue-600 hover:underline block">
-                    info@back2health.ug
+                  <a href="mailto:info.uniquemanagementassociates@gmail.com" className="text-blue-600 hover:underline block">
+                    info.uniquemanagementassociates@gmail.com
                   </a>
                 </div>
               </div>
@@ -127,15 +127,15 @@ export default function ContactSection() {
 
             {/* Business Hours */}
             <div className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center flex-shrink-0">
                 <Clock className="text-white w-6 h-6" />
               </div>
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Business Hours</h4>
                 <div className="text-gray-600 space-y-1">
                   <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                  <p>Saturday: 9:00 AM - 2:00 PM</p>
-                  <p>Sunday: By Appointment Only</p>
+                  <p>Saturday: 8:00 AM - 1:00 PM (Half Day)</p>
+                  <p>Sunday: Closed</p>
                 </div>
               </div>
             </div>
@@ -143,6 +143,8 @@ export default function ContactSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 md:gap-12 max-w-2xl mx-auto">
+          <div>
+
           <div>
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">

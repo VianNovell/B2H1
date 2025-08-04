@@ -5,7 +5,10 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
-
+    {
+      question: "What is collaborative care and how does it benefit me?",
+      answer: "Our collaborative care model brings together multiple healthcare professionals including chiropractors, naturopaths, massage therapists, and nutritionists to work as a unified team. This means you benefit from the combined knowledge and expertise of all our specialists, ensuring comprehensive and personalized treatment plans that address your whole health picture."
+    },
     {
       question: "Do I need a referral to book an appointment?",
       answer: "No referral is needed for most of our services. You can book directly with us for chiropractic care, massage therapy, naturopathy, and wellness consultations. However, some insurance plans may require a referral for coverage, so we recommend checking with your provider."
@@ -14,7 +17,10 @@ export default function FAQSection() {
       question: "What should I expect during my first visit?",
       answer: "Your first visit includes a comprehensive health assessment where we discuss your health history, current concerns, and wellness goals. We may perform physical examinations, movement assessments, and discuss treatment options. This typically takes 60-90 minutes to ensure we understand your complete health picture."
     },
-
+    {
+      question: "Do you accept insurance?",
+      answer: "We accept most major insurance plans for covered services. Coverage varies by plan and service type. We recommend contacting your insurance provider to understand your specific benefits. Our team can also help verify coverage and submit claims on your behalf."
+    },
     {
       question: "How long does treatment typically take?",
       answer: "Treatment duration varies based on your individual condition and goals. Some patients experience relief after just a few sessions, while others with chronic conditions may benefit from longer-term care. We'll discuss expected timelines during your consultation and adjust as needed based on your progress."

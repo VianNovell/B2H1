@@ -37,18 +37,18 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16 md:h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-4 transition-all duration-300 hover:scale-105">
+              <Link href="/" className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
                 <img 
                   src={logoImage} 
                   alt="Back 2 Health Logo" 
-                  className="h-16 w-16 md:h-20 md:w-20 object-contain"
+                  className="h-12 w-12 md:h-14 md:w-14 object-contain"
                 />
-                <div className="block">
-                  <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-700 to-blue-900 bg-clip-text text-transparent">
+                <div className="hidden sm:block">
+                  <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
                     Back 2 Health
                   </span>
-                  <div className="text-sm text-gray-600 font-medium">
-                    Chiropractic & Holistic Wellness
+                  <div className="text-xs text-gray-600 font-medium">
+                    Chiropractic Wellness Centre
                   </div>
                 </div>
               </Link>

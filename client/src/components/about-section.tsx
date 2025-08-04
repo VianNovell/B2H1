@@ -21,24 +21,33 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Professional chiropractic care"
+              src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600"
+              alt="Professional healthcare team"
               className="rounded-xl shadow-lg w-full h-auto"
             />
           </div>
           <div>
             <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-              Our Story
+              Specialist Chiropractic & Holistic Healthcare
             </h3>
             <p className="text-gray-600 text-lg mb-6">
-              Back 2 Health was established with a vision to provide comprehensive, 
-              natural healthcare solutions that address the root causes of pain and 
-              illness. Our team of experienced practitioners combines traditional 
-              chiropractic care with innovative holistic therapies to help patients 
-              achieve optimal health and wellness. We believe in treating the whole 
-              person, not just symptoms, through personalized care plans that promote 
-              natural healing and long-term wellness.
+              Back 2 Health is a specialist Chiropractic and Holistic Healthcare
+              clinic. We provide medical and alternative solutions for optimal
+              wellness through our unique collaborative care model.
             </p>
+
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <h4 className="text-xl font-semibold text-[hsl(var(--neutral-dark))] mb-3">
+                Our Collaborative Care Model
+              </h4>
+              <p className="text-gray-600">
+                Our innovative approach brings together multiple healthcare
+                professionals to work as a unified team. This means patients
+                benefit from the combined knowledge, experience, and expertise
+                of all our doctors and therapists, ensuring comprehensive and
+                personalized treatment plans.
+              </p>
+            </div>
 
             <div className="grid grid-cols-2 gap-4 text-sm">
               {features.map((feature, index) => (
