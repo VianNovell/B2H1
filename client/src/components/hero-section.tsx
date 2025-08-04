@@ -2,6 +2,7 @@ import { Calendar, Phone, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import spineImage from "@assets/Spine.png";
+import holisticImage from "@assets/Holistic.png";
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -42,8 +43,8 @@ export default function HeroSection() {
     {
       title: "Holistic Wellness Programs",
       subtitle: "From massage therapy to corporate wellness programs - complete solutions for your health journey.",
-      backgroundImage: "https://images.unsplash.com/photo-1559062163-e5c1b8fcb9dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-      imageAlt: "Therapeutic wellness programs",
+      backgroundImage: holisticImage,
+      imageAlt: "Holistic wellness and therapeutic programs",
       highlight: "Holistic Wellness"
     }
   ];
