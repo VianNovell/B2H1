@@ -33,7 +33,7 @@ export default function Contact() {
               
               <div className="space-y-6">
                 <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
-                  <Phone className="h-6 w-6 text-[hsl(var(--wellness-green))]" />
+                  <Phone className="h-6 w-6 text-[hsl(var(--wellness-blue))]" />
                   <div>
                     <h3 className="font-semibold text-[hsl(var(--neutral-dark))]">Phone</h3>
                     <p className="text-gray-600">0758</p>
@@ -41,7 +41,7 @@ export default function Contact() {
                 </div>
                 
                 <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
-                  <Mail className="h-6 w-6 text-[hsl(var(--wellness-green))]" />
+                  <Mail className="h-6 w-6 text-[hsl(var(--wellness-blue))]" />
                   <div>
                     <h3 className="font-semibold text-[hsl(var(--neutral-dark))]">Email</h3>
                     <p className="text-gray-600">back2healthug@gmail.com</p>
@@ -49,7 +49,7 @@ export default function Contact() {
                 </div>
                 
                 <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
-                  <MapPin className="h-6 w-6 text-[hsl(var(--wellness-green))]" />
+                  <MapPin className="h-6 w-6 text-[hsl(var(--wellness-blue))]" />
                   <div>
                     <h3 className="font-semibold text-[hsl(var(--neutral-dark))]">Locations</h3>
                     <p className="text-gray-600">Bukoto & Entebbe</p>
@@ -57,7 +57,7 @@ export default function Contact() {
                 </div>
                 
                 <div className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
-                  <Clock className="h-6 w-6 text-[hsl(var(--wellness-green))]" />
+                  <Clock className="h-6 w-6 text-[hsl(var(--wellness-blue))]" />
                   <div>
                     <h3 className="font-semibold text-[hsl(var(--neutral-dark))]">Hours</h3>
                     <p className="text-gray-600">Monday - Saturday: 8:00 AM - 6:00 PM</p>
@@ -133,7 +133,7 @@ export default function Contact() {
                   />
                 </div>
                 
-                <button className="w-full bg-gradient-to-r from-blue-600 to-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-green-600 transition-all duration-200">
+                <button className="w-full bg-gradient-to-r from-blue-600 to-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all duration-200">
                   Book Appointment
                 </button>
               </div>

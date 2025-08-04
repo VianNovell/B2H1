@@ -116,7 +116,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 md:pt-6 px-4">
               <Button
                 onClick={scrollToAppointment}
-                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
+                className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Calendar className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Book an Appointment
@@ -124,7 +124,7 @@ export default function HeroSection() {
               <Button
                 onClick={callNow}
                 variant="outline"
-                className="border-3 border-white/80 text-white hover:bg-white hover:text-green-600 px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-full bg-white/10 backdrop-blur-sm min-h-[48px] touch-manipulation"
+                className="border-3 border-white/80 text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-full bg-white/10 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Phone className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Call Now

@@ -64,7 +64,7 @@ export default function ContactSection() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-4 px-4">
             Get In Touch
           </h2>
-          <div className="w-20 md:w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-6 md:mb-8"></div>
+          <div className="w-20 md:w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-6 md:mb-8"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Ready to take your business to the next level? Contact us today for a consultation and 
             discover how we can help guide your business home.
@@ -155,7 +155,7 @@ export default function ContactSection() {
                       <FormControl>
                         <Input
                           {...field}
-                          className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]"
+                          className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -173,7 +173,7 @@ export default function ContactSection() {
                         <Input
                           type="email"
                           {...field}
-                          className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]"
+                          className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -192,7 +192,7 @@ export default function ContactSection() {
                           type="tel"
                           {...field}
                           value={field.value || ""}
-                          className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]"
+                          className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -208,7 +208,7 @@ export default function ContactSection() {
                       <FormLabel>Service Interested In</FormLabel>
                       <Select onValueChange={field.onChange} defaultValue={field.value || ""}>
                         <FormControl>
-                          <SelectTrigger className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]">
+                          <SelectTrigger className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]">
                             <SelectValue placeholder="Select a service..." />
                           </SelectTrigger>
                         </FormControl>
@@ -236,7 +236,7 @@ export default function ContactSection() {
                           {...field}
                           rows={4}
                           placeholder="Tell us about your health concerns or questions..."
-                          className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]"
+                          className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -246,7 +246,7 @@ export default function ContactSection() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-accent))] text-white py-3 md:py-4 px-6 text-base md:text-lg font-semibold min-h-[48px] touch-manipulation"
+                  className="w-full bg-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-accent))] text-white py-3 md:py-4 px-6 text-base md:text-lg font-semibold min-h-[48px] touch-manipulation"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}

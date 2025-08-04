@@ -66,7 +66,7 @@ export default function About() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-sm">
-                    <CheckCircle className="text-[hsl(var(--wellness-green))] h-6 w-6 flex-shrink-0" />
+                    <CheckCircle className="text-[hsl(var(--wellness-blue))] h-6 w-6 flex-shrink-0" />
                     <span className="text-gray-700 font-medium">{feature}</span>
                   </div>
                 ))}
@@ -76,7 +76,7 @@ export default function About() {
             {/* Values */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-                <Award className="h-12 w-12 text-[hsl(var(--wellness-green))] mx-auto mb-4" />
+                <Award className="h-12 w-12 text-[hsl(var(--wellness-blue))] mx-auto mb-4" />
                 <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-3">Excellence</h4>
                 <p className="text-gray-600">
                   We maintain the highest standards in healthcare delivery and continuously update our skills and knowledge.
@@ -84,7 +84,7 @@ export default function About() {
               </div>
               
               <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-                <Heart className="h-12 w-12 text-[hsl(var(--wellness-green))] mx-auto mb-4" />
+                <Heart className="h-12 w-12 text-[hsl(var(--wellness-blue))] mx-auto mb-4" />
                 <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-3">Compassion</h4>
                 <p className="text-gray-600">
                   Every patient receives personalized care with empathy, respect, and understanding of their unique needs.
@@ -92,7 +92,7 @@ export default function About() {
               </div>
               
               <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-                <Users className="h-12 w-12 text-[hsl(var(--wellness-green))] mx-auto mb-4" />
+                <Users className="h-12 w-12 text-[hsl(var(--wellness-blue))] mx-auto mb-4" />
                 <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-3">Community</h4>
                 <p className="text-gray-600">
                   We are deeply committed to serving our local community and improving health outcomes for all.
@@ -117,21 +117,21 @@ export default function About() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-green))] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Community Outreach</h3>
                 <p className="text-gray-600">Providing healthcare services to rural and underserved communities</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-green))] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Training Programs</h3>
                 <p className="text-gray-600">Education and training for local healthcare providers</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-green))] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Sustainable Impact</h3>

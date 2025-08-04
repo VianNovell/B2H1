@@ -55,7 +55,7 @@ export default function TestimonialsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-4">
             What Our Patients Say
           </h2>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Real stories from real people who have experienced the healing power
             of our collaborative care approach
@@ -71,7 +71,7 @@ export default function TestimonialsSection() {
               }`}
             >
               <div className="flex items-start mb-6">
-                <Quote className="text-[hsl(var(--wellness-green))] w-8 h-8 mr-4 flex-shrink-0 mt-1" />
+                <Quote className="text-[hsl(var(--wellness-blue))] w-8 h-8 mr-4 flex-shrink-0 mt-1" />
                 <div className="flex-1">
                   <div className="flex items-center mb-2">
                     {renderStars(testimonial.rating)}
@@ -83,7 +83,7 @@ export default function TestimonialsSection() {
               </div>
               
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-[hsl(var(--wellness-green))] to-green-600 rounded-full flex items-center justify-center text-white font-semibold text-lg mr-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-[hsl(var(--wellness-blue))] to-blue-600 rounded-full flex items-center justify-center text-white font-semibold text-lg mr-4">
                   {testimonial.name.split(' ').map(n => n[0]).join('')}
                 </div>
                 <div>
@@ -101,19 +101,19 @@ export default function TestimonialsSection() {
         <div className="mt-16 text-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold text-[hsl(var(--wellness-green))] mb-2">
+              <div className="text-4xl font-bold text-[hsl(var(--wellness-blue))] mb-2">
                 500+
               </div>
               <p className="text-gray-600">Happy Patients</p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold text-[hsl(var(--wellness-green))] mb-2">
+              <div className="text-4xl font-bold text-[hsl(var(--wellness-blue))] mb-2">
                 15+
               </div>
               <p className="text-gray-600">Years Experience</p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold text-[hsl(var(--wellness-green))] mb-2">
+              <div className="text-4xl font-bold text-[hsl(var(--wellness-blue))] mb-2">
                 98%
               </div>
               <p className="text-gray-600">Success Rate</p>

@@ -57,7 +57,7 @@ export default function Navigation() {
           
           <div className="hidden lg:block">
             <div className="ml-10 flex items-baseline space-x-1">
-              <Link href="/" className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50">
+              <Link href="/" className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-blue))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50">
                 Home
               </Link>
               
@@ -192,7 +192,7 @@ export default function Navigation() {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm border-t border-gray-100">
             <Link
               href="/"
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-blue))] hover:bg-green-50 w-full text-left rounded-lg transition-all duration-200"
             >
               Home
             </Link>

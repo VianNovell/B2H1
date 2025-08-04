@@ -144,7 +144,7 @@ export default function Services() {
                     <ul className="space-y-2">
                       {service.subservices.map((subservice, subIndex) => (
                         <li key={subIndex} className="text-sm text-gray-600 flex items-start gap-2">
-                          <span className="w-1.5 h-1.5 bg-[hsl(var(--wellness-green))] rounded-full mt-2 flex-shrink-0"></span>
+                          <span className="w-1.5 h-1.5 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 flex-shrink-0"></span>
                           {subservice}
                         </li>
                       ))}
@@ -153,7 +153,7 @@ export default function Services() {
                   
                   <button 
                     onClick={() => toggleService(index)}
-                    className="flex items-center gap-2 text-[hsl(var(--wellness-green))] font-semibold hover:text-blue-600 transition-colors duration-200"
+                    className="flex items-center gap-2 text-[hsl(var(--wellness-blue))] font-semibold hover:text-blue-600 transition-colors duration-200"
                   >
                     Learn More
                     {expandedService === index ? (
@@ -165,7 +165,7 @@ export default function Services() {
                   
                   {/* Expanded detailed information */}
                   {expandedService === index && (
-                    <div className="mt-6 p-6 bg-blue-50 rounded-lg border-l-4 border-[hsl(var(--wellness-green))] animate-in slide-in-from-top duration-300">
+                    <div className="mt-6 p-6 bg-blue-50 rounded-lg border-l-4 border-[hsl(var(--wellness-blue))] animate-in slide-in-from-top duration-300">
                       <div className="flex justify-between items-start mb-4">
                         <h4 className="text-lg font-bold text-[hsl(var(--neutral-dark))]">
                           About {service.title}
@@ -183,7 +183,7 @@ export default function Services() {
                       <div className="mt-4 pt-4 border-t border-gray-200">
                         <a 
                           href="/contact" 
-                          className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:from-blue-700 hover:to-green-600 transition-all duration-200"
+                          className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-green-500 text-white font-semibold py-2 px-4 rounded-lg hover:from-blue-700 hover:to-blue-600 transition-all duration-200"
                         >
                           Book This Service
                         </a>

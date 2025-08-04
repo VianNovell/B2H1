@@ -15,7 +15,7 @@ export default function AboutSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-4">
             About Back 2 Health
           </h2>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -52,7 +52,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 gap-4 text-sm">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center">
-                  <CheckCircle className="text-[hsl(var(--wellness-green))] mr-2 h-5 w-5" />
+                  <CheckCircle className="text-[hsl(var(--wellness-blue))] mr-2 h-5 w-5" />
                   <span>{feature}</span>
                 </div>
               ))}

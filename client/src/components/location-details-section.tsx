@@ -6,12 +6,12 @@ export default function LocationDetailsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-4">
-            <MapPin className="text-[hsl(var(--wellness-green))] w-8 h-8 mr-3" />
+            <MapPin className="text-[hsl(var(--wellness-blue))] w-8 h-8 mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))]">
               Visit Our Clinic
             </h2>
           </div>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Conveniently located in Entebbe to serve you better. Plan your visit to our healthcare facility.
           </p>
@@ -34,7 +34,7 @@ export default function LocationDetailsSection() {
               {/* Address */}
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="text-[hsl(var(--wellness-green))] w-6 h-6" />
+                  <MapPin className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Address</h4>

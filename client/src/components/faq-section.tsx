@@ -48,12 +48,12 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center mb-4">
-            <HelpCircle className="text-[hsl(var(--wellness-green))] w-8 h-8 mr-3" />
+            <HelpCircle className="text-[hsl(var(--wellness-blue))] w-8 h-8 mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))]">
               Frequently Asked Questions
             </h2>
           </div>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Get answers to common questions about our services, treatments, and what to expect
           </p>
@@ -66,7 +66,7 @@ export default function FAQSection() {
               className="bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
             >
               <button
-                className="w-full px-6 py-6 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-[hsl(var(--wellness-green))] focus:ring-offset-2 rounded-xl"
+                className="w-full px-6 py-6 text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-[hsl(var(--wellness-blue))] focus:ring-offset-2 rounded-xl"
                 onClick={() => toggleFAQ(index)}
               >
                 <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))] pr-4">
@@ -74,9 +74,9 @@ export default function FAQSection() {
                 </h3>
                 <div className="flex-shrink-0">
                   {openIndex === index ? (
-                    <ChevronUp className="w-6 h-6 text-[hsl(var(--wellness-green))]" />
+                    <ChevronUp className="w-6 h-6 text-[hsl(var(--wellness-blue))]" />
                   ) : (
-                    <ChevronDown className="w-6 h-6 text-[hsl(var(--wellness-green))]" />
+                    <ChevronDown className="w-6 h-6 text-[hsl(var(--wellness-blue))]" />
                   )}
                 </div>
               </button>

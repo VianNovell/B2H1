@@ -55,7 +55,7 @@ export default function ConditionsSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-4">
             Conditions We Treat
           </h2>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Expert care for a wide range of health conditions using our
             collaborative approach
@@ -74,14 +74,14 @@ export default function ConditionsSection() {
                   <div
                     className={`w-12 h-12 ${
                       condition.color === "wellness-green"
-                        ? "bg-[hsl(var(--wellness-green)_/_10%)]"
+                        ? "bg-[hsl(var(--wellness-blue)_/_10%)]"
                         : "bg-[hsl(var(--wellness-blue)_/_10%)]"
                     } rounded-full flex items-center justify-center mr-4`}
                   >
                     <Icon
                       className={`${
                         condition.color === "wellness-green"
-                          ? "text-[hsl(var(--wellness-green))]"
+                          ? "text-[hsl(var(--wellness-blue))]"
                           : "text-[hsl(var(--wellness-blue))]"
                       } w-6 h-6`}
                     />
@@ -98,8 +98,8 @@ export default function ConditionsSection() {
           {/* Chronic Pain & Diseases - Special card spanning multiple columns */}
           <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow md:col-span-2 lg:col-span-3">
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-[hsl(var(--wellness-green)_/_10%)] rounded-full flex items-center justify-center mr-4">
-                <Heart className="text-[hsl(var(--wellness-green))] w-6 h-6" />
+              <div className="w-12 h-12 bg-[hsl(var(--wellness-blue)_/_10%)] rounded-full flex items-center justify-center mr-4">
+                <Heart className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
               </div>
               <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))]">
                 Chronic Pain & Diseases

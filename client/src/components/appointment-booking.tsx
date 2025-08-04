@@ -111,12 +111,12 @@ export default function AppointmentBooking() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">
-            <Calendar className="text-[hsl(var(--wellness-green))] w-8 h-8 mr-3" />
+            <Calendar className="text-[hsl(var(--wellness-blue))] w-8 h-8 mr-3" />
             <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))]">
               Book Your Appointment
             </h2>
           </div>
-          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Take the first step towards optimal wellness. Schedule your consultation today.
           </p>
@@ -142,13 +142,13 @@ export default function AppointmentBooking() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="flex items-center">
-                          <User className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                          <User className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                           Full Name
                         </FormLabel>
                         <FormControl>
                           <Input
                             {...field}
-                            className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12"
+                            className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12"
                             placeholder="Enter your full name"
                           />
                         </FormControl>
@@ -163,14 +163,14 @@ export default function AppointmentBooking() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="flex items-center">
-                          <Mail className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                          <Mail className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                           Email Address
                         </FormLabel>
                         <FormControl>
                           <Input
                             type="email"
                             {...field}
-                            className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12"
+                            className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12"
                             placeholder="your.email@example.com"
                           />
                         </FormControl>
@@ -187,14 +187,14 @@ export default function AppointmentBooking() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="flex items-center">
-                          <Phone className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                          <Phone className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                           Phone Number
                         </FormLabel>
                         <FormControl>
                           <Input
                             type="tel"
                             {...field}
-                            className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12"
+                            className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12"
                             placeholder="0758 478992"
                           />
                         </FormControl>
@@ -211,7 +211,7 @@ export default function AppointmentBooking() {
                         <FormLabel>Service Needed</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
-                            <SelectTrigger className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12">
+                            <SelectTrigger className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12">
                               <SelectValue placeholder="Select a service..." />
                             </SelectTrigger>
                           </FormControl>
@@ -236,7 +236,7 @@ export default function AppointmentBooking() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="flex items-center">
-                          <Calendar className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                          <Calendar className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                           Preferred Date
                         </FormLabel>
                         <FormControl>
@@ -244,7 +244,7 @@ export default function AppointmentBooking() {
                             type="date"
                             {...field}
                             min={today}
-                            className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12"
+                            className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12"
                           />
                         </FormControl>
                         <FormMessage />
@@ -258,12 +258,12 @@ export default function AppointmentBooking() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel className="flex items-center">
-                          <Clock className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                          <Clock className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                           Preferred Time
                         </FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
-                            <SelectTrigger className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))] h-12">
+                            <SelectTrigger className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))] h-12">
                               <SelectValue placeholder="Select time..." />
                             </SelectTrigger>
                           </FormControl>
@@ -287,7 +287,7 @@ export default function AppointmentBooking() {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="flex items-center">
-                        <MessageSquare className="w-4 h-4 mr-2 text-[hsl(var(--wellness-green))]" />
+                        <MessageSquare className="w-4 h-4 mr-2 text-[hsl(var(--wellness-blue))]" />
                         Additional Information (Optional)
                       </FormLabel>
                       <FormControl>
@@ -295,7 +295,7 @@ export default function AppointmentBooking() {
                           {...field}
                           rows={4}
                           placeholder="Tell us about your health concerns, goals, or any specific requirements..."
-                          className="focus:ring-[hsl(var(--wellness-green))] focus:border-[hsl(var(--wellness-green))]"
+                          className="focus:ring-[hsl(var(--wellness-blue))] focus:border-[hsl(var(--wellness-blue))]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -306,7 +306,7 @@ export default function AppointmentBooking() {
                 <div className="flex flex-col sm:flex-row gap-4 pt-6">
                   <Button
                     type="submit"
-                    className="flex-1 bg-gradient-to-r from-[hsl(var(--wellness-green))] to-green-600 hover:from-green-600 hover:to-green-700 text-white py-4 px-8 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-xl"
+                    className="flex-1 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-4 px-8 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-xl"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
@@ -328,7 +328,7 @@ export default function AppointmentBooking() {
                     onClick={() => {
                       window.open("tel:0758478992", "_self");
                     }}
-                    className="border-2 border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white py-4 px-8 text-lg font-semibold rounded-xl transition-all duration-300"
+                    className="border-2 border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white py-4 px-8 text-lg font-semibold rounded-xl transition-all duration-300"
                   >
                     <Phone className="mr-3 h-5 w-5" />
                     Call Instead

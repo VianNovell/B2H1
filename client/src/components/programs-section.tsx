@@ -17,7 +17,7 @@ export default function ProgramsSection() {
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       gradient: "from-green-500 to-emerald-600",
       bgColor: "bg-green-50",
-      textColor: "text-green-700",
+      textColor: "text-blue-700",
       iconBg: "bg-green-100",
       duration: "60-90 min",
       price: "Starting at $150"
@@ -164,7 +164,7 @@ export default function ProgramsSection() {
             </p>
             <Button
               onClick={scrollToAppointments}
-              className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg md:rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation"
+              className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-blue-600 hover:to-emerald-700 text-white font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg md:rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation"
             >
               <Calendar className="mr-2 w-4 h-4 md:w-5 md:h-5" />
               Schedule Free Consultation

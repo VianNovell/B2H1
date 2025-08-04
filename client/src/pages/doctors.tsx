@@ -105,10 +105,10 @@ export default function Doctors() {
                 
                 {/* Doctor info */}
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold text-green-700 mb-2">
+                  <h3 className="text-2xl font-bold text-blue-700 mb-2">
                     Joel Muyambi
                   </h3>
-                  <p className="text-lg font-bold text-green-600 mb-3">
+                  <p className="text-lg font-bold text-blue-600 mb-3">
                     Physiotherapist, Sports Medicine Specialist
                   </p>
                   <div className="flex items-center justify-center gap-2 mb-6">
@@ -131,7 +131,7 @@ export default function Doctors() {
                   
                   {/* Key accomplishments */}
                   <div className="mt-6 p-4 bg-green-50 rounded-lg">
-                    <h4 className="font-bold text-green-700 mb-3 flex items-center justify-center gap-2">
+                    <h4 className="font-bold text-blue-700 mb-3 flex items-center justify-center gap-2">
                       <Award className="h-4 w-4" />
                       Key Achievements
                     </h4>
@@ -150,7 +150,7 @@ export default function Doctors() {
                   <div className="mt-6">
                     <button 
                       onClick={() => window.location.href = "/#appointment"}
-                      className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors duration-200 shadow-md hover:shadow-lg"
+                      className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-md hover:shadow-lg"
                     >
                       Schedule With Joel
                     </button>
@@ -197,7 +197,7 @@ export default function Doctors() {
             </div>
             
             <div className="text-center p-6 bg-white rounded-xl shadow-md">
-              <Users className="h-12 w-12 text-green-600 mx-auto mb-4" />
+              <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-[hsl(var(--neutral-dark))] mb-2">
                 Community Impact
               </h3>
