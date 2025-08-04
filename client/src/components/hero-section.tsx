@@ -134,15 +134,15 @@ export default function HeroSection() {
             {/* Trust Indicators */}
             <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-6 md:pt-8 text-center lg:text-left px-4">
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">500+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-400 drop-shadow-lg">500+</div>
                 <div className="text-xs sm:text-sm text-white/80">Happy Patients</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">15+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-400 drop-shadow-lg">15+</div>
                 <div className="text-xs sm:text-sm text-white/80">Years Experience</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">98%</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-400 drop-shadow-lg">98%</div>
                 <div className="text-xs sm:text-sm text-white/80">Success Rate</div>
               </div>
             </div>
@@ -153,19 +153,19 @@ export default function HeroSection() {
             <div className="space-y-8">
               {/* Floating wellness cards */}
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float">
-                <div className="text-2xl font-bold text-green-400">✨</div>
+                <div className="text-2xl font-bold text-blue-400">✨</div>
                 <div className="text-sm font-semibold">Holistic Healing</div>
                 <div className="text-xs text-white/80">Mind, Body & Spirit</div>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-2xl font-bold text-green-400">🌿</div>
+                <div className="text-2xl font-bold text-blue-400">🌿</div>
                 <div className="text-sm font-semibold">Natural Medicine</div>
                 <div className="text-xs text-white/80">Proven Therapies</div>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '2s' }}>
-                <div className="text-2xl font-bold text-green-400">🤝</div>
+                <div className="text-2xl font-bold text-blue-400">🤝</div>
                 <div className="text-sm font-semibold">Expert Care</div>
                 <div className="text-xs text-white/80">Collaborative Team</div>
               </div>
@@ -202,7 +202,7 @@ export default function HeroSection() {
               onClick={() => setCurrentSlide(index)}
               className={`transition-all duration-300 rounded-full border border-white/40 ${
                 index === currentSlide
-                  ? "w-16 h-4 bg-green-400"
+                  ? "w-16 h-4 bg-blue-400"
                   : "w-4 h-4 bg-white/30 hover:bg-white/50"
               }`}
               aria-label={`Go to slide ${index + 1}`}
