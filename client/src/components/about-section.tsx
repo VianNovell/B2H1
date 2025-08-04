@@ -29,24 +29,26 @@ export default function AboutSection() {
           </div>
           <div>
             <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-              Specialist Chiropractic & Holistic Healthcare
+              Our Story
             </h3>
-            <p className="text-gray-600 text-lg mb-6">
-              Back 2 Health is a specialist Chiropractic and Holistic Healthcare
-              clinic. We provide medical and alternative solutions for optimal
-              wellness through our unique collaborative care model.
-            </p>
-
-            <div className="bg-gray-50 p-6 rounded-lg mb-6">
-              <h4 className="text-xl font-semibold text-[hsl(var(--neutral-dark))] mb-3">
-                Our Collaborative Care Model
-              </h4>
-              <p className="text-gray-600">
-                Our innovative approach brings together multiple healthcare
-                professionals to work as a unified team. This means patients
-                benefit from the combined knowledge, experience, and expertise
-                of all our doctors and therapists, ensuring comprehensive and
-                personalized treatment plans.
+            <div className="space-y-4 text-gray-600 text-lg">
+              <p>
+                Back 2 Health Chiropractic and Wellness Centre is dedicated to providing natural and drug free solutions to disease and pain while promoting Wellness. We believe in addressing the root cause of health issues rather than just treating symptoms.
+              </p>
+              <p>
+                We maintain that everyone deserves to live free from pain—without relying on painkillers or being limited in doing what they love.
+              </p>
+              <p>
+                We deliver a professional, highly specialised and patient centred approach; combining individually tailored healthcare plans with the most effective, long-term treatment available.
+              </p>
+              <p>
+                We see people from all walks of life, from 4-week old babies to pensioners in their 90s, from pregnant women to office workers to professional athletes to improve movement and function, reduce pain and enhance wellbeing.
+              </p>
+              <p className="font-semibold">
+                Whether you are looking for relief from injury or chronic pain, or trying to maintain a healthy, active lifestyle we can help.
+              </p>
+              <p className="bg-blue-50 p-4 rounded-lg border-l-4 border-[hsl(var(--wellness-blue))]">
+                With locations in Bukoto and Entebbe, we serve the greater Kampala area and beyond, providing accessible, high-quality healthcare that focuses on your overall wellbeing and long-term health goals.
               </p>
             </div>
 
