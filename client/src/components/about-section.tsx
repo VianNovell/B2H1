@@ -52,11 +52,11 @@ export default function AboutSection() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 text-sm">
+            <div className="grid grid-cols-2 gap-4 text-sm mt-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center">
-                  <CheckCircle className="text-[hsl(var(--wellness-blue))] mr-2 h-5 w-5" />
-                  <span>{feature}</span>
+                  <CheckCircle className="text-[hsl(var(--wellness-blue))] mr-2 h-5 w-5 flex-shrink-0" />
+                  <span className="text-gray-700">{feature}</span>
                 </div>
               ))}
             </div>
