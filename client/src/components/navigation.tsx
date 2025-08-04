@@ -43,7 +43,7 @@ export default function Navigation() {
                   alt="Back 2 Health Logo" 
                   className="h-16 w-16 md:h-20 md:w-20 object-contain group-hover:drop-shadow-lg transition-all duration-300"
                 />
-                <div className="block">
+                <div className="hidden sm:block">
                   <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-[hsl(var(--brand-blue))] to-[hsl(var(--brand-blue-dark))] bg-clip-text text-transparent">
                     Back 2 Health
                   </span>
