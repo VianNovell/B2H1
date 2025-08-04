@@ -4,14 +4,15 @@ import {
   Activity, 
   Flame, 
   Zap,
-  Heart
+  Heart,
+  Baby
 } from "lucide-react";
 
 export default function ConditionsSection() {
   const conditions = [
     {
       icon: ArrowDownToLine,
-      title: "Low Back Pain",
+      title: "Back Pain",
       description: "Comprehensive treatment for acute and chronic lower back pain using chiropractic care, physiotherapy, and rehabilitation.",
       color: "wellness-blue",
     },
@@ -41,8 +42,14 @@ export default function ConditionsSection() {
     },
     {
       icon: Zap,
-      title: "Arthritis",
-      description: "Comprehensive management of osteoarthritis and rheumatoid arthritis with pain relief and mobility improvement.",
+      title: "Joint Pain",
+      description: "Comprehensive management of shoulder, knee and other joint problems, focusing on pain relief and restoration of normal function.",
+      color: "wellness-blue",
+    },
+    {
+      icon: Baby,
+      title: "Pregnancy and Paediatric Care",
+      description: "Chiropractic treatment aims to help keep you as comfortable as possible and optimise In-Utero Foetal positioning aiding the birth process. Our Chiropractors are also trained in treating infants and babies; common problems including sleep and feeding difficulties, colic and constipation are common paediatric complaints in a Chiropractor's office.",
       color: "wellness-blue",
     },
   ];
