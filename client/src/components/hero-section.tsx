@@ -99,7 +99,7 @@ export default function HeroSection() {
                 <span className="block">
                   {slides[currentSlide].title.split(slides[currentSlide].highlight)[0]}
                 </span>
-                <span className="block bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent animate-text-glow">
+                <span className="block bg-gradient-to-r from-[hsl(var(--brand-blue-light))] to-[hsl(var(--brand-blue))] bg-clip-text text-transparent animate-text-glow">
                   {slides[currentSlide].highlight}
                 </span>
                 <span className="block">
@@ -116,7 +116,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 md:pt-6 px-4">
               <Button
                 onClick={scrollToAppointment}
-                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
+                className="bg-gradient-to-r from-[hsl(var(--brand-blue))] to-[hsl(var(--brand-blue-dark))] hover:from-[hsl(var(--brand-blue-dark))] hover:to-[hsl(var(--brand-blue-light))] text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Calendar className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Book an Appointment
@@ -124,7 +124,7 @@ export default function HeroSection() {
               <Button
                 onClick={callNow}
                 variant="outline"
-                className="border-3 border-white/80 text-white hover:bg-white hover:text-green-600 px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-full bg-white/10 backdrop-blur-sm min-h-[48px] touch-manipulation"
+                className="border-3 border-white/80 text-white hover:bg-white hover:text-[hsl(var(--brand-blue))] px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-full bg-white/10 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Phone className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Call Now
@@ -134,15 +134,15 @@ export default function HeroSection() {
             {/* Trust Indicators */}
             <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-6 md:pt-8 text-center lg:text-left px-4">
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">500+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[hsl(var(--brand-blue-light))] drop-shadow-lg">500+</div>
                 <div className="text-xs sm:text-sm text-white/80">Happy Patients</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">15+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[hsl(var(--brand-blue-light))] drop-shadow-lg">15+</div>
                 <div className="text-xs sm:text-sm text-white/80">Years Experience</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">98%</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[hsl(var(--brand-blue-light))] drop-shadow-lg">98%</div>
                 <div className="text-xs sm:text-sm text-white/80">Success Rate</div>
               </div>
             </div>
@@ -153,13 +153,13 @@ export default function HeroSection() {
             <div className="space-y-8">
               {/* Floating wellness cards */}
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float">
-                <div className="text-2xl font-bold text-green-400">✨</div>
+                <div className="text-2xl font-bold text-[hsl(var(--brand-blue-light))]">✨</div>
                 <div className="text-sm font-semibold">Holistic Healing</div>
                 <div className="text-xs text-white/80">Mind, Body & Spirit</div>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-2xl font-bold text-green-400">🌿</div>
+                <div className="text-2xl font-bold text-[hsl(var(--brand-blue-light))]">🌿</div>
                 <div className="text-sm font-semibold">Natural Medicine</div>
                 <div className="text-xs text-white/80">Proven Therapies</div>
               </div>
