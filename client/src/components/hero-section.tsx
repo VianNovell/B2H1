@@ -134,18 +134,14 @@ export default function HeroSection() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-6 md:pt-8 text-center lg:text-left px-4">
+            <div className="grid grid-cols-2 gap-6 sm:gap-8 pt-6 md:pt-8 text-center lg:text-left px-4 max-w-md mx-auto lg:mx-0">
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">500+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">1000+</div>
                 <div className="text-xs sm:text-sm text-white/80">Happy Patients</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">15+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">20+</div>
                 <div className="text-xs sm:text-sm text-white/80">Years Experience</div>
-              </div>
-              <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">98%</div>
-                <div className="text-xs sm:text-sm text-white/80">Success Rate</div>
               </div>
             </div>
           </div>
