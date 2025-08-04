@@ -32,22 +32,22 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b border-[hsl(var(--brand-blue-light)_/_20%)]">
+    <nav className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b border-green-100">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="flex justify-between items-center h-20 md:h-24">
+        <div className="flex justify-between items-center h-16 md:h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-4 transition-all duration-300 hover:scale-105 group">
+              <Link href="/" className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
                 <img 
                   src={logoImage} 
                   alt="Back 2 Health Logo" 
-                  className="h-16 w-16 md:h-20 md:w-20 object-contain group-hover:drop-shadow-lg transition-all duration-300"
+                  className="h-12 w-12 md:h-14 md:w-14 object-contain"
                 />
-                <div className="block">
-                  <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-[hsl(var(--brand-blue))] to-[hsl(var(--brand-blue-dark))] bg-clip-text text-transparent">
+                <div className="hidden sm:block">
+                  <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
                     Back 2 Health
                   </span>
-                  <div className="text-sm text-[hsl(var(--brand-grey))] font-medium">
+                  <div className="text-xs text-gray-600 font-medium">
                     Chiropractic Wellness Centre
                   </div>
                 </div>
@@ -57,14 +57,14 @@ export default function Navigation() {
           
           <div className="hidden lg:block">
             <div className="ml-10 flex items-baseline space-x-1">
-              <Link href="/" className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--brand-blue))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-[hsl(var(--brand-blue)_/_10%)]">
+              <Link href="/" className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--wellness-green))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-50">
                 Home
               </Link>
               
               <DropdownMenu open={isAboutHovered} onOpenChange={setIsAboutHovered}>
                 <DropdownMenuTrigger asChild>
                   <button 
-                    className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--brand-grey-dark))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-[hsl(var(--brand-grey)_/_10%)] flex items-center gap-1"
+                    className="text-[hsl(var(--neutral-dark))] hover:text-purple-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-purple-50 flex items-center gap-1"
                     onMouseEnter={() => setIsAboutHovered(true)}
                     onMouseLeave={() => setIsAboutHovered(false)}
                   >
@@ -97,7 +97,7 @@ export default function Navigation() {
               <DropdownMenu open={isServicesHovered} onOpenChange={setIsServicesHovered}>
                 <DropdownMenuTrigger asChild>
                   <button 
-                    className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--brand-blue))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-[hsl(var(--brand-blue)_/_10%)] flex items-center gap-1"
+                    className="text-[hsl(var(--neutral-dark))] hover:text-blue-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-blue-50 flex items-center gap-1"
                     onMouseEnter={() => setIsServicesHovered(true)}
                     onMouseLeave={() => setIsServicesHovered(false)}
                   >
@@ -149,13 +149,13 @@ export default function Navigation() {
               </DropdownMenu>
               <button
                 onClick={() => scrollToSection("programs")}
-                className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--brand-blue-light))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-[hsl(var(--brand-blue-light)_/_10%)]"
+                className="text-[hsl(var(--neutral-dark))] hover:text-orange-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-orange-50"
               >
                 Programs
               </button>
               <button
                 onClick={() => scrollToSection("appointment")}
-                className="text-[hsl(var(--neutral-dark))] hover:text-[hsl(var(--brand-grey-dark))] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-[hsl(var(--brand-grey)_/_10%)]"
+                className="text-[hsl(var(--neutral-dark))] hover:text-teal-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-teal-50"
               >
                 Contact
               </button>
@@ -164,7 +164,7 @@ export default function Navigation() {
                 href="https://handbackhealth.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-[hsl(var(--brand-blue))] to-[hsl(var(--brand-blue-dark))] hover:from-[hsl(var(--brand-blue-dark))] hover:to-[hsl(var(--brand-blue))] text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg transform hover:scale-105"
+                className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg transform hover:scale-105"
               >
                 NGO Platform
               </a>

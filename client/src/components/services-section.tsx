@@ -3,7 +3,7 @@ import {
   Hand,
   Zap,
   Activity,
-  HeartHandshake,
+  Brain,
   Target,
   Users,
 } from "lucide-react";
@@ -23,49 +23,49 @@ export default function ServicesSection() {
       icon: Activity,
       title: "Chiropractic",
       description: "Spinal adjustments and manual therapy to restore proper alignment and function",
-      color: "brand-blue",
+      color: "wellness-green",
       image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Dumbbell,
       title: "Physiotherapy",
       description: "Rehabilitation and movement therapy to restore function and strength",
-      color: "brand-blue-light",
+      color: "wellness-blue",
       image: physiotherapyImage,
     },
     {
       icon: Hand,
       title: "Massage Therapy",
       description: "Therapeutic massage to relieve tension and promote healing",
-      color: "brand-grey",
+      color: "wellness-green",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Zap,
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
-      color: "brand-blue",
+      color: "wellness-blue",
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
-      icon: HeartHandshake,
+      icon: Brain,
       title: "Qigong and Breathwork",
       description: "Ancient practices for mind-body wellness and stress reduction",
-      color: "brand-blue-light",
+      color: "wellness-green",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
       description: "Comprehensive programs for metabolic health and sustainable weight management",
-      color: "brand-blue",
+      color: "wellness-blue",
       image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Users,
       title: "Corporate Wellness",
       description: "Workplace wellness programs for businesses and organizations",
-      color: "brand-grey",
+      color: "wellness-green",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
   ];
@@ -77,7 +77,7 @@ export default function ServicesSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-4">
             Our Services
           </h2>
-          <div className="w-24 h-1 bg-[hsl(var(--brand-blue))] mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-[hsl(var(--wellness-green))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive healthcare solutions combining traditional medicine
             with alternative therapies
@@ -101,20 +101,16 @@ export default function ServicesSection() {
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
                   <div
                     className={`absolute top-4 right-4 w-12 h-12 ${
-                      service.color === "brand-blue"
-                        ? "bg-[hsl(var(--brand-blue)_/_90%)]"
-                        : service.color === "brand-blue-light"
-                        ? "bg-[hsl(var(--brand-blue-light)_/_90%)]"
-                        : "bg-[hsl(var(--brand-grey)_/_90%)]"
+                      service.color === "wellness-green"
+                        ? "bg-[hsl(var(--wellness-green)_/_90%)]"
+                        : "bg-[hsl(var(--wellness-blue)_/_90%)]"
                     } rounded-full flex items-center justify-center backdrop-blur-sm`}
                   >
                     <Icon
                       className={`${
-                        service.color === "brand-blue"
-                          ? "text-[hsl(var(--brand-blue))]"
-                          : service.color === "brand-blue-light"
-                          ? "text-[hsl(var(--brand-blue-light))]"
-                          : "text-[hsl(var(--brand-grey-dark))]"
+                        service.color === "wellness-green"
+                          ? "text-[hsl(var(--wellness-green))]"
+                          : "text-[hsl(var(--wellness-blue))]"
                       } w-6 h-6`}
                     />
                   </div>
@@ -129,11 +125,9 @@ export default function ServicesSection() {
                     variant="outline"
                     size="sm"
                     className={`border-2 ${
-                      service.color === "brand-blue"
-                        ? "border-[hsl(var(--brand-blue))] text-[hsl(var(--brand-blue))] hover:bg-[hsl(var(--brand-blue))] hover:text-white"
-                        : service.color === "brand-blue-light"
-                        ? "border-[hsl(var(--brand-blue-light))] text-[hsl(var(--brand-blue-light))] hover:bg-[hsl(var(--brand-blue-light))] hover:text-white"
-                        : "border-[hsl(var(--brand-grey))] text-[hsl(var(--brand-grey-dark))] hover:bg-[hsl(var(--brand-grey))] hover:text-white"
+                      service.color === "wellness-green"
+                        ? "border-[hsl(var(--wellness-green))] text-[hsl(var(--wellness-green))] hover:bg-[hsl(var(--wellness-green))] hover:text-white"
+                        : "border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white"
                     } transition-colors duration-200`}
                   >
                     Book Now
