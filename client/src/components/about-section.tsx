@@ -19,19 +19,19 @@ export default function AboutSection() {
           <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+          <div className="order-2 lg:order-1">
             <img
               src={greggBioImage}
               alt="Dr. Gregg - Back 2 Health Specialist"
-              className="rounded-xl shadow-lg w-full h-auto"
+              className="rounded-xl shadow-lg w-full h-auto max-w-md mx-auto lg:mx-0"
             />
           </div>
-          <div>
+          <div className="order-1 lg:order-2">
             <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
               Our Story
             </h3>
-            <div className="space-y-4 text-gray-600 text-lg">
+            <div className="space-y-4 text-gray-600 text-base lg:text-lg">
               <p>
                 Back 2 Health Chiropractic and Wellness Centre is dedicated to providing natural and drug free solutions to disease and pain while promoting Wellness. We believe in addressing the root cause of health issues rather than just treating symptoms.
               </p>
