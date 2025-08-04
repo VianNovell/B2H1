@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Activity, Heart, Users, Zap, Eye, Baby, Dumbbell, Brain, Stethoscope, Scissors, Waves, Target, ChevronDown, ChevronUp, X } from "lucide-react";
+import { Activity, Heart, Users, Zap, Eye, Baby, Dumbbell, Stethoscope, Scissors, Waves, Target, ChevronDown, ChevronUp, X } from "lucide-react";
 import Navigation from "@/components/navigation";
 
 export default function Services() {
@@ -62,17 +62,17 @@ export default function Services() {
       detailedInfo: "PEMF (Pulsed Electromagnetic Field) therapy uses electromagnetic fields to stimulate cellular repair and regeneration. This non-invasive treatment helps reduce pain and inflammation, improves circulation, and accelerates healing at the cellular level. PEMF therapy is particularly effective for chronic pain conditions, arthritis, bone healing, and overall wellness enhancement."
     },
     {
-      icon: Brain,
-      title: "Qigong and Breathwork",
-      description: "Ancient practices for mind-body wellness",
+      icon: Activity,
+      title: "Spinal Rehabilitation",
+      description: "Targeted exercises and therapies for spine health",
       subservices: [
-        "Stress reduction and relaxation",
-        "Improved energy and vitality",
-        "Better sleep quality",
-        "Enhanced mental clarity",
-        "Emotional balance and wellbeing"
+        "Spine alignment assessment",
+        "Targeted strengthening exercises",
+        "Posture correction therapy",
+        "Pain reduction techniques",
+        "Mobility improvement programs"
       ],
-      detailedInfo: "Qigong is an ancient Chinese practice that combines gentle movements, breathing techniques, and meditation to cultivate and balance life energy (qi). Our breathwork sessions focus on conscious breathing patterns to reduce stress, improve mental clarity, and enhance overall wellbeing. These practices help regulate the nervous system, improve sleep, and promote emotional balance."
+      detailedInfo: "Our spinal rehabilitation program focuses on restoring proper spine function through targeted exercises and therapeutic interventions. We use evidence-based techniques to strengthen supporting muscles, improve posture, and reduce pain. This comprehensive approach helps patients recover from injuries, manage chronic conditions, and prevent future spinal problems."
     },
     {
       icon: Users,
@@ -106,7 +106,7 @@ export default function Services() {
     <div className="min-h-screen bg-gray-50">
       <Navigation />
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-green-500">
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-500">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -128,7 +128,7 @@ export default function Services() {
               return (
                 <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 group">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                       <IconComponent className="h-6 w-6 text-white" />
                     </div>
                     <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))]">

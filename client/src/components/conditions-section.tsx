@@ -1,7 +1,6 @@
 import { 
   ArrowDownToLine, 
   Skull, 
-  Brain, 
   Activity, 
   Flame, 
   Zap,
@@ -23,7 +22,7 @@ export default function ConditionsSection() {
       color: "wellness-blue",
     },
     {
-      icon: Brain,
+      icon: Activity,
       title: "Headaches",
       description: "Treatment for tension headaches, migraines, and cervicogenic headaches using multiple therapeutic approaches.",
       color: "wellness-blue",
