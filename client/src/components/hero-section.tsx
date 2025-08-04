@@ -20,7 +20,7 @@ export default function HeroSection() {
   const slides = [
     {
       title: "Chiropractic and Specialist Holistic Therapy Wellness Centre",
-      subtitle: "Natural and drug free solutions to disease, pain and promoting Wellness.",
+      subtitle: "Natural and drug free solutions to pain, disease and promoting wellness.",
       backgroundImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional chiropractic therapy",
       highlight: "Natural Healing"
