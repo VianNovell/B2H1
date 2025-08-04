@@ -23,11 +23,11 @@
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 84%, 60%);
   --destructive-foreground: hsl(210, 40%, 98%);
-  --ring: hsl(156, 73%, 40%);
+  --ring: hsl(210, 75%, 45%);
   --radius: 0.5rem;
-  --wellness-green: hsl(156, 73%, 40%);
-  --wellness-blue: hsl(189, 70%, 42%);
-  --wellness-accent: hsl(158, 64%, 52%);
+  --wellness-green: hsl(210, 75%, 45%);
+  --wellness-blue: hsl(220, 85%, 55%);
+  --wellness-accent: hsl(210, 65%, 60%);
   --neutral-dark: hsl(220, 13%, 28%);
 }
 

@@ -3,9 +3,10 @@ import {
   Hand,
   Zap,
   Activity,
-  Brain,
+  Bone,
   Target,
   Users,
+  Activity as Spine,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
@@ -13,7 +14,7 @@ import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-92757
 export default function ServicesSection() {
   const services = [
     {
-      icon: Activity,
+      icon: Spine,
       title: "Chiropractic",
       description: "Spinal adjustments and manual therapy to restore proper alignment and function",
       color: "wellness-green",
@@ -28,24 +29,24 @@ export default function ServicesSection() {
     },
     {
       icon: Hand,
-      title: "Massage Therapy",
-      description: "Therapeutic massage to relieve tension and promote healing",
+      title: "Therapeutic Massage",
+      description: "Medical massage therapy for pain relief, injury recovery and muscle tension",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Zap,
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
-      icon: Brain,
+      icon: Bone,
       title: "Qigong and Breathwork",
       description: "Ancient practices for mind-body wellness and stress reduction",
       color: "wellness-green",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Target,

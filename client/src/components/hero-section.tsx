@@ -18,8 +18,8 @@ export default function HeroSection() {
 
   const slides = [
     {
-      title: "Chiropractic and Specialist Holistic Therapy Wellness Centre",
-      subtitle: "Natural and drug free solutions to disease, pain and promoting Wellness.",
+      title: "Chiropractic and Specialist Holistic Therapy",
+      subtitle: "Natural and drug-free solutions to pain, disease and promoting wellness",
       backgroundImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional chiropractic therapy",
       highlight: "Natural Healing"
@@ -32,8 +32,8 @@ export default function HeroSection() {
       highlight: "We Can Help"
     },
     {
-      title: "Expert Chiropractic Care & Physiotherapy",
-      subtitle: "Comprehensive treatment for pain relief, injury recovery, and optimal wellness in Bukoto and Entebbe.",
+      title: "Expert Chiropractic and Physiotherapy",
+      subtitle: "Expert Care - comprehensive treatment for pain relief, injury recovery and optimal wellness in Kampala and Entebbe",
       backgroundImage: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional healthcare treatment",
       highlight: "Expert Care"
@@ -132,18 +132,14 @@ export default function HeroSection() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="grid grid-cols-3 gap-3 sm:gap-6 pt-6 md:pt-8 text-center lg:text-left px-4">
+            <div className="grid grid-cols-2 gap-6 sm:gap-8 pt-6 md:pt-8 text-center lg:text-left px-4">
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">500+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">1000+</div>
                 <div className="text-xs sm:text-sm text-white/80">Happy Patients</div>
               </div>
               <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">15+</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">20+</div>
                 <div className="text-xs sm:text-sm text-white/80">Years Experience</div>
-              </div>
-              <div className="text-white">
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400 drop-shadow-lg">98%</div>
-                <div className="text-xs sm:text-sm text-white/80">Success Rate</div>
               </div>
             </div>
           </div>
