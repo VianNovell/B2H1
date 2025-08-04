@@ -1,7 +1,7 @@
 import { Calendar, Phone, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
-// Using spine X-ray as background image
+import spineImage from "@assets/Spine.png";
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -28,8 +28,8 @@ export default function HeroSection() {
     {
       title: "Are you looking for relief from injury or everyday aches and pains?",
       subtitle: "OR trying to maintain a healthy, active lifestyle? We can help.",
-      backgroundImage: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-      imageAlt: "Medical spine anatomy and chiropractic treatment",
+      backgroundImage: spineImage,
+      imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
       highlight: "We Can Help"
     },
     {
