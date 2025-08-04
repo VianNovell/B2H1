@@ -33,8 +33,8 @@ export default function HeroSection() {
       highlight: "We Can Help"
     },
     {
-      title: "Expert Chiropractic Care & Physiotherapy",
-      subtitle: "Comprehensive treatment for pain relief, injury recovery, and optimal wellness in Bukoto and Entebbe.",
+      title: "Expert Chiropractic and Physiotherapy",
+      subtitle: "Comprehensive treatment for pain relief, injury recovery and optimal wellness in Kampala and Entebbe.",
       backgroundImage: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional healthcare treatment",
       highlight: "Expert Care"
