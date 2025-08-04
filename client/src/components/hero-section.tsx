@@ -20,14 +20,14 @@ export default function HeroSection() {
     {
       title: "Chiropractic and Specialist Holistic Therapy Wellness Centre",
       subtitle: "Natural and drug free solutions to disease, pain and promoting Wellness.",
-      backgroundImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      backgroundImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional chiropractic therapy",
       highlight: "Natural Healing"
     },
     {
       title: "Are you looking for relief from injury or everyday aches and pains?",
       subtitle: "OR trying to maintain a healthy, active lifestyle? We can help.",
-      backgroundImage: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      backgroundImage: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Serene nature and holistic healing",
       highlight: "We Can Help"
     },
@@ -41,7 +41,7 @@ export default function HeroSection() {
     {
       title: "Holistic Wellness Programs",
       subtitle: "From massage therapy to corporate wellness programs - complete solutions for your health journey.",
-      backgroundImage: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
+      backgroundImage: "https://images.unsplash.com/photo-1559062163-e5c1b8fcb9dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Therapeutic wellness programs",
       highlight: "Holistic Wellness"
     }

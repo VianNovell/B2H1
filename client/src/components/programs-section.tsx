@@ -14,11 +14,11 @@ export default function ProgramsSection() {
         "Progress tracking & adjustments",
         "Flexible scheduling options"
       ],
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-green-500 to-emerald-600",
-      bgColor: "bg-green-50",
+      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      gradient: "from-blue-500 to-blue-600",
+      bgColor: "bg-blue-50",
       textColor: "text-blue-700",
-      iconBg: "bg-green-100",
+      iconBg: "bg-blue-100",
       duration: "60-90 min",
       price: "Starting at $150"
     },
@@ -33,7 +33,7 @@ export default function ProgramsSection() {
         "Peer support network",
         "Group exercise programs"
       ],
-      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       gradient: "from-blue-500 to-cyan-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
@@ -52,7 +52,7 @@ export default function ProgramsSection() {
         "Health screening programs",
         "Employee wellness coaching"
       ],
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       gradient: "from-purple-500 to-indigo-600",
       bgColor: "bg-purple-50",
       textColor: "text-purple-700",

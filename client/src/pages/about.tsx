@@ -15,7 +15,7 @@ export default function About() {
     <div className="min-h-screen bg-gray-50">
       <Navigation />
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-green-500">
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-500">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
