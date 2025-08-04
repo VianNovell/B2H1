@@ -99,7 +99,7 @@ export default function HeroSection() {
                 <span className="block">
                   {slides[currentSlide].title.split(slides[currentSlide].highlight)[0]}
                 </span>
-                <span className="block bg-gradient-to-r from-green-400 to-green-300 bg-clip-text text-transparent animate-text-glow">
+                <span className="block bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent animate-text-glow">
                   {slides[currentSlide].highlight}
                 </span>
                 <span className="block">
@@ -116,7 +116,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 md:pt-6 px-4">
               <Button
                 onClick={scrollToAppointment}
-                className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
+                className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Calendar className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Book an Appointment

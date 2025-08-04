@@ -107,7 +107,7 @@ export default function AppointmentBooking() {
   const today = new Date().toISOString().split('T')[0];
 
   return (
-    <section id="appointment" className="py-20 bg-gradient-to-br from-blue-50 to-green-50">
+    <section id="appointment" className="py-20 bg-gradient-to-br from-blue-50 to-blue-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-4">

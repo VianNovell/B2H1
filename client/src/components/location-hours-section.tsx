@@ -5,7 +5,7 @@ export default function LocationHoursSection() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-green-50 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-50 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 bg-[hsl(var(--wellness-blue))] rounded-full blur-3xl animate-pulse"></div>
@@ -41,7 +41,7 @@ export default function LocationHoursSection() {
             onMouseLeave={() => setHoveredCard(null)}
           >
             {/* Card Background Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-white to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
             {/* Featured Badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center shadow-lg">
@@ -111,7 +111,7 @@ export default function LocationHoursSection() {
             onMouseLeave={() => setHoveredCard(null)}
           >
             {/* Card Background Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-green-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
             {/* Contact Badge */}
             <div className="absolute top-4 right-4 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 text-white px-3 py-1 rounded-full text-xs font-semibold flex items-center shadow-lg">

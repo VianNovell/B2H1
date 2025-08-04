@@ -14,7 +14,7 @@ export default function ConditionsSection() {
       icon: ArrowDownToLine,
       title: "Low Back Pain",
       description: "Comprehensive treatment for acute and chronic lower back pain using chiropractic care, physiotherapy, and rehabilitation.",
-      color: "wellness-green",
+      color: "wellness-blue",
     },
     {
       icon: Skull,
@@ -26,7 +26,7 @@ export default function ConditionsSection() {
       icon: Brain,
       title: "Headaches",
       description: "Treatment for tension headaches, migraines, and cervicogenic headaches using multiple therapeutic approaches.",
-      color: "wellness-green",
+      color: "wellness-blue",
     },
     {
       icon: Activity,
@@ -38,7 +38,7 @@ export default function ConditionsSection() {
       icon: Flame,
       title: "Inflammatory Pain",
       description: "Natural and medical approaches to reduce inflammation and manage associated pain conditions.",
-      color: "wellness-green",
+      color: "wellness-blue",
     },
     {
       icon: Zap,
@@ -72,18 +72,10 @@ export default function ConditionsSection() {
               >
                 <div className="flex items-center mb-4">
                   <div
-                    className={`w-12 h-12 ${
-                      condition.color === "wellness-green"
-                        ? "bg-[hsl(var(--wellness-blue)_/_10%)]"
-                        : "bg-[hsl(var(--wellness-blue)_/_10%)]"
-                    } rounded-full flex items-center justify-center mr-4`}
+                    className={`w-12 h-12 bg-[hsl(var(--wellness-blue)_/_10%)] rounded-full flex items-center justify-center mr-4`}
                   >
                     <Icon
-                      className={`${
-                        condition.color === "wellness-green"
-                          ? "text-[hsl(var(--wellness-blue))]"
-                          : "text-[hsl(var(--wellness-blue))]"
-                      } w-6 h-6`}
+                      className={`text-[hsl(var(--wellness-blue))] w-6 h-6`}
                     />
                   </div>
                   <h3 className="text-lg font-semibold text-[hsl(var(--neutral-dark))]">
