@@ -24,7 +24,7 @@ export default function ServicesSection() {
     {
       icon: Activity,
       title: "Chiropractic",
-      description: "Spinal adjustments and manual therapy to restore proper alignment and function",
+      description: "Chiropractic is based on the scientific fact that your body is a self-regulating, self-healing organism. We focus on the nervous system and its relationship to your body, specializing in diagnosis, treatment and prevention of neuromusculoskeletal disorders with emphasis on manual techniques and joint adjustment.",
       color: "wellness-blue",
       image: spineImage,
     },
