@@ -64,10 +64,10 @@ export default function ServicesSection() {
     },
     {
       icon: Users,
-      title: "Corporate Wellness",
-      description: "Workplace wellness programs for businesses and organizations",
+      title: "Trusted Legal Compliance Experts",
+      description: "Professional legal compliance consulting and workplace wellness programs for businesses and organizations",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
   ];
 
