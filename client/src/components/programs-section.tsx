@@ -77,15 +77,7 @@ export default function ProgramsSection() {
                 {/* Background Pattern */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                {/* Program Image */}
-                <div className="relative mb-6">
-                  <img
-                    src={program.image}
-                    alt={program.title}
-                    className="w-full h-48 md:h-56 object-cover rounded-xl"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl"></div>
-                </div>
+
 
                 {/* Content */}
                 <div className="relative z-10">

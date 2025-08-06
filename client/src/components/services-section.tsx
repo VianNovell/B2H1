@@ -10,6 +10,7 @@ import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-92757
 import spineImage from "@assets/Spine.png";
 import therapeuticImage from "@assets/Therapeuticimage.png";
 import doctorImage from "@assets/Doctor.png";
+import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ServicesSection() {
   const scrollToAppointment = () => {
@@ -60,7 +61,7 @@ export default function ServicesSection() {
       title: "Diabetes & Weight Loss Programs",
       description: "Comprehensive programs for metabolic health and sustainable weight management",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: diabetesWeightLossImage,
     },
 
   ];
