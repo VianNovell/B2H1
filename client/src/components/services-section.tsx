@@ -13,8 +13,8 @@ import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ServicesSection() {
-  const scrollToServices = () => {
-    const element = document.getElementById("services");
+  const scrollToAppointment = () => {
+    const element = document.getElementById("appointment");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
@@ -110,12 +110,12 @@ export default function ServicesSection() {
                   </h3>
                   <p className="text-gray-600 text-sm mb-4">{service.description}</p>
                   <Button
-                    onClick={scrollToServices}
+                    onClick={scrollToAppointment}
                     variant="outline"
                     size="sm"
                     className={`border-2 border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white transition-colors duration-200`}
                   >
-                    Learn More
+                    Book Now
                   </Button>
                 </div>
               </div>
