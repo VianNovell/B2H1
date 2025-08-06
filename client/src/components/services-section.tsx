@@ -4,7 +4,6 @@ import {
   Zap,
   Activity,
   Target,
-  Users,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
@@ -62,13 +61,7 @@ export default function ServicesSection() {
       color: "wellness-blue",
       image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
-    {
-      icon: Users,
-      title: "Trusted Legal Compliance Experts",
-      description: "Professional legal compliance consulting and workplace wellness programs for businesses and organizations",
-      color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    },
+
   ];
 
   return (
