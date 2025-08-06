@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import spineImage from "@assets/Spine.png";
 import therapeuticImage from "@assets/Therapeuticimage.png";
+import therapyImage from "@assets/Therapy.png";
 
 export default function ServicesSection() {
   const scrollToAppointment = () => {
@@ -45,7 +46,7 @@ export default function ServicesSection() {
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: therapyImage,
     },
     {
       icon: Activity,
