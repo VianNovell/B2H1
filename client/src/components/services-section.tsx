@@ -38,7 +38,7 @@ export default function ServicesSection() {
       title: "Therapeutic Massage",
       description: "Professional therapeutic massage to relieve tension and promote healing",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Zap,
