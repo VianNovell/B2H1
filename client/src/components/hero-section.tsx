@@ -92,18 +92,18 @@ export default function HeroSection() {
             <div className="space-y-4 md:space-y-6 animate-fade-in-up">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-white text-shadow-strong px-2">
                 <span className="block">
-                  {slides[currentSlide].title.split(slides[currentSlide].highlight)[0]}
+                  {slides[currentSlide]?.title?.split(slides[currentSlide]?.highlight || '')[0] || ''}
                 </span>
                 <span className="block bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent animate-text-glow">
-                  {slides[currentSlide].highlight}
+                  {slides[currentSlide]?.highlight || ''}
                 </span>
                 <span className="block">
-                  {slides[currentSlide].title.split(slides[currentSlide].highlight)[1]}
+                  {slides[currentSlide]?.title?.split(slides[currentSlide]?.highlight || '')[1] || ''}
                 </span>
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light leading-relaxed text-shadow-medium max-w-2xl px-2">
-                {slides[currentSlide].subtitle}
+                {slides[currentSlide]?.subtitle || ''}
               </p>
             </div>
             

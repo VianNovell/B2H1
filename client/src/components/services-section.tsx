@@ -6,6 +6,7 @@ import {
   Target,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useLocation } from "wouter";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import spineImage from "@assets/Spine.png";
 import therapeuticImage from "@assets/Therapeuticimage.png";
@@ -13,11 +14,11 @@ import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ServicesSection() {
-  const scrollToAppointment = () => {
-    const element = document.getElementById("appointment");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+  const [, setLocation] = useLocation();
+
+  const handleLearnMore = (serviceTitle: string) => {
+    const serviceSlug = serviceTitle.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and');
+    setLocation(`/services/${serviceSlug}`);
   };
 
   const services = [
@@ -110,12 +111,12 @@ export default function ServicesSection() {
                   </h3>
                   <p className="text-gray-600 text-sm mb-4">{service.description}</p>
                   <Button
-                    onClick={scrollToAppointment}
+                    onClick={() => handleLearnMore(service.title)}
                     variant="outline"
                     size="sm"
                     className={`border-2 border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white transition-colors duration-200`}
                   >
-                    Book Now
+                    Learn More
                   </Button>
                 </div>
               </div>
