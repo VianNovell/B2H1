@@ -39,14 +39,16 @@ export default function AboutSection() {
 
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
               <h4 className="text-xl font-semibold text-[hsl(var(--neutral-dark))] mb-3">
-                Our Collaborative Care Model
+                Our Goal
               </h4>
               <p className="text-gray-600">
-                Our innovative approach brings together multiple healthcare
-                professionals to work as a unified team. This means patients
-                benefit from the combined knowledge, experience, and expertise
-                of all our doctors and therapists, ensuring comprehensive and
-                personalized treatment plans.
+                Whether it's back pain, a sports injury, sciatica, or something more complex, we'll match you with the clinician who's the best fit for your body, your goals, and your journey, regardless of their professional title.
+              </p>
+              <p className="text-gray-600 mt-4">
+                Every member of our team is trained to the same high standards. Every clinician is skilled, collaborative, and focused on getting you better; not selling a profession, but solving your problem.
+              </p>
+              <p className="text-gray-600 mt-4">
+                We are experts who listen, explain, and guide you forward, together. If any of our clinicians believe that you would be better suited with another therapist they will refer you so that you receive the best possible individual care.
               </p>
             </div>
 
