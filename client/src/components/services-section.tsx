@@ -31,14 +31,14 @@ export default function ServicesSection() {
     {
       icon: Dumbbell,
       title: "Physiotherapy",
-      description: "Rehabilitation and movement therapy to restore function and strength",
+      description: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
       color: "wellness-blue",
       image: physiotherapyImage,
     },
     {
       icon: Hand,
       title: "Therapeutic Massage",
-      description: "Professional therapeutic massage to relieve tension and promote healing",
+      description: "Therapeutic massage, also known as Medical massage, is tailored to your health needs. A targeted approach to relieve stress, reduce pain, and restore balance using techniques specific to your individual needs. Benefits include relief from muscle tension, improved circulation and flexibility, stress reduction, and support for injury recovery.",
       color: "wellness-blue",
       image: doctorImage,
     },
@@ -59,9 +59,16 @@ export default function ServicesSection() {
     {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
-      description: "Comprehensive programs for metabolic health and sustainable weight management",
+      description: "Comprehensive programs for metabolic health and sustainable weight management. Personalized nutrition plans, exercise therapy programs, and lifestyle modification coaching to help you achieve your health goals and improve your quality of life.",
       color: "wellness-blue",
       image: diabetesWeightLossImage,
+    },
+    {
+      icon: Activity,
+      title: "Complex Cases & Second Opinions",
+      description: "We specialise in guiding patients through complexity of chronic or unresolved musculoskeletal conditions. With extensive experience managing complex conditions, we provide thorough second opinions that help clarify next steps and offer clear expert insights for lasting solutions.",
+      color: "wellness-blue",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
 
   ];
@@ -80,7 +87,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
