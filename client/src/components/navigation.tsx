@@ -160,6 +160,15 @@ export default function Navigation() {
                 Contact
               </button>
               
+              <a 
+                href="https://handbackhealth.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-[hsl(var(--neutral-dark))] hover:text-red-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-red-50"
+              >
+                NGO Platform
+              </a>
+              
               <a
                 href="https://handbackhealth.org/"
                 target="_blank"
@@ -224,7 +233,7 @@ export default function Navigation() {
               href="https://handbackhealth.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block px-4 py-3 text-base font-medium bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 rounded-lg transition-all duration-200 text-center"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-red-600 hover:bg-red-50 w-full text-left rounded-lg transition-all duration-200"
             >
               NGO Platform
             </a>

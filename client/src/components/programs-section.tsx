@@ -1,6 +1,5 @@
 import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ProgramsSection() {
   const programs = [
@@ -8,39 +7,42 @@ export default function ProgramsSection() {
       icon: Building2,
       title: "Corporate Wellness",
       subtitle: "Workplace Health Solutions",
-      description: "Comprehensive programs designed to boost employee health and productivity.",
+      description: "Do you want happy, healthy employees, improved workplace morale, reduced sick days, and improved productivity? Research proves that wellness programs save companies money. Healthy employees cost you less.",
       features: [
-        "On-site consultations",
-        "Stress management workshops",
-        "Health screening programs",
-        "Employee wellness coaching"
+        "Individual therapy consultations",
+        "Group programs for diabetes, obesity, cholesterol",
+        "Qi gong, breathwork and meditation sessions",
+        "Exercise rehabilitation for back and neck pain",
+        "Corporate wellness workshops and presentations",
+        "Ergonomic training and stress management",
+        "Diet, nutrition and sleep hygiene education"
       ],
-      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
       iconBg: "bg-blue-100",
-      duration: "Custom programs",
+      duration: "Tailored programs",
       price: "Contact for pricing"
     },
     {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
-      subtitle: "Metabolic Health Solutions",
-      description: "Comprehensive programs for metabolic health and sustainable weight management.",
+      subtitle: "Type II Diabetes & Prediabetes Management",
+      description: "Designed for people with Type II Diabetes and Prediabetes to provide greater understanding and practical tools for self-management. The course empowers patients through education and motivation for sustainable lifestyle changes.",
       features: [
-        "Personalized nutrition plans",
-        "Blood sugar monitoring",
-        "Exercise therapy programs",
-        "Lifestyle modification coaching"
+        "Weekly group sessions (up to 10 people)",
+        "Educational presentations and discussions",
+        "Individual assessment and instruction",
+        "Weight reduction and cholesterol improvement",
+        "Reduced need for medication",
+        "Improved quality of life outcomes"
       ],
-      image: diabetesWeightLossImage,
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
       iconBg: "bg-blue-100",
-      duration: "12-16 weeks",
-      price: "Starting at $200"
+      duration: "Group-based program",
+      price: "Contact for details"
     },
   ];
 
