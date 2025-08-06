@@ -1,6 +1,7 @@
 import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import diabetesWeightLossImage from "@assets/D and W image.png";
+// Temporarily using URL reference for D and W image
+// import diabetesWeightLossImage from "@assets/D and W image.png";
 
 export default function ProgramsSection() {
   const programs = [
@@ -34,7 +35,7 @@ export default function ProgramsSection() {
         "Exercise therapy programs",
         "Lifestyle modification coaching"
       ],
-      image: diabetesWeightLossImage,
+      image: "/attached_assets/D and W image.png",
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
