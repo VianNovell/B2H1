@@ -8,7 +8,7 @@ import {
 import { Button } from "@/components/ui/button";
 import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import spineImage from "@assets/Spine.png";
-// Using spine rehabilitation image from assets
+import therapeuticImage from "@assets/Therapeuticimage.png";
 
 export default function ServicesSection() {
   const scrollToAppointment = () => {
@@ -38,7 +38,7 @@ export default function ServicesSection() {
       title: "Therapeutic Massage",
       description: "Professional therapeutic massage to relieve tension and promote healing",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: therapeuticImage,
     },
     {
       icon: Zap,
