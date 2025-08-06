@@ -1,46 +1,8 @@
-import { Heart, Users, Building2, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
+import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ProgramsSection() {
   const programs = [
-    {
-      icon: Heart,
-      title: "Individual Care",
-      subtitle: "Personalized Healing Journey",
-      description: "One-on-one sessions tailored to your unique wellness goals.",
-      features: [
-        "Comprehensive health assessment",
-        "Customized treatment plans",
-        "Progress tracking & adjustments",
-        "Flexible scheduling options"
-      ],
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-blue-500 to-blue-600",
-      bgColor: "bg-blue-50",
-      textColor: "text-blue-700",
-      iconBg: "bg-blue-100",
-      duration: "60-90 min",
-      price: "Starting at $150"
-    },
-    {
-      icon: Users,
-      title: "Group Sessions",
-      subtitle: "Community Wellness",
-      description: "Connect with others on similar healing journeys in supportive group settings.",
-      features: [
-        "Qigong & meditation classes",
-        "Wellness workshops",
-        "Peer support network",
-        "Group exercise programs"
-      ],
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-blue-500 to-cyan-600",
-      bgColor: "bg-blue-50",
-      textColor: "text-blue-700",
-      iconBg: "bg-blue-100",
-      duration: "45-60 min",
-      price: "Starting at $35"
-    },
     {
       icon: Building2,
       title: "Corporate Wellness",
@@ -53,12 +15,31 @@ export default function ProgramsSection() {
         "Employee wellness coaching"
       ],
       image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-      gradient: "from-purple-500 to-indigo-600",
-      bgColor: "bg-purple-50",
-      textColor: "text-purple-700",
-      iconBg: "bg-purple-100",
+      gradient: "from-blue-500 to-blue-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-700",
+      iconBg: "bg-blue-100",
       duration: "Custom programs",
       price: "Contact for pricing"
+    },
+    {
+      icon: Target,
+      title: "Diabetes & Weight Loss Programs",
+      subtitle: "Metabolic Health Solutions",
+      description: "Comprehensive programs for metabolic health and sustainable weight management.",
+      features: [
+        "Personalized nutrition plans",
+        "Blood sugar monitoring",
+        "Exercise therapy programs",
+        "Lifestyle modification coaching"
+      ],
+      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      gradient: "from-blue-500 to-blue-600",
+      bgColor: "bg-blue-50",
+      textColor: "text-blue-700",
+      iconBg: "bg-blue-100",
+      duration: "12-16 weeks",
+      price: "Starting at $200"
     },
   ];
 
@@ -77,14 +58,14 @@ export default function ProgramsSection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6 px-4">
             Wellness Programs
           </h2>
-          <div className="w-20 md:w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-600 mx-auto mb-6 md:mb-8"></div>
+          <div className="w-20 md:w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto mb-6 md:mb-8"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
             Choose the perfect wellness journey tailored to your lifestyle and health goals
           </p>
         </div>
 
         {/* Programs Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 max-w-4xl mx-auto">
           {programs.map((program, index) => {
             const Icon = program.icon;
             return (
