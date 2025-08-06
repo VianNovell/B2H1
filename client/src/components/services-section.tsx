@@ -63,13 +63,7 @@ export default function ServicesSection() {
       color: "wellness-blue",
       image: diabetesWeightLossImage,
     },
-    {
-      icon: Activity,
-      title: "Complex Cases & Second Opinions",
-      description: "We specialise in guiding patients through complexity of chronic or unresolved musculoskeletal conditions. With extensive experience managing complex conditions, we provide thorough second opinions that help clarify next steps and offer clear expert insights for lasting solutions.",
-      color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    },
+
 
   ];
 
@@ -87,7 +81,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
