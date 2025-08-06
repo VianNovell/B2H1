@@ -2,6 +2,12 @@ import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "luc
 import { Button } from "@/components/ui/button";
 
 export default function ProgramsSection() {
+  const scrollToServices = () => {
+    const element = document.getElementById("services");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const programs = [
     {
       icon: Building2,
@@ -124,10 +130,10 @@ export default function ProgramsSection() {
 
                   {/* CTA Button */}
                   <Button
-                    onClick={scrollToAppointments}
+                    onClick={scrollToServices}
                     className={`w-full bg-gradient-to-r ${program.gradient} hover:shadow-lg text-white font-semibold py-3 md:py-4 px-6 rounded-lg md:rounded-xl transition-all duration-300 group-hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation`}
                   >
-                    Book Now
+                    Learn More
                     <ArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300" />
                   </Button>
                 </div>
