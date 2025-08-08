@@ -174,7 +174,7 @@ export default function ServiceDetail() {
     "diabetes-and-weight-loss-programs": {
       title: "Diabetes &",
       shortDescription: "Comprehensive programs for metabolic health",
-      fullDescription: "Comprehensive programs for metabolic health and sustainable weight management. Personalized nutrition plans, exercise therapy programs, and lifestyle modification coaching to help you achieve your health goals and improve your quality of life. Learn more about our <a href='/#programs' class='text-blue-600 hover:text-blue-800 underline'>Programs</a>.",
+      fullDescription: "Comprehensive programs for metabolic health and sustainable weight management. Personalized nutrition plans, exercise therapy programs, and lifestyle modification coaching to help you achieve your health goals and improve your quality of life.",
       image: diabetesWeightLossImage,
       imageAlt: "Diabetes and weight loss program",
       benefits: [
@@ -300,7 +300,16 @@ export default function ServiceDetail() {
             {/* Main Description */}
             <div className="lg:col-span-2">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">About {service.title}</h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-8">{service.fullDescription}</p>
+              {slug === 'diabetes-and-weight-loss-programs' ? (
+                <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                  {service.fullDescription} Learn more about our{' '}
+                  <a href="/#programs" className="text-blue-600 hover:text-blue-800 underline">
+                    Programs
+                  </a>.
+                </p>
+              ) : (
+                <p className="text-lg text-gray-600 leading-relaxed mb-8">{service.fullDescription}</p>
+              )}
               
               {/* Benefits Section for Therapeutic Massage */}
               {slug === 'therapeutic-massage' && (
