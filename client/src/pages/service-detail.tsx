@@ -28,7 +28,7 @@ export default function ServiceDetail() {
     "chiropractic": {
       title: "Chiropractic",
       shortDescription: "Comprehensive neuromusculoskeletal diagnosis and treatment",
-      fullDescription: "Chiropractic is based on the scientific fact that your body is a self-regulating, self-healing organism. We focus on the nervous system and its relationship to your body, specializing in diagnosis, treatment and prevention of neuromusculoskeletal disorders with emphasis on manual techniques and joint adjustment.",
+      fullDescription: "Chiropractic is based on the scientific fact that your body is a self-regulating, self-healing organism. All the important functions of the body are controlled by the nervous system, comprising of the brain, spinal cord, and nerves. Chiropractic focuses on the nervous system and its relationship to your body. Chiropractic is a health care profession concerned with the diagnosis, treatment, and prevention of neuromusculoskeletal disorders, and the effects of these disorders on the nervous system and general health. There is an emphasis on manual techniques, including joint adjustment and/or manipulation, with a particular focus on joint subluxation/dysfunction.",
       image: spineImage,
       imageAlt: "Spine X-ray showing vertebrae and spinal structure",
       benefits: [
@@ -58,7 +58,7 @@ export default function ServiceDetail() {
     "physiotherapy": {
       title: "Physiotherapy",
       shortDescription: "Evidence-based rehabilitation and movement therapy",
-      fullDescription: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
+      fullDescription: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Whether you're recovering from surgery, dealing with chronic pain, or facing a sports injury, our licensed physiotherapist is here to support your journey to recovery and long-term wellness. Through a combination of hands-on techniques, tailored exercise programs, and education, physiotherapy can help alleviate pain and inflammation, restore strength, flexibility, and mobility, prevent further injury or complications, and improve posture and movement mechanics. We treat a wide range of conditions, including musculoskeletal injuries, neurological disorders, post-operative rehabilitation, and more. Every treatment plan is customised to meet your unique goals and lifestyle.",
       image: physiotherapyImage,
       imageAlt: "Physiotherapy treatment session",
       benefits: [
