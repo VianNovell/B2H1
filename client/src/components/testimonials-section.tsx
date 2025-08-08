@@ -97,23 +97,6 @@ export default function TestimonialsSection() {
           ))}
         </div>
 
-        {/* Trust Indicators */}
-        <div className="mt-16 text-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold text-[hsl(var(--wellness-blue))] mb-2">
-                1000+
-              </div>
-              <p className="text-gray-600">Happy Patients</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold text-[hsl(var(--wellness-blue))] mb-2">
-                20+
-              </div>
-              <p className="text-gray-600">Years Experience</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
