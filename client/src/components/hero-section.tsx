@@ -14,9 +14,6 @@ export default function HeroSection() {
     }
   };
 
-  const callNow = () => {
-    window.open("tel:0758478992", "_self");
-  };
 
   const slides = [
     {
@@ -100,22 +97,14 @@ export default function HeroSection() {
               </p>
             </div>
             
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4 md:pt-6 px-4">
+            {/* CTA Button */}
+            <div className="flex justify-center lg:justify-start pt-4 md:pt-6 px-4">
               <Button
                 onClick={scrollToAppointment}
                 className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-full border-2 border-white/20 backdrop-blur-sm min-h-[48px] touch-manipulation"
               >
                 <Calendar className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
                 Book an Appointment
-              </Button>
-              <Button
-                onClick={callNow}
-                variant="outline"
-                className="border-3 border-white/80 text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 md:px-12 py-4 md:py-5 text-base sm:text-lg md:text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-full bg-white/10 backdrop-blur-sm min-h-[48px] touch-manipulation"
-              >
-                <Phone className="mr-2 h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7" />
-                Call Now
               </Button>
             </div>
 
@@ -132,29 +121,6 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right side floating elements for larger screens */}
-          <div className="hidden lg:flex justify-end items-center relative">
-            <div className="space-y-8">
-              {/* Floating therapeutic cards */}
-              <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float">
-                <div className="text-2xl font-bold text-green-400">🏥</div>
-                <div className="text-sm font-semibold">Expert Team</div>
-                <div className="text-xs text-white/80">Licensed Professionals</div>
-              </div>
-              
-              <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '1s' }}>
-                <div className="text-2xl font-bold text-green-400">🌿</div>
-                <div className="text-sm font-semibold">Natural Healing</div>
-                <div className="text-xs text-white/80">Drug-Free Solutions</div>
-              </div>
-              
-              <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '2s' }}>
-                <div className="text-2xl font-bold text-green-400">⚡</div>
-                <div className="text-sm font-semibold">Pain Relief</div>
-                <div className="text-xs text-white/80">Effective Treatment</div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Navigation Controls */}

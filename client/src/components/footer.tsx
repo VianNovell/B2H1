@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import Logo from "@/components/logo";
 
 export default function Footer() {
@@ -19,36 +19,6 @@ export default function Footer() {
               Your trusted partner in achieving optimal wellness through
               comprehensive healthcare solutions.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           <div>
