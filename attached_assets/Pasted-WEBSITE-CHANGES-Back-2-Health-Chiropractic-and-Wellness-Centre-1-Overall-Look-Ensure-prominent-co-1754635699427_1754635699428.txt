@@ -1,0 +1,161 @@
+WEBSITE CHANGES – Back 2 Health Chiropractic and Wellness Centre
+1. Overall Look
+Ensure prominent colours match the logo.
+
+Make the logo more prominently displayed.
+
+Change all pictures to be less “spa-like” and more “therapeutic”:
+
+Replace massage picture → Therapeutic massage image (no spa aesthetic).
+
+Replace brain image → Spine / Back pain image.
+
+Replace acupuncture image → Chiropractic adjustment image (no acupuncture references).
+
+Remove “Success Rate” section.
+
+Keep "1000+ Happy patients" and "20+ years experience".
+
+Remove picture of random man in mask.
+
+2. Landing Page
+Taglines (use these, in order):
+
+Chiropractic and Specialist Holistic Therapy – Natural Healing – Natural and drug free solutions to pain, disease and promoting wellness.
+
+Expert Chiropractic and Physiotherapy – Expert Care – Comprehensive treatment for pain relief, injury recovery and optimal wellness in Kampala and Entebbe.
+
+Remove “Specialist Chiro & Holistic healthcare paragraph” and “Collaborative care”.
+
+Insert ‘Our Story’ text from About Us (exact wording provided in your notes).
+
+Keep tick boxes (e.g., “Expert team”).
+
+Replace “Comprehensive healthcare solutions…” with:
+
+“Natural and non-invasive forms of Healthcare.”
+
+Photo changes in service boxes:
+
+Chiropractic → person performing chiropractic manipulation OR spine pain image.
+
+Physiotherapy → replace with a better quality physio image.
+
+Massage therapy → rename to Therapeutic Massage and change image.
+
+PEMF therapy → update picture.
+
+Diabetes & weight loss → update picture.
+
+Corporate wellness → update picture.
+
+Remove “Wellness Programs” section and its paragraph/boxes.
+
+Common Conditions we treat:
+
+Change “Low back pain” → “Back pain”.
+
+Change “Arthritis” → “Joint pain” (include provided description).
+
+Add “Pregnancy and Paediatric Care” (use wording provided).
+
+3. Reviews
+“What our patients say” → Use real reviews provided later; in meantime, pull a few from Google.
+
+Keep “1000+ happy patients” & “20+ years experience”.
+
+“Book your appointment” → keep as is.
+
+4. FAQ Section
+Remove word “naturopathy” from “Do I need a referral?”
+
+Keep “What is collaborative care?”
+
+“What should I expect on your first visit?” → update wording to provided text.
+
+“How long does treatment typically take?” → rename to “How many treatment sessions will I need?”
+
+Keep “Can you help with chronic pain conditions?”
+
+Keep “Do you offer corporate wellness programs?”
+
+Keep “Are your practitioners licensed?” → use provided updated text.
+
+Remove “Do you accept insurance?” question entirely.
+
+5. Visit Our Clinic
+Keep only:
+
+“Conveniently located in Bukoto, Kampala and Entebbe. Consultation is by appointment only.”
+
+Kampala – Mukasa Road, Bukoto
+
+Entebbe
+
+Remove “Opening hours”.
+
+Add pin location for Kampala premises when provided.
+
+6. About Tab
+Keep “…trusted partner…in Kampala and Entebbe, Uganda.”
+
+Change “Our Mission” to “Our Goal”.
+
+Remove old “Our Story”.
+
+Insert new “Our Story” text provided in your notes.
+
+Keep “Our Approach”.
+
+Non-profit collaboration:
+
+Remove “training programs”.
+
+Insert link to HBH webpage.
+
+7. Our Services
+Chiropractic
+Change icon to spine.
+
+Use provided detailed chiropractic description (including FAQ).
+
+Physiotherapy
+Change icon to person stretching/exercising.
+
+Keep tagline; replace service text with provided updated wording.
+
+Therapeutic Massage
+Keep start.
+
+Replace “About” with provided text.
+
+PEMF, Qigong
+Keep.
+
+Corporate Wellness & Diabetes/Weight Loss
+Keep short intro; link to Programs tab.
+
+Add: Complex Cases and Second Opinions
+Use provided detailed text.
+
+8. Programs Tab
+Only 2 boxes:
+
+Corporate Wellness → use provided expanded text.
+
+Diabetes & Weight Loss → use provided expanded text.
+
+Remove all other boxes.
+
+9. NGO Platform (Extra Tab)
+Create “Non Profit Collaboration” tab.
+
+Use provided description of HBH, project details, and link to HBH website.
+
+10. Final Notes
+Ensure all old/irrelevant images, paragraphs, and headings are fully removed (not just hidden).
+
+Keep text formatting consistent (headings, bullet points, etc.).
+
+Links to HBH and “Programs” tab should be active and functional.
+
