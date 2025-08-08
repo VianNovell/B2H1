@@ -41,7 +41,7 @@ export default function Navigation() {
                 <img 
                   src={logoImage} 
                   alt="Back 2 Health Logo" 
-                  className="h-12 w-12 md:h-14 md:w-14 object-contain"
+                  className="h-14 w-14 md:h-16 md:w-16 object-contain"
                 />
                 <div className="hidden sm:block">
                   <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
@@ -160,14 +160,12 @@ export default function Navigation() {
                 Contact
               </button>
               
-              <a
-                href="https://handbackhealth.org/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/non-profit"
                 className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg transform hover:scale-105"
               >
-                NGO Platform
-              </a>
+                Non Profit Collaboration
+              </Link>
             </div>
           </div>
 
@@ -220,6 +218,12 @@ export default function Navigation() {
             >
               Contact
             </button>
+            <Link
+              href="/non-profit"
+              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-blue-600 hover:bg-blue-50 w-full text-left rounded-lg transition-all duration-200"
+            >
+              Non Profit Collaboration
+            </Link>
           </div>
         </div>
       )}

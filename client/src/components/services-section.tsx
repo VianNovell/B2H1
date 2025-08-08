@@ -41,7 +41,7 @@ export default function ServicesSection() {
       title: "Therapeutic Massage",
       description: "Therapeutic massage, also known as Medical massage, is tailored to your health needs. A targeted approach to relieve stress, reduce pain, and restore balance using techniques specific to your individual needs. Benefits include relief from muscle tension, improved circulation and flexibility, stress reduction, and support for injury recovery.",
       color: "wellness-blue",
-      image: doctorImage,
+      image: therapeuticImage,
     },
     {
       icon: Zap,
@@ -51,18 +51,18 @@ export default function ServicesSection() {
       image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
     },
     {
-      icon: Activity,
-      title: "Spinal Rehabilitation",
-      description: "Targeted exercises and therapies for spine health and back pain relief",
-      color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
-    },
-    {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
       description: "Comprehensive programs for metabolic health and sustainable weight management. Personalized nutrition plans, exercise therapy programs, and lifestyle modification coaching to help you achieve your health goals and improve your quality of life.",
       color: "wellness-blue",
       image: diabetesWeightLossImage,
+    },
+    {
+      icon: Activity,
+      title: "Complex Cases and Second Opinions",
+      description: "Specialized expertise for challenging cases and comprehensive second opinion consultations. Our experienced team collaborates to provide thorough evaluations and innovative treatment approaches for complex health conditions.",
+      color: "wellness-blue",
+      image: doctorImage,
     },
 
 
@@ -77,8 +77,7 @@ export default function ServicesSection() {
           </h2>
           <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive healthcare solutions combining traditional medicine
-            with alternative therapies
+            Natural and non-invasive forms of Healthcare
           </p>
         </div>
 

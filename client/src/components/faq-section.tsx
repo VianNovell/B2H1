@@ -22,6 +22,10 @@ export default function FAQSection() {
       answer: "Yes. We specialise in managing chronic pain using natural and non-invasive methods. Our treatments are tailored to each individual's condition and response to care."
     },
     {
+      question: "What is collaborative care?",
+      answer: "Collaborative care is our unique approach where multiple healthcare professionals work together to develop the most effective treatment plan for each patient. Our team of chiropractors, physiotherapists, and massage therapists collaborate to ensure you receive comprehensive, coordinated care tailored to your specific needs."
+    },
+    {
       question: "Do you offer corporate wellness programs?",
       answer: "Yes. We offer a range of wellness services for companies, including workshops, ergonomic assessments, group therapies, and stress management programs. See the \"Programs\" tab for more details."
     },

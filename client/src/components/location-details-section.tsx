@@ -13,87 +13,74 @@ export default function LocationDetailsSection() {
           </div>
           <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conveniently located in Entebbe to serve you better. Plan your visit to our healthcare facility.
+            Conveniently located in Bukoto, Kampala and Entebbe. Consultation is by appointment only.
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto">
-          {/* Clinic - Entebbe */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border border-blue-100">
-            <div className="text-center mb-8">
-              <div className="w-20 h-20 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="text-white w-10 h-10" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Kampala Clinic */}
+          <div className="bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all duration-300 border border-blue-100">
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <MapPin className="text-white w-8 h-8" />
               </div>
-              <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-2">
-                Our Clinic - Entebbe
+              <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-1">
+                Kampala
               </h3>
-              <p className="text-[hsl(var(--wellness-blue))] font-semibold">Comprehensive Healthcare Services</p>
+              <p className="text-[hsl(var(--wellness-blue))] font-semibold text-sm">Mukasa Road, Bukoto</p>
             </div>
 
-            <div className="space-y-6">
-              {/* Address */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Address</h4>
-                  <p className="text-gray-600">Entebbe Road</p>
-                  <p className="text-gray-600">Entebbe, Uganda</p>
-                </div>
-              </div>
-
-              {/* Hours */}
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Clock className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Opening Hours</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <p><span className="font-medium">Mon - Fri:</span> 9:00 AM - 5:00 PM</p>
-                    <p><span className="font-medium">Saturday:</span> 10:00 AM - 3:00 PM</p>
-                    <p><span className="font-medium">Sunday:</span> Closed</p>
-                  </div>
-                </div>
-              </div>
-
+            <div className="space-y-4">
               {/* Contact */}
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-yellow-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="text-yellow-600 w-6 h-6" />
+                <div className="w-10 h-10 bg-yellow-50 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                  <Phone className="text-yellow-600 w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Contact</h4>
-                  <p className="text-gray-600">📞 0758 478992</p>
-                  <p className="text-gray-600">
+                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1 text-sm">Contact</h4>
+                  <p className="text-gray-600 text-sm">📞 0758 478992</p>
+                  <p className="text-gray-600 text-sm">
                     ✉️ <a 
-                      href="mailto:back2healthug@gmail.com" 
+                      href="mailto:viankamanzi5@gmail.com" 
                       className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 hover:underline transition-colors duration-200"
                     >
-                      back2healthug@gmail.com
+                      viankamanzi5@gmail.com
                     </a>
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
 
-              {/* Transportation */}
+          {/* Entebbe Clinic */}
+          <div className="bg-white rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all duration-300 border border-blue-100">
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <MapPin className="text-white w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-1">
+                Entebbe
+              </h3>
+              <p className="text-[hsl(var(--wellness-blue))] font-semibold text-sm">Entebbe Location</p>
+            </div>
+
+            <div className="space-y-4">
+              {/* Contact */}
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-50 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                  <Navigation className="text-purple-600 w-6 h-6" />
+                <div className="w-10 h-10 bg-yellow-50 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                  <Phone className="text-yellow-600 w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1">Getting There</h4>
-                  <div className="text-gray-600 space-y-1">
-                    <div className="flex items-center">
-                      <Car className="w-4 h-4 mr-2" />
-                      <span>Street parking available</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Plane className="w-4 h-4 mr-2" />
-                      <span>15 mins from Entebbe Airport</span>
-                    </div>
-                  </div>
+                  <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-1 text-sm">Contact</h4>
+                  <p className="text-gray-600 text-sm">📞 0758 478992</p>
+                  <p className="text-gray-600 text-sm">
+                    ✉️ <a 
+                      href="mailto:viankamanzi5@gmail.com" 
+                      className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 hover:underline transition-colors duration-200"
+                    >
+                      viankamanzi5@gmail.com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

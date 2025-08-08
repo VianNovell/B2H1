@@ -20,11 +20,11 @@ export default function HeroSection() {
 
   const slides = [
     {
-      title: "Are you looking for relief from injury or everyday aches and pains?",
-      subtitle: "OR trying to maintain a healthy, active lifestyle? We can help.",
+      title: "Chiropractic and Specialist Holistic Therapy",
+      subtitle: "Natural and drug free solutions to pain, disease and promoting wellness.",
       backgroundImage: spineImage,
       imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
-      highlight: "We Can Help"
+      highlight: "Natural Healing"
     },
     {
       title: "Expert Chiropractic and Physiotherapy",
@@ -32,13 +32,6 @@ export default function HeroSection() {
       backgroundImage: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional healthcare treatment",
       highlight: "Expert Care"
-    },
-    {
-      title: "Holistic Wellness Programs",
-      subtitle: "From massage therapy to corporate wellness programs - complete solutions for your health journey.",
-      backgroundImage: holisticImage,
-      imageAlt: "Holistic wellness and therapeutic programs",
-      highlight: "Holistic Wellness"
     }
   ];
 
@@ -142,23 +135,23 @@ export default function HeroSection() {
           {/* Right side floating elements for larger screens */}
           <div className="hidden lg:flex justify-end items-center relative">
             <div className="space-y-8">
-              {/* Floating wellness cards */}
+              {/* Floating therapeutic cards */}
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float">
-                <div className="text-2xl font-bold text-green-400">✨</div>
-                <div className="text-sm font-semibold">Holistic Healing</div>
-                <div className="text-xs text-white/80">Mind, Body & Spirit</div>
+                <div className="text-2xl font-bold text-green-400">🏥</div>
+                <div className="text-sm font-semibold">Expert Team</div>
+                <div className="text-xs text-white/80">Licensed Professionals</div>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '1s' }}>
                 <div className="text-2xl font-bold text-green-400">🌿</div>
-                <div className="text-sm font-semibold">Natural Medicine</div>
-                <div className="text-xs text-white/80">Proven Therapies</div>
+                <div className="text-sm font-semibold">Natural Healing</div>
+                <div className="text-xs text-white/80">Drug-Free Solutions</div>
               </div>
               
               <div className="bg-white/20 backdrop-blur-lg rounded-3xl p-6 text-white shadow-2xl transform hover:scale-105 transition-all duration-300 animate-float" style={{ animationDelay: '2s' }}>
-                <div className="text-2xl font-bold text-green-400">🤝</div>
-                <div className="text-sm font-semibold">Expert Care</div>
-                <div className="text-xs text-white/80">Collaborative Team</div>
+                <div className="text-2xl font-bold text-green-400">⚡</div>
+                <div className="text-sm font-semibold">Pain Relief</div>
+                <div className="text-xs text-white/80">Effective Treatment</div>
               </div>
             </div>
           </div>

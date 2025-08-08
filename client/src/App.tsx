@@ -9,6 +9,7 @@ import Services from "@/pages/services";
 import ServiceDetail from "@/pages/service-detail";
 import Doctors from "@/pages/doctors";
 import Contact from "@/pages/contact";
+import NonProfitCollaboration from "@/pages/non-profit";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/services/:slug" component={ServiceDetail} />
       <Route path="/doctors" component={Doctors} />
       <Route path="/contact" component={Contact} />
+      <Route path="/non-profit" component={NonProfitCollaboration} />
       <Route component={NotFound} />
     </Switch>
   );
