@@ -82,27 +82,8 @@ export default function HeroSection() {
         ))}
       </div>
 
-      {/* Prominent Logo Overlay */}
-      <div className="absolute top-8 left-8 md:top-12 md:left-12 z-20">
-        <div className="flex items-center space-x-4 bg-white/10 backdrop-blur-md rounded-2xl p-4 md:p-6 shadow-2xl border border-white/20">
-          <img 
-            src={logoImage} 
-            alt="Back 2 Health Logo" 
-            className="h-12 w-12 md:h-16 md:w-16 lg:h-20 lg:w-20 object-contain drop-shadow-lg"
-          />
-          <div className="hidden sm:block">
-            <div className="text-white font-bold text-lg md:text-xl lg:text-2xl drop-shadow-md">
-              Back 2 Health
-            </div>
-            <div className="text-white/80 text-xs md:text-sm font-medium">
-              Chiropractic Wellness Centre
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Content Layer */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 md:py-20 pt-32 md:pt-36">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 md:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center min-h-[70vh] md:min-h-[80vh]">
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-6 md:space-y-8 max-w-3xl mx-auto lg:mx-0">
