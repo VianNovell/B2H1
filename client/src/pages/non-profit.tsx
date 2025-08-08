@@ -9,9 +9,9 @@ export default function NonProfitCollaboration() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
+      <section className="py-12 bg-gradient-to-br from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
               Non Profit Collaboration
             </h1>
