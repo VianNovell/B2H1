@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Calendar, Clock, User, Mail, Phone, MessageSquare } from "lucide-react";
+import { Calendar, Clock, User, Mail, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -322,17 +322,6 @@ export default function AppointmentBooking() {
                     )}
                   </Button>
                   
-                  <Button
-                    type="button"
-                    variant="outline"
-                    onClick={() => {
-                      window.open("tel:0758478992", "_self");
-                    }}
-                    className="border-2 border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white py-4 px-8 text-lg font-semibold rounded-xl transition-all duration-300"
-                  >
-                    <Phone className="mr-3 h-5 w-5" />
-                    Call Instead
-                  </Button>
                 </div>
               </form>
             </Form>

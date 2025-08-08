@@ -138,9 +138,9 @@ export default function Programs() {
                     <div className="flex items-center justify-between mb-4 md:mb-6 p-3 md:p-4 bg-white/60 rounded-lg md:rounded-xl">
                       <div className="flex items-center text-gray-600">
                         <Clock className="w-4 h-4 mr-2" />
-                        <span className="text-xs md:text-sm font-medium">{program.duration}</span>
+                        <span className="text-sm md:text-base font-medium">{program.duration}</span>
                       </div>
-                      <div className={`${program.textColor} font-bold text-sm md:text-base`}>
+                      <div className={`${program.textColor} font-bold text-sm md:text-base text-right`}>
                         {program.price}
                       </div>
                     </div>
