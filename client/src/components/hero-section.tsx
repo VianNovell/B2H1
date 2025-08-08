@@ -30,13 +30,6 @@ export default function HeroSection() {
       backgroundImage: spineImage,
       imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
       highlight: "Expert Care"
-    },
-    {
-      title: "Are you looking for relief from injury or everyday aches and pains?",
-      subtitle: "We Can Help",
-      backgroundImage: spineImage,
-      imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
-      highlight: "We Can Help"
     }
   ];
 
