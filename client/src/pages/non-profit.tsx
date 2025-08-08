@@ -16,8 +16,8 @@ export default function NonProfitCollaboration() {
               Non Profit Collaboration
             </h1>
             <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
-            <p className="text-xl text-white max-w-3xl mx-auto">
-              Our clinicians are all involved with a non-profit organisation located in Jinja, Uganda. Where we give back our time and expertise. Please see <a href="https://handbackhealth.org/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-100 underline font-semibold">HERE</a> for more information about Hand Back Health.
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+              Our clinicians are all involved with a non-profit organisation located in Jinja, Uganda. Where we give back our time and expertise. Please see <a href="https://handbackhealth.org/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 underline font-semibold">HERE</a> for more information about Hand Back Health.
             </p>
           </div>
         </div>
