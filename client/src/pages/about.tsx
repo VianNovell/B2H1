@@ -44,9 +44,6 @@ export default function About() {
 
             {/* Our Story */}
             <div className="mb-16">
-              <h3 className="text-2xl md:text-3xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-                Our Story
-              </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Whether it's back pain, a sports injury, sciatica, or something more complex, we'll match you with the clinician who's the best fit for your body, your goals, and your journey, regardless of their professional title.
               </p>
