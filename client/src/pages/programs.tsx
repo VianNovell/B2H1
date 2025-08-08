@@ -10,15 +10,7 @@ export default function Programs() {
       title: "Corporate Wellness",
       subtitle: "Workplace Health Solutions",
       description: "Do you want: Happy, Healthy employees, Improved workplace morale, Reduced days off sick, Improved productivity, Reduced company costs? Then you need to prioritise your employee's health in a preventative way. It turns out that a comprehensive, strategically designed investment in employees' social, mental, and physical health pays off. Research proves that wellness programs actually save company's money. The long and short of it: Healthy employees cost you less. Back 2 Health and their team of professionals can aid you to develop strategies to enhance the wellbeing, and productivity of your staff.",
-      features: [
-        "Individual therapy consultations",
-        "Group programs for diabetes, obesity, cholesterol",
-        "Qi gong, breathwork and meditation sessions",
-        "Exercise rehabilitation for back and neck pain",
-        "Corporate wellness workshops and presentations",
-        "Ergonomic desk assessments",
-        "Nutrition presentations and mini massage sessions"
-      ],
+      features: [],
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
