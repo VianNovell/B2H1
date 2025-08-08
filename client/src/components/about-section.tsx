@@ -1,5 +1,4 @@
 import { CheckCircle } from "lucide-react";
-import greggBioImage from "@assets/gregg bio pic_1754285613528.jpg";
 
 export default function AboutSection() {
   const features = [
@@ -19,14 +18,7 @@ export default function AboutSection() {
           <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <img
-              src={greggBioImage}
-              alt="Dr. Gregg - Back 2 Health Specialist"
-              className="rounded-xl shadow-lg w-full h-auto"
-            />
-          </div>
+        <div className="max-w-4xl mx-auto">
           <div>
             <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
               Our Story
