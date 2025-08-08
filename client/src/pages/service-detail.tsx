@@ -172,7 +172,7 @@ export default function ServiceDetail() {
       ]
     },
     "diabetes-and-weight-loss-programs": {
-      title: "Diabetes &",
+      title: "Diabetes & Weight Loss Programs",
       shortDescription: "Comprehensive programs for metabolic health",
       fullDescription: "Comprehensive programs for metabolic health and sustainable weight management. Personalized nutrition plans, exercise therapy programs, and lifestyle modification coaching to help you achieve your health goals and improve your quality of life.",
       image: diabetesWeightLossImage,
