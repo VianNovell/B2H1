@@ -108,7 +108,7 @@ export default function About() {
               Non-profit Collaboration: Hand Back Health
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Back 2 Health proudly collaborates with Hand Back Health NGO, a non-profit organization founded in 2004 
+              Back 2 Health proudly collaborates with Hand Back Health NGO, a non-profit organization founded in 2017 
               by Dr. Sarah Worthington. This partnership allows us to extend our reach and provide essential healthcare 
               services to underserved communities in Uganda.
             </p>
