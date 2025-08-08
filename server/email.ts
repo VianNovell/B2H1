@@ -1,6 +1,7 @@
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Initialize Resend only if API key is available
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 export interface AppointmentEmailData {
   name: string;
@@ -14,6 +15,17 @@ export interface AppointmentEmailData {
 
 export async function sendAppointmentConfirmation(appointmentData: AppointmentEmailData) {
   try {
+    // Check if Resend is available
+    if (!resend) {
+      console.log('📧 Email service not configured (missing RESEND_API_KEY), skipping appointment emails');
+      return {
+        success: true,
+        patientEmailId: null,
+        adminEmailId: null,
+        message: 'Email service not configured'
+      };
+    }
+
     // Send confirmation email to the patient
     const patientEmail = await resend.emails.send({
       from: 'Back 2 Health <onboarding@resend.dev>',
@@ -146,6 +158,16 @@ export async function sendContactFormNotification(contactData: {
   message: string;
 }) {
   try {
+    // Check if Resend is available
+    if (!resend) {
+      console.log('📧 Email service not configured (missing RESEND_API_KEY), skipping contact form notification');
+      return {
+        success: true,
+        adminEmailId: null,
+        message: 'Email service not configured'
+      };
+    }
+
     // Send notification to clinic admin
     const adminEmail = await resend.emails.send({
       from: 'Back 2 Health <onboarding@resend.dev>',
