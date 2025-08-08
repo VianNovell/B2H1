@@ -199,6 +199,37 @@ export default function ServiceDetail() {
         "Lifestyle coaching",
         "Behavioral modification"
       ]
+    },
+    "complex-cases-and-second-opinions": {
+      title: "Complex Cases and Second opinions",
+      shortDescription: "Expert guidance for chronic or unresolved musculoskeletal conditions",
+      fullDescription: "We specialise in guiding patients through the complexity of chronic or unresolved musculoskeletal conditions. If you've been living with persistent pain, received conflicting diagnoses, or found previous treatments ineffective, our expert second opinions can provide the clarity and direction you need. With extensive experience in managing complex musculoskeletal conditions, our clinic is uniquely positioned to offer clear, expert insights—particularly for individuals who have seen multiple clinicians without finding lasting solutions. We provide thorough second opinions that help clarify the next steps, whether that involves further treatment within our team or referral to another specialist. Patients are encouraged to bring any relevant scans or medical records. During the consultation, a comprehensive assessment is carried out, including a detailed review of medical history and symptoms. With a meticulous and evidence-based approach, we aim to identify the root cause of the issue and outline a clear path forward. Following the appointment, you will be provided a summarised clinical opinion and recommended next steps. This may include further imaging, treatment recommendations, or onward referral—empowering you to make informed decisions about your care and recovery.",
+      image: doctorImage,
+      imageAlt: "Medical consultation for complex cases",
+      benefits: [
+        "Clear expert insights for complex conditions",
+        "Comprehensive assessment and review",
+        "Evidence-based approach to diagnosis",
+        "Detailed clinical opinion and next steps",
+        "Referral guidance when needed",
+        "Informed decision-making support"
+      ],
+      conditions: [
+        "Persistent chronic pain",
+        "Conflicting previous diagnoses",
+        "Unresolved musculoskeletal conditions",
+        "Failed previous treatments",
+        "Complex multi-system issues",
+        "Need for specialist referral"
+      ],
+      techniques: [
+        "Comprehensive medical history review",
+        "Detailed symptom assessment",
+        "Medical record and scan analysis",
+        "Evidence-based diagnosis",
+        "Clinical opinion documentation",
+        "Referral coordination"
+      ]
     }
   };
 
