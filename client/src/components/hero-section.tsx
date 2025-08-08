@@ -30,6 +30,13 @@ export default function HeroSection() {
       backgroundImage: spineImage,
       imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
       highlight: "Expert Care"
+    },
+    {
+      title: "Holistic Wellness Programs",
+      subtitle: "From massage therapy to corporate wellness programs - complete solutions for your health journey.",
+      backgroundImage: spineImage,
+      imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
+      highlight: "Programs"
     }
   ];
 
