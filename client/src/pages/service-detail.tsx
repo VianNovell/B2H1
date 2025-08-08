@@ -342,7 +342,7 @@ export default function ServiceDetail() {
               <div className="bg-white rounded-xl p-6 shadow-sm">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">What does treatment involve?</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Using skilled manipulation and quick, comfortable adjustment techniques, with just the right amount of pressure, Chiropractors gently unlock the stiff joints to restore proper function and mobility. This in turn helps to settle the pain. The vulnerable area is then stabilised with further treatments. When you have experienced the benefits of chiropractic treatment in reducing pain and discomfort, the next step is to help you get active again. Following treatment rehabilitation and exercise advice will be given to strengthen weak muscles and reduce the likelihood of re-injury.
+                  Using skilled manipulation and quick, comfortable adjustment techniques, with just the right amount of pressure, Chiropractors gently unlock the stiff joints to restore proper function and mobility. This in turn helps to settle the pain. The vulnerable area is then stabilised with further treatments. When you have experienced the benefits of chiropractic treatment in reducing pain and discomfort, the next step is to help you get active again. Following treatment rehabilitation and exercise are essential to speed your body's natural healing process and strengthen your muscles to prevent recurrence of the condition.
                 </p>
                 <p className="text-gray-600 font-semibold mb-3">Alongside the traditional chiropractic adjustment, chiropractors utilize adjunctive therapies:</p>
                 <ul className="text-gray-600 space-y-2">
