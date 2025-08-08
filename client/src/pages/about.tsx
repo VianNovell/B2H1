@@ -122,13 +122,6 @@ export default function About() {
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Training Programs</h3>
-                <p className="text-gray-600">Education and training for local healthcare providers</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Sustainable Impact</h3>
