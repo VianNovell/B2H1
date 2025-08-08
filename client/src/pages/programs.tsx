@@ -31,7 +31,7 @@ export default function Programs() {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
       subtitle: "Type II Diabetes & Prediabetes Management",
-      description: "Designed for people with Type II Diabetes and Prediabetes to provide greater understanding and practical tools for self-management. The course empowers patients through education and motivation for sustainable lifestyle changes.",
+      description: "Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the tools to be as healthy as possible. The course aims to provide patients with a good foundation and practical skills to begin self-management of their diabetes. It empowers them to self-manage by providing a working understanding of their illness and through addressing issues around the initiation and sustaining of motivation. It is also useful as a weight loss program for those suffering from obesity. The program may aid in reduction of cholesterol levels. Ultimately the course will improve overall health parameters for the majority.",
       features: [
         "Weekly group sessions (up to 10 people)",
         "Educational presentations and discussions",
