@@ -8,7 +8,7 @@ import { Link } from "wouter";
 // Import service images
 import physiotherapyImage from "@assets/Physiotherapy.png";
 import spineImage from "@assets/Spine.png";
-import therapeuticImage from "@assets/Therapeuticimage.png";
+import massageImage from "@assets/Massageimage.png";
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
@@ -87,7 +87,7 @@ export default function ServiceDetail() {
       title: "Therapeutic Massage",
       shortDescription: "Medical massage tailored to your health needs",
       fullDescription: "Therapeutic massage is also known as Medical massage, it is tailored to your health needs. At Back 2 Health, discover the healing power of therapeutic massage. A targeted approach to relieve stress, reduce pain, and restore balance to your body and mind. Unlike a simple relaxation massage, therapeutic massage focuses on specific areas of tension and discomfort, using techniques tailored to your individual needs. Whether you're recovering from an injury, managing chronic pain, or simply looking to improve your overall wellness, our trained massage therapists are here to help you feel your best.",
-      image: therapeuticImage,
+      image: massageImage,
       imageAlt: "Therapeutic massage treatment",
       benefits: [
         "Relief from muscle tension and soreness",
