@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import { Link } from "wouter";
 
 // Import service images
-import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
+// import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import spineImage from "@assets/Spine.png";
 import therapeuticImage from "@assets/Therapeuticimage.png";
 import doctorImage from "@assets/Doctor.png";
@@ -59,7 +59,7 @@ export default function ServiceDetail() {
       title: "Physiotherapy",
       shortDescription: "Evidence-based rehabilitation and movement therapy",
       fullDescription: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
-      image: physiotherapyImage,
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
       imageAlt: "Physiotherapy treatment session",
       benefits: [
         "Restored movement and function",
