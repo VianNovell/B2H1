@@ -1,4 +1,4 @@
-import { CheckCircle, Award, Users, Heart } from "lucide-react";
+import { CheckCircle, Award, Users, Heart, Globe, GraduationCap, Building, Stethoscope, Target, HandHeart } from "lucide-react";
 import Navigation from "@/components/navigation";
 
 export default function About() {
@@ -100,46 +100,168 @@ export default function About() {
         </div>
       </section>
 
-      {/* Non-profit Collaboration Section */}
+      {/* About Hand Back Health Section */}
       <section className="py-20 bg-blue-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-              Non-profit Collaboration: Hand Back Health
-            </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Back 2 Health proudly collaborates with Hand Back Health NGO, a non-profit organization founded in 2017 
-              by Dr. Sarah Worthington. This partnership allows us to extend our reach and provide essential healthcare 
-              services to underserved communities in Uganda.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-8 w-8 text-white" />
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
+                About Hand Back Health
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Hand Back Health (HBH) is a non-profit organization dedicated to improving healthcare access and outcomes in underserved communities through sustainable programs and capacity building initiatives.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                Our mission is to empower local healthcare providers with the knowledge, skills, and resources needed to deliver quality care to their communities while building long-term sustainability.
+              </p>
+              <a
+                href="https://handbackhealth.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+              >
+                <Globe className="h-5 w-5 mr-2" />
+                Visit HBH Website
+              </a>
+            </div>
+
+            {/* Core Values */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <div className="flex items-center mb-4">
+                  <Heart className="h-8 w-8 text-[hsl(var(--wellness-blue))] mr-3" />
+                  <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))]">Compassionate Care</h3>
                 </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Community Outreach</h3>
-                <p className="text-gray-600">Providing healthcare services to rural and underserved communities</p>
+                <p className="text-gray-600 leading-relaxed">
+                  Providing healthcare services with dignity and respect for all patients, regardless of their economic status.
+                </p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-8 w-8 text-white" />
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <div className="flex items-center mb-4">
+                  <Users className="h-8 w-8 text-[hsl(var(--wellness-blue))] mr-3" />
+                  <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))]">Community Empowerment</h3>
                 </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Sustainable Impact</h3>
-                <p className="text-gray-600">Creating lasting positive change in community health outcomes</p>
+                <p className="text-gray-600 leading-relaxed">
+                  Building local capacity through education and skill development programs for healthcare providers.
+                </p>
               </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-white" />
+            </div>
+
+            {/* Our Collaboration Projects */}
+            <div className="mb-16">
+              <h3 className="text-3xl font-bold text-[hsl(var(--neutral-dark))] text-center mb-12">
+                Our Collaboration Projects
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center mb-4">
+                    <GraduationCap className="h-8 w-8 text-[hsl(var(--wellness-blue))] mr-3" />
+                    <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))]">Healthcare Provider Training</h4>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Comprehensive training programs for local healthcare providers, focusing on evidence-based practices and sustainable healthcare delivery.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Clinical skills development</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Best practice protocols</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Quality assurance training</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Continuing education support</span>
+                    </li>
+                  </ul>
                 </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Hand Back Health</h3>
-                <p className="text-gray-600 mb-4">Learn more about our NGO partner</p>
+
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center mb-4">
+                    <Stethoscope className="h-8 w-8 text-[hsl(var(--wellness-blue))] mr-3" />
+                    <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))]">Community Health Outreach</h4>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Mobile health clinics and community education programs to reach underserved populations in remote areas.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Mobile clinic services</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Health education workshops</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Preventive care programs</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Community health assessments</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <div className="flex items-center mb-4">
+                    <Building className="h-8 w-8 text-[hsl(var(--wellness-blue))] mr-3" />
+                    <h4 className="text-xl font-bold text-[hsl(var(--neutral-dark))]">Sustainable Healthcare Systems</h4>
+                  </div>
+                  <p className="text-gray-600 leading-relaxed mb-4">
+                    Building long-term healthcare infrastructure and systems that communities can maintain independently.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Infrastructure development</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Equipment provision</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Local capacity building</span>
+                    </li>
+                    <li className="flex items-start">
+                      <div className="w-2 h-2 bg-[hsl(var(--wellness-blue))] rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                      <span className="text-gray-600 text-sm">Partnership development</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Join Our Mission */}
+            <div className="text-center bg-white rounded-xl p-8 shadow-lg">
+              <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-4">
+                Join Our Mission
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Together, we can make quality healthcare accessible to all. Learn more about our partnership with Hand Back Health and how you can support our mission.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="https://handbackhealth.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm"
+                  className="inline-flex items-center bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
                 >
-                  Visit Website
+                  <HandHeart className="h-5 w-5 mr-2" />
+                  Learn More About HBH
+                </a>
+                <a
+                  href="/#contact"
+                  className="inline-flex items-center border-2 border-[hsl(var(--wellness-blue))] text-[hsl(var(--wellness-blue))] hover:bg-[hsl(var(--wellness-blue))] hover:text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+                >
+                  Contact Us
                 </a>
               </div>
             </div>
