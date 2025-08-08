@@ -36,14 +36,8 @@ export default function ProgramsSection() {
       title: "Diabetes & Weight Loss Programs",
       subtitle: "Type II Diabetes & Prediabetes Management",
       description: "Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the tools to be as healthy as possible. The course aims to provide patients with a good foundation and practical skills to begin self-management of their diabetes. It empowers them to self-manage by providing a working understanding of their illness and through addressing issues around the initiation and sustaining of motivation. It is also useful as a weight loss program for those suffering from obesity. The program may aid in reduction of cholesterol levels. Ultimately the course will improve overall health parameters for the majority.",
-      features: [
-        "Weekly group sessions (up to 10 people)",
-        "Educational presentations and discussions",
-        "Individual assessment and instruction",
-        "Weight reduction and cholesterol improvement",
-        "Reduced need for medication",
-        "Improved quality of life outcomes"
-      ],
+      features: [],
+      whoCanJoin: "Anyone. Those with Prediabetes or recently diagnosed diabetes are most likely to go into remission. However anyone with Type II Diabetes could realise decreases in diabetes markers and reduction in need for medication. It may also be useful for anyone with predisposing factors (age, family history, obesity).",
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
@@ -118,6 +112,14 @@ export default function ProgramsSection() {
                       <p className="text-sm md:text-base text-gray-600 mb-3 md:mb-4">Exercise Rehabilitation – Addressing issues such as Low Back Pain and Neck Pain</p>
                       <h5 className="text-base md:text-lg font-semibold text-gray-800 mb-2 md:mb-3">Corporate Wellness Workshops</h5>
                       <p className="text-sm md:text-base text-gray-600 mb-4">Our professionally created and delivered program aims to address health and wellness goals for staff members</p>
+                    </div>
+                  )}
+                  
+                  {/* Diabetes Programs Who Can Join */}
+                  {program.title === "Diabetes & Weight Loss Programs" && program.whoCanJoin && (
+                    <div className="mb-4 md:mb-6">
+                      <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3 md:mb-4">Who can join?</h4>
+                      <p className="text-sm md:text-base text-gray-600">{program.whoCanJoin}</p>
                     </div>
                   )}
                   
