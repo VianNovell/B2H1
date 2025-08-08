@@ -150,13 +150,15 @@ export default function Programs() {
                       onClick={() => {
                         if (program.title === "Corporate Wellness") {
                           window.location.href = "/corporate-wellness";
+                        } else if (program.title === "Diabetes & Weight Loss Programs") {
+                          window.location.href = "/diabetes-programs";
                         } else {
                           window.location.href = "/#appointment";
                         }
                       }}
                       className={`w-full bg-gradient-to-r ${program.gradient} hover:shadow-lg text-white font-semibold py-3 md:py-4 px-6 rounded-lg md:rounded-xl transition-all duration-300 group-hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation`}
                     >
-                      {program.title === "Corporate Wellness" ? "Learn More" : "Book Now"}
+                      {(program.title === "Corporate Wellness" || program.title === "Diabetes & Weight Loss Programs") ? "Learn More" : "Book Now"}
                       <ArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300" />
                     </Button>
                   </div>

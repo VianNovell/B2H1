@@ -149,6 +149,8 @@ export default function ProgramsSection() {
                     onClick={() => {
                       if (program.title === "Corporate Wellness") {
                         window.location.href = "/corporate-wellness";
+                      } else if (program.title === "Diabetes & Weight Loss Programs") {
+                        window.location.href = "/diabetes-programs";
                       } else {
                         scrollToServices();
                       }

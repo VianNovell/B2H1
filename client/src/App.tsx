@@ -9,6 +9,7 @@ import Services from "@/pages/services";
 import ServiceDetail from "@/pages/service-detail";
 import Programs from "@/pages/programs";
 import CorporateWellness from "@/pages/corporate-wellness";
+import DiabetesPrograms from "@/pages/diabetes-programs";
 import Doctors from "@/pages/doctors";
 import Contact from "@/pages/contact";
 import NonProfitCollaboration from "@/pages/non-profit";
@@ -24,6 +25,7 @@ function Router() {
       <Route path="/service-detail/:slug" component={ServiceDetail} />
       <Route path="/programs" component={Programs} />
       <Route path="/corporate-wellness" component={CorporateWellness} />
+      <Route path="/diabetes-programs" component={DiabetesPrograms} />
       <Route path="/doctors" component={Doctors} />
       <Route path="/contact" component={Contact} />
       <Route path="/non-profit" component={NonProfitCollaboration} />
