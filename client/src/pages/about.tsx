@@ -127,6 +127,21 @@ export default function About() {
                 <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Sustainable Impact</h3>
                 <p className="text-gray-600">Creating lasting positive change in community health outcomes</p>
               </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Hand Back Health</h3>
+                <p className="text-gray-600 mb-4">Learn more about our NGO partner</p>
+                <a
+                  href="https://handbackhealth.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm"
+                >
+                  Visit Website
+                </a>
+              </div>
             </div>
           </div>
         </div>
