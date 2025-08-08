@@ -27,15 +27,15 @@ export default function HeroSection() {
     {
       title: "Expert Chiropractic and Physiotherapy",
       subtitle: "Comprehensive treatment for pain relief, injury recovery and optimal wellness in Kampala and Entebbe.",
-      backgroundImage: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
-      imageAlt: "Professional healthcare treatment",
+      backgroundImage: spineImage,
+      imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
       highlight: "Expert Care"
     },
     {
       title: "Are you looking for relief from injury or everyday aches and pains?",
       subtitle: "We Can Help",
-      backgroundImage: holisticImage,
-      imageAlt: "Holistic healing and wellness therapy",
+      backgroundImage: spineImage,
+      imageAlt: "Spine X-ray anatomy showing vertebrae and spinal structure",
       highlight: "We Can Help"
     }
   ];
