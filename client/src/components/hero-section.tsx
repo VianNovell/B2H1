@@ -129,7 +129,7 @@ export default function HeroSection() {
           </div>
 
           {/* Floating Therapeutic Cards */}
-          <div className="hidden lg:flex flex-col space-y-4 animate-slide-in-right ml-12">
+          <div className="hidden lg:flex flex-col space-y-4 animate-slide-in-right ml-32">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 w-56">
               <div className="text-center">
                 <div className="mb-3">
