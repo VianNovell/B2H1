@@ -58,16 +58,14 @@ export default function ServiceDetail() {
     "physiotherapy": {
       title: "Physiotherapy",
       shortDescription: "Evidence-based rehabilitation and movement therapy",
-      fullDescription: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Whether you're recovering from surgery, dealing with chronic pain, or facing a sports injury, our licensed physiotherapist is here to support your journey to recovery and long-term wellness. Through a combination of hands-on techniques, tailored exercise programs, and education, physiotherapy can help alleviate pain and inflammation, restore strength, flexibility, and mobility, prevent further injury or complications, and improve posture and movement mechanics. We treat a wide range of conditions, including musculoskeletal injuries, neurological disorders, post-operative rehabilitation, and more. Every treatment plan is customised to meet your unique goals and lifestyle.",
+      fullDescription: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Whether you're recovering from surgery, dealing with chronic pain, or facing a sports injury, our licensed physiotherapist is here to support your journey to recovery and long-term wellness. Through a combination of hands-on techniques, tailored exercise programs, and education, physiotherapy can help alleviate pain and inflammation, restore strength, flexibility, and mobility, prevent further injury or complications, and improve posture and movement mechanics. We treat a wide range of conditions, including musculoskeletal injuries, neurological disorders, post-operative rehabilitation, and more. Every treatment plan is customised to meet your unique goals and lifestyle. Start moving better, feeling stronger, and living more fully—book your physiotherapy session today.",
       image: physiotherapyImage,
       imageAlt: "Physiotherapy treatment session",
       benefits: [
-        "Restored movement and function",
-        "Pain reduction and management",
-        "Improved strength and flexibility",
-        "Faster injury recovery",
-        "Prevention of future injuries",
-        "Enhanced athletic performance"
+        "Alleviate pain and inflammation",
+        "Restore strength, flexibility, and mobility",
+        "Prevent further injury or complications",
+        "Improve posture and movement mechanics"
       ],
       conditions: [
         "Sports injuries",
@@ -344,7 +342,7 @@ export default function ServiceDetail() {
               <div className="bg-white rounded-xl p-6 shadow-sm">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">What does treatment involve?</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Using skilled manipulation and quick, comfortable adjustment techniques, with just the right amount of pressure, Chiropractors gently unlock the stiff joints to restore proper function and mobility. This in turn helps to settle the pain. The vulnerable area is then stabilised with further treatments. When you have experienced the benefits of chiropractic treatment in reducing pain and discomfort, the next step is to help you get active again.
+                  Using skilled manipulation and quick, comfortable adjustment techniques, with just the right amount of pressure, Chiropractors gently unlock the stiff joints to restore proper function and mobility. This in turn helps to settle the pain. The vulnerable area is then stabilised with further treatments. When you have experienced the benefits of chiropractic treatment in reducing pain and discomfort, the next step is to help you get active again. Following treatment rehabilitation and exercise advice will be given to strengthen weak muscles and reduce the likelihood of re-injury.
                 </p>
                 <p className="text-gray-600 font-semibold mb-3">Alongside the traditional chiropractic adjustment, chiropractors utilize adjunctive therapies:</p>
                 <ul className="text-gray-600 space-y-2">
