@@ -141,12 +141,12 @@ export default function Navigation() {
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              <button
-                onClick={() => scrollToSection("programs")}
+              <Link
+                href="/programs"
                 className="text-[hsl(var(--neutral-dark))] hover:text-orange-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-orange-50"
               >
                 Programs
-              </button>
+              </Link>
               <button
                 onClick={() => scrollToSection("appointment")}
                 className="text-[hsl(var(--neutral-dark))] hover:text-teal-600 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-teal-50"
@@ -200,12 +200,12 @@ export default function Navigation() {
             >
               Services
             </Link>
-            <button
-              onClick={() => scrollToSection("programs")}
+            <Link
+              href="/programs"
               className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-orange-600 hover:bg-orange-50 w-full text-left rounded-lg transition-all duration-200"
             >
               Programs
-            </button>
+            </Link>
             <button
               onClick={() => scrollToSection("appointment")}
               className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-teal-600 hover:bg-teal-50 w-full text-left rounded-lg transition-all duration-200"
