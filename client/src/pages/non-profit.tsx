@@ -17,7 +17,7 @@ export default function NonProfitCollaboration() {
             </h1>
             <div className="w-24 h-1 bg-[hsl(var(--wellness-blue))] mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Partnering with Hand Back Health (HBH) to provide sustainable healthcare solutions and training programs in underserved communities.
+              Our commitment to community healthcare and wellness initiatives.
             </p>
           </div>
         </div>
