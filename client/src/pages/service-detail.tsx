@@ -276,25 +276,6 @@ export default function ServiceDetail() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">About {service.title}</h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">{service.fullDescription}</p>
               
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Key Benefits</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
-                {service.benefits.map((benefit: string, index: number) => (
-                  <li key={index} className="flex items-start">
-                    <div className="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
-                    <span className="text-gray-700">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Treatment Techniques</h3>
-              <ul className="space-y-2 mb-8">
-                {service.techniques.map((technique: string, index: number) => (
-                  <li key={index} className="flex items-start">
-                    <div className="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full mt-2 mr-3"></div>
-                    <span className="text-gray-700">{technique}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
 
             {/* Sidebar */}
