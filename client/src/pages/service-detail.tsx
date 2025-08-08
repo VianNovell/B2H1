@@ -363,6 +363,22 @@ export default function ServiceDetail() {
         </section>
       )}
 
+      {/* Recognition Section for Chiropractic */}
+      {slug === 'chiropractic' && (
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Recognition of contraindications and risk management procedures, the limitations of chiropractic care, and of the need for protocols relating to referral to other health professionals</h2>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <p className="text-gray-600 leading-relaxed">
+                  [Please provide the explanation content that should follow this title]
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Appointment Section - Hidden but with ID for scrolling */}
       <section id="appointment" className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
