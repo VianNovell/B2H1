@@ -24,14 +24,8 @@ export default function NonProfitCollaboration() {
       </section>
 
       {/* New Content Section */}
-      <section className="py-20 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <p className="text-lg text-gray-600 mb-6">
-              Our clinicians are all involved with a non-profit organisation located in Jinja, Uganda. Where we give back our time and expertise. Please see <a href="https://handbackhealth.org/" target="_blank" rel="noopener noreferrer" className="text-[hsl(var(--wellness-blue))] hover:underline font-semibold">HERE</a> for more information about Hand Back Health.
-            </p>
-          </div>
-          
           <div className="bg-blue-50 p-8 rounded-xl">
             <h2 className="text-2xl md:text-3xl font-bold text-[hsl(var(--neutral-dark))] mb-6 text-center">
               WE NEED YOUR HELP to bring our newest project to fruition
