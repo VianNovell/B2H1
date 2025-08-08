@@ -27,7 +27,7 @@ export default function ServiceDetail() {
   const serviceData: Record<string, any> = {
     "chiropractic": {
       title: "Chiropractic",
-      shortDescription: "Comprehensive spinal care and nervous system health",
+      shortDescription: "Comprehensive neuromusculoskeletal diagnosis and treatment",
       fullDescription: "Chiropractic is based on the scientific fact that your body is a self-regulating, self-healing organism. We focus on the nervous system and its relationship to your body, specializing in diagnosis, treatment and prevention of neuromusculoskeletal disorders with emphasis on manual techniques and joint adjustment.",
       image: spineImage,
       imageAlt: "Spine X-ray showing vertebrae and spinal structure",
@@ -48,11 +48,11 @@ export default function ServiceDetail() {
         "Postural problems"
       ],
       techniques: [
-        "Spinal manipulation and adjustment",
-        "Soft tissue therapy",
-        "Posture correction",
-        "Exercise rehabilitation",
-        "Lifestyle counseling"
+        "Spinal adjustment and manipulation",
+        "Soft tissue and fascia releases",
+        "Multiple Chiropractic Specific techniques",
+        "Pregnancy and paediatric Chiropractic",
+        "Sport Injury prevention and treatments"
       ]
     },
     "physiotherapy": {
