@@ -41,10 +41,10 @@ export default function LocationDetailsSection() {
                   <p className="text-gray-600 text-sm">📞 0758 478992</p>
                   <p className="text-gray-600 text-sm">
                     ✉️ <a 
-                      href="mailto:viankamanzi5@gmail.com" 
+                      href="mailto:info@back2health.com" 
                       className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 hover:underline transition-colors duration-200"
                     >
-                      viankamanzi5@gmail.com
+                      info@back2health.com
                     </a>
                   </p>
                 </div>
@@ -75,10 +75,10 @@ export default function LocationDetailsSection() {
                   <p className="text-gray-600 text-sm">📞 0758 478992</p>
                   <p className="text-gray-600 text-sm">
                     ✉️ <a 
-                      href="mailto:viankamanzi5@gmail.com" 
+                      href="mailto:info@back2health.com" 
                       className="text-[hsl(var(--wellness-blue))] hover:text-blue-700 hover:underline transition-colors duration-200"
                     >
-                      viankamanzi5@gmail.com
+                      info@back2health.com
                     </a>
                   </p>
                 </div>
