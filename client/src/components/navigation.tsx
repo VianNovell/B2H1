@@ -111,12 +111,6 @@ export default function Navigation() {
                   onMouseLeave={() => setIsServicesHovered(false)}
                 >
                   <DropdownMenuItem asChild>
-                    <Link href="/services" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
-                      All Services
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuItem asChild>
                     <Link href="/service-detail/chiropractic" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
                       Chiropractic Care
                     </Link>
