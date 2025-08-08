@@ -272,6 +272,22 @@ export default function ServiceDetail() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">About {service.title}</h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">{service.fullDescription}</p>
               
+              {/* Benefits Section for Therapeutic Massage */}
+              {slug === 'therapeutic-massage' && (
+                <div className="mb-8">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Benefits</h3>
+                  <ul className="space-y-3 text-lg text-gray-600 mb-6">
+                    <li>• Relief from muscle tension and soreness</li>
+                    <li>• Improved circulation and flexibility</li>
+                    <li>• Stress and anxiety reduction</li>
+                    <li>• Support for injury recovery and posture improvement</li>
+                  </ul>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Let therapeutic massage be a part of your self-care journey. Book your session today and take a step toward better health.
+                  </p>
+                </div>
+              )}
+              
             </div>
 
             {/* Sidebar */}
