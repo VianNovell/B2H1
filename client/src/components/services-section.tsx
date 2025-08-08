@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-// import physiotherapyImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
+import physiotherapyImage from "@assets/Physiotherapy.png";
 import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import doctorImage from "@assets/Doctor.png";
@@ -34,7 +34,7 @@ export default function ServicesSection() {
       title: "Physiotherapy",
       description: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80",
+      image: physiotherapyImage,
     },
     {
       icon: Hand,
