@@ -100,52 +100,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Non-profit Collaboration Section */}
-      <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-              Non-profit Collaboration: Hand Back Health
-            </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Back 2 Health proudly collaborates with Hand Back Health NGO, a non-profit organization founded in 2017 
-              by Dr. Sarah Worthington. This partnership allows us to extend our reach and provide essential healthcare 
-              services to underserved communities in Uganda.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Community Outreach</h3>
-                <p className="text-gray-600">Providing healthcare services to rural and underserved communities</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Sustainable Impact</h3>
-                <p className="text-gray-600">Creating lasting positive change in community health outcomes</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-[hsl(var(--wellness-blue))] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="h-8 w-8 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-[hsl(var(--neutral-dark))] mb-2">Hand Back Health</h3>
-                <p className="text-gray-600 mb-4">Learn more about our NGO partner</p>
-                <a
-                  href="https://handbackhealth.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm"
-                >
-                  Visit Website
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
