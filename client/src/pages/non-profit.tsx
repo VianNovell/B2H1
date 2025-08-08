@@ -24,7 +24,7 @@ export default function NonProfitCollaboration() {
       </section>
 
       {/* New Content Section */}
-      <section className="py-12 bg-white">
+      <section className="pt-12 pb-8 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-blue-50 p-8 rounded-xl">
             <h2 className="text-2xl md:text-3xl font-bold text-[hsl(var(--neutral-dark))] mb-6 text-center">
