@@ -48,13 +48,13 @@ export default function About() {
                 Our Story
               </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Back 2 Health is a chiropractic and specialist holistic therapy wellness centre dedicated to providing natural and drug-free solutions to disease, pain, and promoting wellness. We believe in addressing the root causes of health issues rather than just treating symptoms.
+                Whether it's back pain, a sports injury, sciatica, or something more complex, we'll match you with the clinician who's the best fit for your body, your goals, and your journey, regardless of their professional title.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Whether you're looking for relief from injury or everyday aches and pains, or trying to maintain a healthy, active lifestyle, we can help. Our comprehensive approach combines traditional chiropractic care with modern physiotherapy, massage therapy, PEMF therapy, and holistic wellness programs.
+                Every member of our team is trained to the same high standards. Every clinician is skilled, collaborative, and focused on getting you better; not selling a profession, but solving your problem.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                With locations in Bukoto and Entebbe, we serve the greater Kampala area and beyond, providing accessible, high-quality healthcare that focuses on your overall wellbeing and long-term health goals.
+                We are experts who listen, explain, and guide you forward, together. If any of our clinicians believe that you would be better suited with another therapist they will refer you so that you receive the best possible individual care.
               </p>
             </div>
 
