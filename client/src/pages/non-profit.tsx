@@ -47,9 +47,9 @@ export default function NonProfitCollaboration() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-[hsl(var(--wellness-blue))] hover:bg-blue-700 text-white px-8 py-3">
+                <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                   Learn More About Hand Back Health
-                  <ArrowRight className="ml-2 w-4 h-4" />
+                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </a>
             </div>
