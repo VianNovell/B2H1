@@ -13,8 +13,22 @@ export default function ProgramsSection() {
       icon: Building2,
       title: "Corporate Wellness",
       subtitle: "Workplace Health Solutions",
-      description: "Do you want: Happy, Healthy employees, Improved workplace morale, Reduced days off sick, Improved productivity, Reduced company costs? Then you need to prioritise your employee's health in a preventative way. It turns out that a comprehensive, strategically designed investment in employees' social, mental, and physical health pays off. Research proves that wellness programs actually save company's money. The long and short of it: Healthy employees cost you less. Back 2 Health and their team of professionals can aid you to develop strategies to enhance the wellbeing, and productivity of your staff.",
-      features: [],
+      description: "Do you want: Happy, Healthy employees, Improved workplace morale, Reduced days off sick, Improved productivity, Reduced company costs? Then you need to prioritise your employee's health in a preventative way. It turns out that a comprehensive, strategically designed investment in employees' social, mental, and physical health pays off. Research proves that wellness programs actually save company's money. The long and short of it: Healthy employees cost you less. Back 2 Health and their team of professionals can aid you to develop strategies to enhance the wellbeing, and productivity of your staff. We aim to provide holistic wellness services tailored to the needs of individual companies.",
+      features: [
+        "Individual Therapy – Your staff can reach their health and wellness goals by consulting with one of our therapists",
+        "Group programs - Join one of our carefully designed group programs to address health issues such as: Diabetes, Obesity, High cholesterol, High Blood Pressure",
+        "Regular Group Sessions – Qi gong, Breathwork and Meditation sessions for stress management and wellness",
+        "Exercise Rehabilitation – Addressing issues such as Low Back Pain and Neck Pain",
+        "Corporate Wellness Workshops - Our professionally created and delivered program aims to address health and wellness goals for staff members",
+        "Group well-being, wellness and posture presentations",
+        "One to one pain and injury consultations with a specialist (Physiotherapist / Chiropractor)",
+        "Mini massage taster sessions",
+        "Qi Gong and/or Pilates sessions",
+        "Nutrition presentations",
+        "Ergonomic desk assessments",
+        "Exercise and Rehabilitation programs"
+      ],
+      corporateSubheading: "Our Corporate Programs",
       gradient: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       textColor: "text-blue-700",
@@ -99,6 +113,11 @@ export default function ProgramsSection() {
                     {program.description}
                   </p>
 
+                  {/* Corporate Programs Subheading */}
+                  {program.title === "Corporate Wellness" && (
+                    <h4 className="text-lg md:text-xl font-bold text-gray-800 mb-3 md:mb-4">Our Corporate Programs</h4>
+                  )}
+                  
                   {/* Features */}
                   <ul className="space-y-2 md:space-y-3 mb-6 md:mb-8">
                     {program.features.map((feature, idx) => (
