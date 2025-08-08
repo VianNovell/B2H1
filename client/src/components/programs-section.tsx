@@ -141,7 +141,13 @@ export default function ProgramsSection() {
 
                   {/* CTA Button */}
                   <Button
-                    onClick={scrollToServices}
+                    onClick={() => {
+                      if (program.title === "Corporate Wellness") {
+                        window.location.href = "/corporate-wellness";
+                      } else {
+                        scrollToServices();
+                      }
+                    }}
                     className={`w-full bg-gradient-to-r ${program.gradient} hover:shadow-lg text-white font-semibold py-3 md:py-4 px-6 rounded-lg md:rounded-xl transition-all duration-300 group-hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation`}
                   >
                     Learn More
