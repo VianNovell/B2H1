@@ -122,7 +122,7 @@ export default function Navigation() {
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
                     <Link href="/service-detail/therapeutic-massage" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
-                      Massage Therapy
+                      Therapeutic Massage
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
