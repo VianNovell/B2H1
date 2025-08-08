@@ -10,8 +10,12 @@ export default function FAQSection() {
       answer: "No. You do not need a referral to see any of our practitioners. You can book directly through our website or call us."
     },
     {
+      question: "What is collaborative care?",
+      answer: "Collaborative care is our unique approach where multiple healthcare professionals work together to develop the most effective treatment plan for each patient. Our team of chiropractors, physiotherapists, and massage therapists collaborate to ensure you receive comprehensive, coordinated care tailored to your specific needs."
+    },
+    {
       question: "What should I expect during my first visit?",
-      answer: "Your first visit will include a detailed consultation and physical assessment. We will discuss treatment options and may refer you for imaging or further diagnostics if needed. We will explain the cause of your condition and provide treatment when possible."
+      answer: "Your first visit will include a detailed consultation and physical assessment. We will discuss treatment options. You may be referred for imaging or further diagnostics if required. We will explain the cause of your primary condition and provide treatment when possible."
     },
     {
       question: "How many treatment sessions will I need?",
@@ -22,16 +26,12 @@ export default function FAQSection() {
       answer: "Yes. We specialise in managing chronic pain using natural and non-invasive methods. Our treatments are tailored to each individual's condition and response to care."
     },
     {
-      question: "What is collaborative care?",
-      answer: "Collaborative care is our unique approach where multiple healthcare professionals work together to develop the most effective treatment plan for each patient. Our team of chiropractors, physiotherapists, and massage therapists collaborate to ensure you receive comprehensive, coordinated care tailored to your specific needs."
-    },
-    {
       question: "Do you offer corporate wellness programs?",
       answer: "Yes. We offer a range of wellness services for companies, including workshops, ergonomic assessments, group therapies, and stress management programs. See the \"Programs\" tab for more details."
     },
     {
       question: "Are your practitioners licensed?",
-      answer: "Yes. All our practitioners are fully licensed and certified in their respective fields. Our team includes Chiropractors, Physiotherapists, and Massage Therapists committed to the highest standards of care and ongoing education."
+      answer: "Yes all our practitioners are fully licensed and certified in their respective field. Our team includes highly qualified Chiropractors, Physiotherapists and Massage therapists. We maintain the highest standards of professional excellence and continuing education."
     }
   ];
 
