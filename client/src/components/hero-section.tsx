@@ -121,6 +121,45 @@ export default function HeroSection() {
             </div>
           </div>
 
+          {/* Floating Therapeutic Cards */}
+          <div className="hidden lg:flex flex-col space-y-6 animate-slide-in-right">
+            <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/20 transform hover:scale-105 transition-all duration-300 hover:bg-white/20">
+              <div className="flex items-center space-x-3 mb-3">
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <span className="text-2xl">✨</span>
+                </div>
+                <div className="text-white">
+                  <h3 className="font-bold text-lg">Holistic Healing</h3>
+                  <p className="text-white/80 text-sm">Mind, Body & Spirit</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/20 transform hover:scale-105 transition-all duration-300 hover:bg-white/20">
+              <div className="flex items-center space-x-3 mb-3">
+                <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <span className="text-2xl">🌿</span>
+                </div>
+                <div className="text-white">
+                  <h3 className="font-bold text-lg">Natural Medicine</h3>
+                  <p className="text-white/80 text-sm">Proven Therapies</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/15 backdrop-blur-md rounded-2xl p-6 shadow-2xl border border-white/20 transform hover:scale-105 transition-all duration-300 hover:bg-white/20">
+              <div className="flex items-center space-x-3 mb-3">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center shadow-lg">
+                  <span className="text-2xl">🏆</span>
+                </div>
+                <div className="text-white">
+                  <h3 className="font-bold text-lg">Expert Care</h3>
+                  <p className="text-white/80 text-sm">Collaborative Team</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         {/* Navigation Controls */}
