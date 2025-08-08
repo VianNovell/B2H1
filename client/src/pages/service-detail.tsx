@@ -237,7 +237,7 @@ export default function ServiceDetail() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Link href="/services">
+              <Link href="/#services">
                 <Button variant="outline" className="mb-6 text-white border-2 border-white bg-white/10 hover:bg-white hover:text-blue-600 shadow-lg backdrop-blur-sm font-semibold px-6 py-3">
                   <ArrowLeft className="mr-2 h-4 w-4" />
                   Back to Services
