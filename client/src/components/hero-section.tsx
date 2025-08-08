@@ -129,39 +129,39 @@ export default function HeroSection() {
           </div>
 
           {/* Floating Therapeutic Cards */}
-          <div className="hidden lg:flex flex-col space-y-6 animate-slide-in-right">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 min-w-[280px]">
-              <div className="flex items-center space-x-4">
-                <div className="w-14 h-14 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl flex items-center justify-center">
-                  <span className="text-2xl">✨</span>
+          <div className="hidden lg:flex flex-col space-y-4 animate-slide-in-right">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 w-56">
+              <div className="text-center">
+                <div className="mb-3">
+                  <span className="text-3xl">✨</span>
                 </div>
                 <div className="text-white">
-                  <h3 className="font-semibold text-lg">Holistic Healing</h3>
-                  <p className="text-white/70 text-sm">Mind, Body & Spirit</p>
+                  <h3 className="font-semibold text-base mb-1">Holistic Healing</h3>
+                  <p className="text-white/70 text-xs">Mind, Body & Spirit</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 min-w-[280px]">
-              <div className="flex items-center space-x-4">
-                <div className="w-14 h-14 bg-gradient-to-br from-green-400 to-green-500 rounded-xl flex items-center justify-center">
-                  <span className="text-2xl">🌿</span>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 w-56">
+              <div className="text-center">
+                <div className="mb-3">
+                  <span className="text-3xl">🌿</span>
                 </div>
                 <div className="text-white">
-                  <h3 className="font-semibold text-lg">Natural Medicine</h3>
-                  <p className="text-white/70 text-sm">Proven Therapies</p>
+                  <h3 className="font-semibold text-base mb-1">Natural Medicine</h3>
+                  <p className="text-white/70 text-xs">Proven Therapies</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 min-w-[280px]">
-              <div className="flex items-center space-x-4">
-                <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-xl flex items-center justify-center">
-                  <span className="text-2xl">🤝</span>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 shadow-lg border border-white/10 transform hover:scale-105 transition-all duration-300 w-56">
+              <div className="text-center">
+                <div className="mb-3">
+                  <span className="text-3xl">🤝</span>
                 </div>
                 <div className="text-white">
-                  <h3 className="font-semibold text-lg">Expert Care</h3>
-                  <p className="text-white/70 text-sm">Collaborative Team</p>
+                  <h3 className="font-semibold text-base mb-1">Expert Care</h3>
+                  <p className="text-white/70 text-xs">Collaborative Team</p>
                 </div>
               </div>
             </div>
