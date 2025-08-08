@@ -29,6 +29,13 @@ export default function HeroSection() {
       backgroundImage: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080",
       imageAlt: "Professional healthcare treatment",
       highlight: "Expert Care"
+    },
+    {
+      title: "Are you looking for relief from injury or everyday aches and pains?",
+      subtitle: "We Can Help",
+      backgroundImage: holisticImage,
+      imageAlt: "Holistic healing and wellness therapy",
+      highlight: "We Can Help"
     }
   ];
 
