@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import physiotherapyImage from "@assets/Physiotherapy.png";
 import spineImage from "@assets/Spine.png";
-import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
+import therapeuticImage from "@assets/Therapeuticimage.png";
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
@@ -41,7 +41,7 @@ export default function ServicesSection() {
       title: "Therapeutic Massage",
       description: "Therapeutic massage, also known as Medical massage, is tailored to your health needs. A targeted approach to relieve stress, reduce pain, and restore balance using techniques specific to your individual needs. Benefits include relief from muscle tension, improved circulation and flexibility, stress reduction, and support for injury recovery.",
       color: "wellness-blue",
-      image: massageImage,
+      image: therapeuticImage,
     },
     {
       icon: Zap,
