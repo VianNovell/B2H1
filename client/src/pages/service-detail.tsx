@@ -329,6 +329,61 @@ export default function ServiceDetail() {
         </div>
       </section>
 
+      {/* FAQ Section for Chiropractic */}
+      {slug === 'chiropractic' && (
+        <section className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
+              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div className="max-w-4xl mx-auto space-y-6">
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">What is Chiropractic?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Chiropractic specialises in the diagnosis, treatment and prevention of conditions which are due to mechanical dysfunction of the muscles, joints and in particular the spine and their effects upon the nervous system.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">What do Chiropractors do?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  In Chiropractic, the emphasis is on prevention and 'adjustment'. According to the condition being treated, one or more of a whole range of different chiropractic adjusting techniques can be used. With these your chiropractor effects an improvement in your joint's mobility, as well as nerve and muscle function. Your body's own healing process (which we normally recognise in its ability to heal bruises, cuts and broken bones) will then be able to continue the task of restoring normal function.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">What will happen when you visit a chiropractor?</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  A visit to the chiropractor is very similar to visiting your medical doctor; he or she is a primary healthcare professional. The difference is that the process and treatment of your complaint is always done from a holistic, drug free perspective. On the first visit the chiropractor will take your medical history carry out a full examination. This includes orthopaedic and neurological tests whereby muscle strength, nerve function, joint function, as well as body balance and alignment are assessed.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">What does treatment involve?</h3>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  Using skilled manipulation and quick, comfortable adjustment techniques, with just the right amount of pressure, Chiropractors gently unlock the stiff joints to restore proper function and mobility. This in turn helps to settle the pain. The vulnerable area is then stabilised with further treatments. When you have experienced the benefits of chiropractic treatment in reducing pain and discomfort, the next step is to help you get active again.
+                </p>
+                <p className="text-gray-600 font-semibold mb-3">Alongside the traditional chiropractic adjustment, chiropractors utilize adjunctive therapies:</p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Spinal and peripheral joint mobilization</li>
+                  <li>• Muscle, nerve and fascia release techniques</li>
+                  <li>• Therapeutic instrument techniques and modalities</li>
+                  <li>• Exercise, rehabilitative programs and other forms of active care</li>
+                  <li>• Nutrition and dietary interventions</li>
+                  <li>• Psychosocial aspects of patient management</li>
+                  <li>• Patient education on spinal health, posture, ergonomics, nutrition and other lifestyle modifications</li>
+                  <li>• Emergency treatment and acute pain management procedures as indicated</li>
+                  <li>• Other supportive measures, which may include the use of taping, back supports and orthotics</li>
+                  <li>• Recognition of contraindications and risk management procedures, the limitations of chiropractic care, and of the need for protocols relating to referral to other health professionals</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Appointment Section - Hidden but with ID for scrolling */}
       <section id="appointment" className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
