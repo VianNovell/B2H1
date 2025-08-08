@@ -370,8 +370,21 @@ export default function ServiceDetail() {
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Recognition of contraindications and risk management procedures, the limitations of chiropractic care, and of the need for protocols relating to referral to other health professionals</h2>
               <div className="bg-gray-50 rounded-xl p-6">
-                <p className="text-gray-600 leading-relaxed">
-                  [Please provide the explanation content that should follow this title]
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Whether you're recovering from surgery, dealing with chronic pain, or facing a sports injury, our licensed physiotherapist is here to support your journey to recovery and long-term wellness.
+                </p>
+                <p className="text-gray-600 font-semibold mb-3">Through a combination of hands-on techniques, tailored exercise programs, and education, physiotherapy can help:</p>
+                <ul className="text-gray-600 space-y-2 mb-4">
+                  <li>• Alleviate pain and inflammation</li>
+                  <li>• Restore strength, flexibility, and mobility</li>
+                  <li>• Prevent further injury or complications</li>
+                  <li>• Improve posture and movement mechanics</li>
+                </ul>
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  We treat a wide range of conditions, including musculoskeletal injuries, neurological disorders, post-operative rehabilitation, and more. Every treatment plan is customised to meet your unique goals and lifestyle.
+                </p>
+                <p className="text-gray-600 leading-relaxed font-medium">
+                  Start moving better, feeling stronger, and living more fully—book your physiotherapy session today.
                 </p>
               </div>
             </div>
