@@ -26,10 +26,10 @@ export default function DiabetesPrograms() {
       {/* Program Content */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Who can Join */}
+          {/* How does it work? */}
           <div className="bg-white rounded-3xl p-8 shadow-lg mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
-              Who can Join
+              How does it work?
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               The course will take place in groups as it is suggested that having peers to share the experience improves outcomes. Groups of up to 10 people will meet with the course leader weekly where there will be an educational presentation and a group discussion as well as individual assessment and instruction.
