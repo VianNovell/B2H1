@@ -22,9 +22,6 @@ export default function ServiceDetail() {
     }
   };
 
-  const callNow = () => {
-    window.open("tel:0758478992", "_self");
-  };
 
   // Service data mapping
   const serviceData: Record<string, any> = {
@@ -248,21 +245,13 @@ export default function ServiceDetail() {
               </Link>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">{service.title}</h1>
               <p className="text-xl text-blue-100 mb-8">{service.shortDescription}</p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div>
                 <Button
                   onClick={scrollToAppointment}
                   className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold"
                 >
                   <Calendar className="mr-2 h-5 w-5" />
                   Book Appointment
-                </Button>
-                <Button
-                  onClick={callNow}
-                  variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-semibold"
-                >
-                  <Phone className="mr-2 h-5 w-5" />
-                  Call Now
                 </Button>
               </div>
             </div>
@@ -333,14 +322,6 @@ export default function ServiceDetail() {
                     <Calendar className="mr-2 h-4 w-4" />
                     Book Appointment
                   </Button>
-                  <Button
-                    onClick={callNow}
-                    variant="outline"
-                    className="w-full border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
-                  >
-                    <Phone className="mr-2 h-4 w-4" />
-                    Call: 0758478992
-                  </Button>
                 </div>
               </div>
             </div>
@@ -353,14 +334,7 @@ export default function ServiceDetail() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Book Your {service.title} Appointment</h2>
           <p className="text-blue-100 mb-8">Take the first step towards better health and wellness.</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              onClick={callNow}
-              className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 text-lg font-semibold"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              Call: 0758478992
-            </Button>
+          <div className="flex justify-center">
             <Link href="/#appointment">
               <Button
                 variant="outline"
