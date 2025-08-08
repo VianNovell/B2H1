@@ -86,16 +86,14 @@ export default function ServiceDetail() {
     "therapeutic-massage": {
       title: "Therapeutic Massage",
       shortDescription: "Medical massage tailored to your health needs",
-      fullDescription: "Therapeutic massage, also known as Medical massage, is tailored to your health needs. A targeted approach to relieve stress, reduce pain, and restore balance using techniques specific to your individual needs. Benefits include relief from muscle tension, improved circulation and flexibility, stress reduction, and support for injury recovery.",
+      fullDescription: "Therapeutic massage is also known as Medical massage, it is tailored to your health needs. At Back 2 Health, discover the healing power of therapeutic massage. A targeted approach to relieve stress, reduce pain, and restore balance to your body and mind. Unlike a simple relaxation massage, therapeutic massage focuses on specific areas of tension and discomfort, using techniques tailored to your individual needs. Whether you're recovering from an injury, managing chronic pain, or simply looking to improve your overall wellness, our trained massage therapists are here to help you feel your best. Benefits include relief from muscle tension and soreness, improved circulation and flexibility, stress and anxiety reduction, and support for injury recovery and posture improvement. Let therapeutic massage be a part of your self-care journey. Book your session today and take a step toward better health.",
       image: therapeuticImage,
       imageAlt: "Therapeutic massage treatment",
       benefits: [
-        "Relief from muscle tension",
-        "Improved circulation",
-        "Enhanced flexibility",
-        "Stress reduction",
-        "Better sleep quality",
-        "Faster injury recovery"
+        "Relief from muscle tension and soreness",
+        "Improved circulation and flexibility",
+        "Stress and anxiety reduction",
+        "Support for injury recovery and posture improvement"
       ],
       conditions: [
         "Muscle tension and knots",
