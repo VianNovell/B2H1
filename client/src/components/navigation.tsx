@@ -34,20 +34,20 @@ export default function Navigation() {
   return (
     <nav className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b border-green-100">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-20 md:h-24 lg:h-28">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-3 transition-all duration-300 hover:scale-105">
+              <Link href="/" className="flex items-center space-x-4 transition-all duration-300 hover:scale-105">
                 <img 
                   src={logoImage} 
                   alt="Back 2 Health Logo" 
-                  className="h-14 w-14 md:h-16 md:w-16 object-contain"
+                  className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 object-contain drop-shadow-lg"
                 />
                 <div className="hidden sm:block">
-                  <span className="text-lg md:text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+                  <span className="text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent drop-shadow-sm">
                     Back 2 Health
                   </span>
-                  <div className="text-xs text-gray-600 font-medium">
+                  <div className="text-sm md:text-base text-gray-600 font-medium">
                     Chiropractic Wellness Centre
                   </div>
                 </div>
