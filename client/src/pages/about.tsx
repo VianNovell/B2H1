@@ -22,7 +22,7 @@ export default function About() {
               About Back 2 Health
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Your trusted partner in holistic healthcare and wellness in Jinja, Uganda
+              Your trusted partner in holistic healthcare and wellness in Kampala and Entebbe, Uganda
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function About() {
             {/* Mission Statement */}
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-                Our Mission
+                Our Goal
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 At Back 2 Health, we are committed to providing exceptional healthcare services that address the root causes of pain and dysfunction. Our collaborative care model combines traditional chiropractic techniques with modern physiotherapy and holistic wellness approaches to help our patients achieve optimal health and wellbeing.
