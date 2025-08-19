@@ -20,13 +20,6 @@ export default function AboutSection() {
 
         <div className="max-w-4xl mx-auto">
           <div>
-            <h3 className="text-2xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-              Our Story
-            </h3>
-            <p className="text-gray-600 text-lg mb-6">
-              Natural and non-invasive forms of Healthcare.
-            </p>
-
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
               <h4 className="text-xl font-semibold text-[hsl(var(--neutral-dark))] mb-3">
                 Our Goal
