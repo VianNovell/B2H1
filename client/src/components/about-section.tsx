@@ -25,13 +25,22 @@ export default function AboutSection() {
                 Our Goal
               </h4>
               <p className="text-gray-600">
-                Whether it's back pain, a sports injury, sciatica, or something more complex, we'll match you with the clinician who's the best fit for your body, your goals, and your journey, regardless of their professional title.
+                Back 2 Health Chiropractic and Wellness Centre is dedicated to providing natural and drug free solutions to disease and pain while promoting Wellness. We believe in addressing the root cause of health issues rather than just treating symptoms.
               </p>
               <p className="text-gray-600 mt-4">
-                Every member of our team is trained to the same high standards. Every clinician is skilled, collaborative, and focused on getting you better; not selling a profession, but solving your problem.
+                We maintain that everyone deserves to live free from pain—without relying on painkillers or being limited in doing what they love.
               </p>
               <p className="text-gray-600 mt-4">
-                We are experts who listen, explain, and guide you forward, together. If any of our clinicians believe that you would be better suited with another therapist they will refer you so that you receive the best possible individual care.
+                We deliver a professional, highly specialised and patient centred approach; combining individually tailored healthcare plans with the most effective, long-term treatment available.
+              </p>
+              <p className="text-gray-600 mt-4">
+                We see people from all walks of life, from 4-week old babies to pensioners in their 90s, from pregnant women to office workers to professional athletes to improve movement and function, reduce pain and enhance wellbeing.
+              </p>
+              <p className="text-gray-600 mt-4">
+                Whether you are looking for relief from injury or chronic pain, or trying to maintain a healthy, active lifestyle we can help.
+              </p>
+              <p className="text-gray-600 mt-4">
+                With locations in Bukoto and Entebbe, we serve the greater Kampala area and beyond, providing accessible, high-quality healthcare that focuses on your overall wellbeing and long-term health goals.
               </p>
             </div>
 
