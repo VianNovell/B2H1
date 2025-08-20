@@ -3,34 +3,34 @@ import { useQuery } from "@tanstack/react-query";
 import { getQueryFn } from "@/lib/queryClient";
 
 export default function TestimonialsSection() {
-  // For now, using placeholder data - will integrate with backend when testimonials are added
+  // Real Google reviews from actual patients
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Misbah Faisal",
       service: "Chiropractic Care",
-      content: "After years of chronic back pain, the team at Back 2 Health helped me find relief through their collaborative approach. The combination of chiropractic care and naturopathy has transformed my quality of life.",
+      content: "I'm so grateful to have found Dr Sarah as Chiropractor after struggling with my back and shoulder pain for more than 4 years I'm thrilled to report that my pain is completely gone because of her expertise, compassion and personalized care.",
       rating: 5,
     },
     {
       id: 2,
-      name: "Michael Chen",
-      service: "Holistic Wellness Program",
-      content: "The comprehensive wellness program exceeded my expectations. From nutrition counseling to massage therapy, every aspect of my health was addressed with genuine care and expertise.",
+      name: "Anthony ODwyer",
+      service: "Chiropractic Care",
+      content: "The staff are friendly and easy to communicate and plan with. I was recommended to the clinic to Dr Sarah who worked on my upper and lower back over the course of about 8 sessions and my initial symptoms were entirely resolved.",
       rating: 5,
     },
     {
       id: 3,
-      name: "Emma Rodriguez",
-      service: "Sports Rehabilitation",
-      content: "As a professional athlete, I needed specialized care for my injury. Their rehabilitation program got me back to peak performance faster than I thought possible.",
+      name: "Louisa Rugege",
+      service: "General Care",
+      content: "Great service, welcoming people, good organic products, clean and airy establishment. It's a 10/10 for me and worth it all the way.",
       rating: 5,
     },
     {
       id: 4,
-      name: "David Thompson",
-      service: "Corporate Wellness",
-      content: "Our company's wellness program with Back 2 Health has significantly improved employee satisfaction and reduced sick days. Highly recommend their corporate services.",
+      name: "Zoen Harrold",
+      service: "Chiropractic Care",
+      content: "Great Chiropractors. Knowledgeable and they care.",
       rating: 5,
     }
   ];
