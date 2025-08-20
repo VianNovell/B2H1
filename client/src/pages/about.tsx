@@ -32,15 +32,7 @@ export default function About() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            {/* Mission Statement */}
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--neutral-dark))] mb-6">
-                Our Goal
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                At Back 2 Health, we are committed to providing exceptional healthcare services that address the root causes of pain and dysfunction.
-              </p>
-            </div>
+
 
 
 
