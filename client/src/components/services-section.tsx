@@ -4,6 +4,7 @@ import {
   Zap,
   Activity,
   Target,
+  Building2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
@@ -64,7 +65,13 @@ export default function ServicesSection() {
       color: "wellness-blue",
       image: doctorImage,
     },
-
+    {
+      icon: Building2,
+      title: "Corporate Wellness",
+      description: "Comprehensive workplace health solutions designed to create healthy, productive employees. Our programs include group wellness presentations, one-to-one consultations, mini massage sessions, Qi Gong classes, nutrition presentations, ergonomic assessments, and exercise rehabilitation programs tailored to your company's needs.",
+      color: "wellness-blue",
+      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+    },
 
   ];
 
