@@ -38,7 +38,7 @@ export default function About() {
                 Our Goal
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                At Back 2 Health, we are committed to providing exceptional healthcare services that address the root causes of pain and dysfunction. Our collaborative care model combines traditional chiropractic techniques with modern physiotherapy and holistic wellness approaches to help our patients achieve optimal health and wellbeing.
+                At Back 2 Health, we are committed to providing exceptional healthcare services that address the root causes of pain and dysfunction.
               </p>
             </div>
 
