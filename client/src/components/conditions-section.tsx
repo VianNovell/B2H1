@@ -93,8 +93,8 @@ export default function ConditionsSection() {
             );
           })}
           
-          {/* Chronic Pain & Diseases - Special card spanning multiple columns */}
-          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow md:col-span-2 lg:col-span-3">
+          {/* Chronic Pain & Diseases */}
+          <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-[hsl(var(--wellness-blue)_/_10%)] rounded-full flex items-center justify-center mr-4">
                 <Heart className="text-[hsl(var(--wellness-blue))] w-6 h-6" />
