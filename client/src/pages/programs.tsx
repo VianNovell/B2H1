@@ -72,19 +72,19 @@ export default function Programs() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Programs Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 max-w-6xl mx-auto items-start">
             {programs.map((program, index) => {
               const Icon = program.icon;
               return (
                 <div
                   key={index}
-                  className={`group relative ${program.bgColor} rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 cursor-pointer overflow-hidden`}
+                  className={`group relative ${program.bgColor} rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 cursor-pointer overflow-hidden h-full flex flex-col`}
                 >
                   {/* Background Pattern */}
                   <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   
                   {/* Content */}
-                  <div className="relative z-10">
+                  <div className="relative z-10 flex flex-col h-full">
                     {/* Icon */}
                     <div className={`${program.iconBg} w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300`}>
                       <Icon className={`${program.textColor} w-8 h-8 md:w-10 md:h-10`} />
@@ -145,6 +145,9 @@ export default function Programs() {
                       </div>
                     </div>
 
+                    {/* Spacer to push button to bottom */}
+                    <div className="flex-grow"></div>
+                    
                     {/* CTA Button */}
                     <Button
                       onClick={() => {
