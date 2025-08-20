@@ -86,9 +86,8 @@ export default function ContactSection() {
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Office Location</h4>
                 <div className="text-gray-600 space-y-1">
-                  <p>Level 4 Baba TV Complex, Ntinda</p>
-                  <p>Kisaasi Road, Kampala, Uganda</p>
-                  <p>P.O BOX 16951, Kampala</p>
+                  <p>Mukasa Road, Bukoto</p>
+                  <p>Kampala, Uganda</p>
                 </div>
               </div>
             </div>
@@ -101,8 +100,7 @@ export default function ContactSection() {
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Phone Number</h4>
                 <div className="text-gray-600 space-y-1">
-                  <p>+256-706-789012</p>
-                  <p>+256-752-123456</p>
+                  <p>0758 478992</p>
                 </div>
               </div>
             </div>
@@ -115,11 +113,8 @@ export default function ContactSection() {
               <div>
                 <h4 className="font-semibold text-[hsl(var(--neutral-dark))] mb-2">Email Address</h4>
                 <div className="text-gray-600 space-y-1">
-                  <a href="mailto:info.uniquemanagement@gmail.com" className="text-blue-600 hover:underline">
-                    info.uniquemanagement@gmail.com
-                  </a>
-                  <a href="mailto:info.uniquemanagementassociates@gmail.com" className="text-blue-600 hover:underline block">
-                    info.uniquemanagementassociates@gmail.com
+                  <a href="mailto:info@back2health.com" className="text-blue-600 hover:underline">
+                    info@back2health.com
                   </a>
                 </div>
               </div>
