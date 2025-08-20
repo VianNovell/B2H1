@@ -108,7 +108,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2" />
-                Moyo Cl, Kampala
+                Mukasa Road, Bukoto
               </li>
             </ul>
           </div>
