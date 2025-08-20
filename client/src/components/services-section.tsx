@@ -18,8 +18,12 @@ export default function ServicesSection() {
   const [, setLocation] = useLocation();
 
   const handleLearnMore = (serviceTitle: string) => {
-    const serviceSlug = serviceTitle.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and');
-    setLocation(`/services/${serviceSlug}`);
+    if (serviceTitle === "Corporate Wellness") {
+      setLocation('/programs');
+    } else {
+      const serviceSlug = serviceTitle.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and');
+      setLocation(`/services/${serviceSlug}`);
+    }
   };
 
   const services = [
