@@ -9,14 +9,14 @@ export default function TestimonialsSection() {
       id: 1,
       name: "Misbah Faisal",
       service: "Chiropractic Care",
-      content: "I'm so grateful to have found Dr Sarah as Chiropractor after struggling with my back and shoulder pain for more than 4 years I'm thrilled to report that my pain is completely gone because of her expertise, compassion and personalized care.",
+      content: "I'm so grateful to have found Dr Sarah as Chiropractor after struggling with my back and shoulder pain for more than 4years I'm thrilled to report that my pain is completely gone because of her expertise, compassion and personalized care have made a huge difference in my life. She is an exceptional chiropractor who truly cares about her patients. She's not only skilled at what she does, but she's also kind, understanding, and genuinely invested in her patients' well-being. I highly recommend her to anyone seeking relief.",
       rating: 5,
     },
     {
       id: 2,
       name: "Anthony ODwyer",
       service: "Chiropractic Care",
-      content: "The staff are friendly and easy to communicate and plan with. I was recommended to the clinic to Dr Sarah who worked on my upper and lower back over the course of about 8 sessions and my initial symptoms were entirely resolved.",
+      content: "The staff are friendly and easy to communicate and plan with. I was recommended to the clinic to Dr Sarah who worked on my upper and lower back over the course of about 8 sessions and my initial symptoms were entirely solved! Very professional and efficient in their work and I can highly recommend this clinic!",
       rating: 5,
     },
     {
