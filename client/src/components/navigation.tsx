@@ -10,6 +10,7 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import logoImage from "@/assets/b2h-logo.png";
+import handBackHealthLogo from "@assets/Unknown_1755852214655.png";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -170,9 +171,13 @@ export default function Navigation() {
               
               <Link
                 href="/non-profit"
-                className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg transform hover:scale-105"
+                className="flex items-center justify-center p-2 rounded-lg transition-all duration-200 hover:shadow-lg transform hover:scale-105"
               >
-                Non Profit Collaboration
+                <img 
+                  src={handBackHealthLogo} 
+                  alt="Hand Back Health" 
+                  className="h-10 w-10 object-contain"
+                />
               </Link>
             </div>
           </div>
@@ -228,9 +233,16 @@ export default function Navigation() {
             </button>
             <Link
               href="/non-profit"
-              className="block px-4 py-3 text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-blue-600 hover:bg-blue-50 w-full text-left rounded-lg transition-all duration-200"
+              className="flex items-center px-4 py-3 hover:bg-blue-50 w-full rounded-lg transition-all duration-200"
             >
-              Non Profit Collaboration
+              <img 
+                src={handBackHealthLogo} 
+                alt="Hand Back Health" 
+                className="h-8 w-8 object-contain mr-3"
+              />
+              <span className="text-base font-medium text-[hsl(var(--neutral-dark))] hover:text-blue-600">
+                Hand Back Health
+              </span>
             </Link>
           </div>
         </div>
