@@ -2,8 +2,21 @@ import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "luc
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import { useLocation } from "wouter";
 
 export default function Programs() {
+  const [, setLocation] = useLocation();
+
+  const scrollToAppointment = () => {
+    setLocation("/");
+    setTimeout(() => {
+      const element = document.getElementById("appointment");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 300);
+  };
+
   const programs = [
     {
       icon: Building2,
@@ -183,15 +196,7 @@ export default function Programs() {
                 Schedule a free consultation to discuss your wellness goals and find the perfect program
               </p>
               <Button
-                onClick={() => {
-                  window.location.href = "/";
-                  setTimeout(() => {
-                    const element = document.getElementById("appointment");
-                    if (element) {
-                      element.scrollIntoView({ behavior: "smooth" });
-                    }
-                  }, 300);
-                }}
+                onClick={scrollToAppointment}
                 className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg md:rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-sm md:text-base min-h-[48px] touch-manipulation"
               >
                 <Calendar className="mr-2 w-4 h-4 md:w-5 md:h-5" />
