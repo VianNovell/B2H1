@@ -167,7 +167,7 @@ export default function Navigation() {
                   alt="Hand Back Health" 
                   className="h-8 w-8 object-contain mb-1"
                 />
-                <span className="text-xs font-medium text-[hsl(var(--neutral-dark))] text-center leading-tight">
+                <span className="text-xs font-medium text-blue-600 text-center leading-tight">
                   Non Profit<br />Collaboration
                 </span>
               </Link>
