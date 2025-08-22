@@ -82,7 +82,7 @@ export default function DiabetesPrograms() {
               </Button>
               <Button
                 variant="outline"
-                onClick={() => window.location.href = "/#contact"}
+                onClick={() => window.location.href = "/#appointment"}
                 className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300"
               >
                 Contact for Details
