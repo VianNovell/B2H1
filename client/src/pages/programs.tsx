@@ -44,7 +44,11 @@ export default function Programs() {
       icon: Target,
       title: "Diabetes & Weight Loss Programs",
       subtitle: "Type II Diabetes & Prediabetes Management",
-      description: "Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the tools to be as healthy as possible. The course aims to provide patients with a good foundation and practical skills to begin self-management of their diabetes. It empowers them to self-manage by providing a working understanding of their illness and through addressing issues around the initiation and sustaining of motivation. It is also useful as a weight loss program for those suffering from obesity. The program may aid in reduction of cholesterol levels. Ultimately the course will improve overall health parameters for the majority.",
+      description: (
+        <>
+          Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the <span className="bg-yellow-300 font-semibold px-1 rounded text-black">tools to be as healthy as possible</span>. The course aims to provide patients with a good foundation and practical skills to begin self-management of their diabetes. It empowers them to self-manage by providing a working understanding of their illness and through addressing issues around the initiation and sustaining of motivation. It is also useful as a <span className="bg-yellow-300 font-semibold px-1 rounded text-black">weight loss program for those suffering from obesity</span>. The program may aid in reduction of cholesterol levels. <span className="bg-yellow-300 font-semibold px-1 rounded text-black">Ultimately the course will improve overall health parameters for the majority</span>.
+        </>
+      ),
       features: [],
       whoCanJoin: "Anyone. Those with Prediabetes or recently diagnosed diabetes are most likely to go into remission. However anyone with Type II Diabetes could realise decreases in diabetes markers and reduction in need for medication. It may also be useful for anyone with predisposing factors (age, family history, obesity).",
       gradient: "from-blue-500 to-blue-600",
@@ -112,9 +116,9 @@ export default function Programs() {
                     </p>
 
                     {/* Description */}
-                    <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-6 leading-relaxed">
+                    <div className="text-sm md:text-base text-gray-600 mb-4 md:mb-6 leading-relaxed">
                       {program.description}
-                    </p>
+                    </div>
 
                     {/* Corporate Programs Subheading */}
                     {program.title === "Corporate Wellness" && (
