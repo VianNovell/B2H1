@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams, useLocation } from "wouter";
 import { Calendar, Phone, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,6 +16,11 @@ import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 export default function ServiceDetail() {
   const { slug } = useParams();
   const [, setLocation] = useLocation();
+
+  // Scroll to top when page loads or service changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, [slug]);
 
   const scrollToAppointment = () => {
     // Navigate to home page with hash
