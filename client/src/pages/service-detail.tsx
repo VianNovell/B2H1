@@ -16,10 +16,7 @@ export default function ServiceDetail() {
   const { slug } = useParams();
 
   const scrollToAppointment = () => {
-    const element = document.getElementById("appointment");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    window.location.href = "/#appointment";
   };
 
 
