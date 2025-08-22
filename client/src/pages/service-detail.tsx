@@ -425,8 +425,7 @@ export default function ServiceDetail() {
           <div className="flex justify-center">
             <Link href="/#appointment">
               <Button
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-semibold"
+                className="bg-white text-blue-600 hover:bg-gray-100 hover:text-blue-700 border-2 border-white px-8 py-3 text-lg font-semibold shadow-lg"
               >
                 <Calendar className="mr-2 h-5 w-5" />
                 Online Booking
