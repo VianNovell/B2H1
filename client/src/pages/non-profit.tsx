@@ -18,14 +18,14 @@ export default function NonProfitCollaboration() {
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-2xl">
               Non Profit Collaboration
             </h1>
             <div className="w-24 h-1 bg-white mx-auto mb-8"></div>
-            <p className="text-xl text-white max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto drop-shadow-lg">
               Our clinicians are all involved with a non-profit organisation located in Jinja, Uganda. Where we give back our time and expertise. Please see <a href="https://handbackhealth.org/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-200 underline font-semibold">HERE</a> for more information about Hand Back Health.
             </p>
           </div>
