@@ -2,6 +2,7 @@ import { CheckCircle, Star, Award, Users, Heart } from "lucide-react";
 import Navigation from "@/components/navigation";
 import greggPhoto from "@assets/gregg bio pic_1753331348993.jpg";
 import joelPhoto from "@assets/joel pic_1753331346323.jpg";
+import sarahPhoto from "@assets/Sarah bio_1755852505091.jpg";
 
 export default function Doctors() {
   return (
@@ -15,7 +16,7 @@ export default function Doctors() {
               Meet Our Doctors
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Our experienced healthcare professionals bring together decades of expertise in chiropractic care, physiotherapy, and holistic wellness.
+              Our experienced healthcare team brings together decades of expertise in chiropractic care, physiotherapy, and holistic wellness, serving communities across Uganda and Africa.
             </p>
           </div>
         </div>
@@ -24,7 +25,7 @@ export default function Doctors() {
       {/* Doctors Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-7xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 lg:gap-12">
             
             {/* Dr. Gregg Salzman */}
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-gray-100 mx-4 lg:mx-0">
@@ -153,6 +154,75 @@ export default function Doctors() {
                       className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-md hover:shadow-lg"
                     >
                       Schedule With Joel
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Dr. Sarah Worthington */}
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-gray-100 mx-4 lg:mx-0">
+              <div className="p-8">
+                {/* Centered circular image */}
+                <div className="text-center mb-6">
+                  <img
+                    src={sarahPhoto}
+                    alt="Dr. Sarah Worthington - Chiropractor"
+                    className="w-36 h-36 rounded-full object-cover border-4 border-purple-200 shadow-lg mx-auto"
+                  />
+                </div>
+                
+                {/* Doctor info */}
+                <div className="text-center">
+                  <h3 className="text-2xl font-bold text-blue-700 mb-2">
+                    Dr. Sarah Worthington
+                  </h3>
+                  <p className="text-lg font-bold text-blue-600 mb-3">
+                    Chiropractor, BSc MSc DC
+                  </p>
+                  <div className="flex items-center justify-center gap-2 mb-6">
+                    <span className="text-lg">👩‍⚕️</span>
+                    <span className="text-sm font-semibold text-gray-700">Webster Technique Specialist</span>
+                  </div>
+                  
+                  {/* Bio in shorter paragraphs */}
+                  <div className="space-y-3 text-gray-700 text-left">
+                    <p className="leading-relaxed">
+                      Dr. Sarah completed her first degree in Sports Science before pursuing Chiropractic studies, graduating from Chiropractic school in the UK in 2002.
+                    </p>
+                    <p className="leading-relaxed">
+                      In 2004 she moved to the African Continent and made Uganda her home, traveling widely across Africa during this time.
+                    </p>
+                    <p className="leading-relaxed">
+                      In 2017, recognizing the need for affordable chiropractic services in rural communities, she founded Hand Back Health NGO in Jinja.
+                    </p>
+                    <p className="leading-relaxed">
+                      She has a keen interest in Chiropractic Care during Pregnancy and is qualified in the highly effective Webster Technique.
+                    </p>
+                  </div>
+                  
+                  {/* Key accomplishments */}
+                  <div className="mt-6 p-4 bg-purple-50 rounded-lg">
+                    <h4 className="font-bold text-blue-700 mb-3 flex items-center justify-center gap-2">
+                      <Award className="h-4 w-4" />
+                      Key Specializations
+                    </h4>
+                    <ul className="text-sm text-gray-700 space-y-2 text-left">
+                      <li>• Pregnancy & Pediatric Care</li>
+                      <li>• Webster Technique Certification</li>
+                      <li>• Sports Science Background</li>
+                      <li>• Hand Back Health NGO Founder</li>
+                      <li>• African Chiropractic Federation VP</li>
+                    </ul>
+                  </div>
+                  
+                  {/* CTA Button */}
+                  <div className="mt-6">
+                    <button 
+                      onClick={() => window.location.href = "/#appointment"}
+                      className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-md hover:shadow-lg"
+                    >
+                      Book With Dr. Sarah
                     </button>
                   </div>
                 </div>
