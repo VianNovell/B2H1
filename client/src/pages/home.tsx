@@ -18,9 +18,9 @@ export default function Home() {
       setTimeout(() => {
         const element = document.getElementById(hash);
         if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
+          element.scrollIntoView({ behavior: "instant" });
         }
-      }, 500); // Increased delay to ensure page is fully loaded
+      }, 100); // Reduced delay for faster navigation
     }
   }, []);
   return (
