@@ -163,13 +163,11 @@ export default function Doctors() {
             {/* Dr. Sarah Worthington */}
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-gray-100 mx-4 lg:mx-0">
               <div className="p-8">
-                {/* Centered circular image */}
+                {/* Placeholder for photo */}
                 <div className="text-center mb-6">
-                  <img
-                    src={sarahPhoto}
-                    alt="Dr. Sarah Worthington - Chiropractor"
-                    className="w-36 h-36 rounded-full object-cover border-4 border-purple-200 shadow-lg mx-auto"
-                  />
+                  <div className="w-36 h-36 rounded-full bg-purple-100 border-4 border-purple-200 shadow-lg mx-auto flex items-center justify-center">
+                    <span className="text-4xl text-purple-600">👩‍⚕️</span>
+                  </div>
                 </div>
                 
                 {/* Doctor info */}
