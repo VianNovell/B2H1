@@ -150,7 +150,7 @@ export default function ProgramsSection() {
                       if (program.title === "Corporate Wellness") {
                         window.location.href = "/corporate-wellness";
                       } else if (program.title === "Diabetes & Weight Loss Programs") {
-                        window.location.href = "/diabetes-programs";
+                        window.location.href = "/programs";
                       } else {
                         scrollToServices();
                       }
