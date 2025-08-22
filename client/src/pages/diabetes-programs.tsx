@@ -29,7 +29,7 @@ export default function DiabetesPrograms() {
               Diabetes & Weight Loss Programs
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-              Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the tools to be as healthy as possible.
+              Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the <span className="bg-yellow-300 font-semibold px-1 rounded">tools to be as healthy as possible</span>.
             </p>
           </div>
         </div>
@@ -38,6 +38,25 @@ export default function DiabetesPrograms() {
       {/* Program Content */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          {/* TYPE II DIABETES & PREDIABETES MANAGEMENT */}
+          <div className="bg-white rounded-3xl p-8 shadow-lg mb-12">
+            <h2 className="text-3xl font-bold text-blue-600 mb-6 uppercase tracking-wide">
+              TYPE II DIABETES & PREDIABETES MANAGEMENT
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Back 2 Health has designed a course for people with Type II Diabetes and Prediabetes to aid in a greater understanding of your diabetes status and give you the <span className="bg-yellow-300 font-semibold px-1 rounded">tools to be as healthy as possible</span>. The course aims to provide patients with a good foundation and practical skills to begin self-management of their diabetes. It empowers them to self-manage by providing a working understanding of their illness and through addressing issues around the initiation and sustaining of motivation.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              It is also useful as a <span className="bg-yellow-300 font-semibold px-1 rounded">weight loss program for those suffering from obesity</span>.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              The program may aid in reduction of cholesterol levels.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              <span className="bg-yellow-300 font-semibold px-1 rounded">Ultimately the course will improve overall health parameters for the majority</span>.
+            </p>
+          </div>
           {/* How does it work? */}
           <div className="bg-white rounded-3xl p-8 shadow-lg mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
