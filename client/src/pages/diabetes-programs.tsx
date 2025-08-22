@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
@@ -6,6 +7,11 @@ import { useLocation } from "wouter";
 
 export default function DiabetesPrograms() {
   const [, setLocation] = useLocation();
+
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
 
   const scrollToAppointment = () => {
     // Navigate to home page with hash
