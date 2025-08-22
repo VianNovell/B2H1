@@ -29,7 +29,7 @@ export default function Navigation() {
     // Already on home page, just scroll to section
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "instant" });
       setIsMenuOpen(false);
     }
   };

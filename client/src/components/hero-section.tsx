@@ -11,7 +11,7 @@ export default function HeroSection() {
   const scrollToAppointment = () => {
     const element = document.getElementById("appointment");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "instant" });
     }
   };
 

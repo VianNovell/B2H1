@@ -17,15 +17,8 @@ export default function ServiceDetail() {
   const [, setLocation] = useLocation();
 
   const scrollToAppointment = () => {
-    // Navigate to home page first
-    setLocation("/");
-    // Then scroll to appointment section after navigation
-    setTimeout(() => {
-      const element = document.getElementById("appointment");
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 300);
+    // Navigate to home page with hash
+    window.location.href = "/#appointment";
   };
 
 

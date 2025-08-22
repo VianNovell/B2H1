@@ -8,13 +8,8 @@ export default function DiabetesPrograms() {
   const [, setLocation] = useLocation();
 
   const scrollToAppointment = () => {
-    setLocation("/");
-    setTimeout(() => {
-      const element = document.getElementById("appointment");
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 300);
+    // Navigate to home page with hash
+    window.location.href = "/#appointment";
   };
 
   return (

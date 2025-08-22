@@ -5,7 +5,7 @@ export default function ProgramsSection() {
   const scrollToServices = () => {
     const element = document.getElementById("services");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "instant" });
     }
   };
   const programs = [
@@ -48,9 +48,9 @@ export default function ProgramsSection() {
   ];
 
   const scrollToAppointments = () => {
-    const element = document.getElementById("appointments");
+    const element = document.getElementById("appointment");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "instant" });
     }
   };
 
