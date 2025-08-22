@@ -306,7 +306,7 @@ export default function AppointmentBooking() {
                 <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-gray-200 mt-6">
                   <Button
                     type="submit"
-                    className="flex-1 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white py-6 px-8 text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-xl border-2 border-green-500"
+                    className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-6 px-8 text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-xl border-2 border-blue-500"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
