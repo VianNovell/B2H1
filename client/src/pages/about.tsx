@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { CheckCircle, Award, Users, Heart } from "lucide-react";
 import Navigation from "@/components/navigation";
 
 export default function About() {
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
   const features = [
     "Expert Team",
     "Modern Equipment",
