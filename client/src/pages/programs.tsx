@@ -22,7 +22,11 @@ export default function Programs() {
       icon: Building2,
       title: "Corporate Wellness",
       subtitle: "Workplace Health Solutions",
-      description: "Do you want: Happy, Healthy employees, Improved workplace morale, Reduced days off sick, Improved productivity, Reduced company costs? Then you need to prioritise your employee's health in a preventative way. It turns out that a comprehensive, strategically designed investment in employees' social, mental, and physical health pays off. Research proves that wellness programs actually save company's money. The long and short of it: Healthy employees cost you less. Back 2 Health and their team of professionals can aid you to develop strategies to enhance the wellbeing, and productivity of your staff. We aim to provide holistic wellness services tailored to the needs of individual companies.",
+      description: (
+        <>
+          Do you want: <span className="text-blue-800 font-bold">Happy, Healthy employees</span>, <span className="text-blue-800 font-bold">Improved workplace morale</span>, <span className="text-blue-800 font-bold">Reduced days off sick</span>, <span className="text-blue-800 font-bold">Improved productivity</span>, <span className="text-blue-800 font-bold">Reduced company costs</span>? Then you need to prioritise your employee's health in a preventative way. It turns out that a comprehensive, strategically designed investment in employees' social, mental, and physical health pays off. <span className="text-blue-800 font-bold">Research proves that wellness programs actually save company's money</span>. The long and short of it: <span className="text-blue-800 font-bold">Healthy employees cost you less</span>. Back 2 Health and their team of professionals can aid you to develop strategies to enhance the wellbeing, and productivity of your staff. We aim to provide holistic wellness services tailored to the needs of individual companies.
+        </>
+      ),
       features: [
         "Group well-being, wellness and posture presentations",
         "One to one pain and injury consultations with a specialist (Physiotherapist / Chiropractor)",
