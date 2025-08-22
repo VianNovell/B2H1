@@ -75,14 +75,30 @@ export default function DiabetesPrograms() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
-                onClick={() => window.location.href = "/#appointment"}
+                onClick={() => {
+                  window.location.href = "/";
+                  setTimeout(() => {
+                    const element = document.getElementById("appointment");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }, 300);
+                }}
                 className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold px-8 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 Schedule Consultation
               </Button>
               <Button
                 variant="outline"
-                onClick={() => window.location.href = "/#appointment"}
+                onClick={() => {
+                  window.location.href = "/";
+                  setTimeout(() => {
+                    const element = document.getElementById("appointment");
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }, 300);
+                }}
                 className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold px-8 py-3 rounded-xl transition-all duration-300"
               >
                 Contact for Details
