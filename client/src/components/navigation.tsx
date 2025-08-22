@@ -20,10 +20,19 @@ export default function Navigation() {
   const scrollToSection = (sectionId: string) => {
     // If we're not on the home page, navigate there first
     if (location !== "/") {
-      window.location.href = `/#${sectionId}`;
+      // Use window.location to navigate to home page
+      window.location.href = "/";
+      // Add delay for page load, then scroll to section
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 300);
       return;
     }
     
+    // Already on home page, just scroll to section
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
