@@ -11,7 +11,7 @@ export default function NonProfitCollaboration() {
       
       {/* Hero Section */}
       <section 
-        className="py-12 bg-cover bg-center bg-no-repeat relative"
+        className="py-24 md:py-32 lg:py-40 bg-cover bg-center bg-no-repeat relative min-h-[60vh]"
         style={{
           backgroundImage: `url(${back2HealthSign})`,
           backgroundSize: 'cover',
