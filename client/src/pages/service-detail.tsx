@@ -1,4 +1,4 @@
-import { useParams } from "wouter";
+import { useParams, useLocation } from "wouter";
 import { Calendar, Phone, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
@@ -14,9 +14,11 @@ import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ServiceDetail() {
   const { slug } = useParams();
+  const [, setLocation] = useLocation();
 
   const scrollToAppointment = () => {
-    window.location.href = "/#appointment";
+    // Use wouter navigation to go to home page with appointment anchor
+    setLocation("/#appointment");
   };
 
 
