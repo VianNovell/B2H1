@@ -97,11 +97,7 @@ export default function Navigation() {
                       Our Doctors
                     </Link>
                   </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/about" className="cursor-pointer hover:bg-purple-50 hover:text-purple-600 focus:bg-purple-50 focus:text-purple-600">
-                      Our Mission
-                    </Link>
-                  </DropdownMenuItem>
+
                 </DropdownMenuContent>
               </DropdownMenu>
               <DropdownMenu open={isServicesHovered} onOpenChange={setIsServicesHovered}>
