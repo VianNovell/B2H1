@@ -130,6 +130,11 @@ export default function Navigation() {
                       PEMF Therapy
                     </Link>
                   </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/service-detail/complex-cases-and-second-opinions" className="cursor-pointer hover:bg-blue-50 hover:text-blue-600 focus:bg-blue-50 focus:text-blue-600">
+                      Complex Cases and Second Opinions
+                    </Link>
+                  </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem asChild>
                     <button 
