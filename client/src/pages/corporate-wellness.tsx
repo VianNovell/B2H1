@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { CheckCircle, Users, Target, Heart, Clock, Shield, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 
 export default function CorporateWellness() {
+  // Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, []);
   const programs = [
     {
       icon: Users,
