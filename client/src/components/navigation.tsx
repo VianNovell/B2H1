@@ -171,13 +171,16 @@ export default function Navigation() {
               
               <Link
                 href="/non-profit"
-                className="flex items-center justify-center p-2 rounded-lg transition-all duration-200 hover:shadow-lg transform hover:scale-105"
+                className="flex flex-col items-center justify-center p-2 rounded-lg transition-all duration-200 hover:shadow-lg transform hover:scale-105"
               >
                 <img 
                   src={handBackHealthLogo} 
                   alt="Hand Back Health" 
-                  className="h-10 w-10 object-contain"
+                  className="h-8 w-8 object-contain mb-1"
                 />
+                <span className="text-xs font-medium text-[hsl(var(--neutral-dark))] text-center leading-tight">
+                  Non Profit<br />Collaboration
+                </span>
               </Link>
             </div>
           </div>
