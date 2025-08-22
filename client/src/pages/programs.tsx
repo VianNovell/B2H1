@@ -72,7 +72,7 @@ export default function Programs() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Programs Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 max-w-6xl mx-auto items-start">
+          <div className="grid grid-cols-1 gap-6 md:gap-8 lg:gap-12 max-w-4xl mx-auto items-start">
             {programs.map((program, index) => {
               const Icon = program.icon;
               return (
