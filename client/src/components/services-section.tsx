@@ -74,7 +74,7 @@ export default function ServicesSection() {
       title: "Corporate Wellness",
       description: "Comprehensive workplace health solutions designed to create healthy, productive employees. Our programs include group wellness presentations, one-to-one consultations, mini massage sessions, Qi Gong classes, nutrition presentations, ergonomic assessments, and exercise rehabilitation programs tailored to your company's needs.",
       color: "wellness-blue",
-      image: doctorImage,
+      image: physiotherapyImage,
     },
 
   ];
