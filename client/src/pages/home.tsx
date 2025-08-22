@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
 import AboutSection from "@/components/about-section";
@@ -10,6 +11,18 @@ import LocationDetailsSection from "@/components/location-details-section";
 import Footer from "@/components/footer";
 
 export default function Home() {
+  useEffect(() => {
+    // Check if there's a hash in the URL and scroll to that section
+    const hash = window.location.hash.substring(1); // Remove the # symbol
+    if (hash) {
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500); // Increased delay to ensure page is fully loaded
+    }
+  }, []);
   return (
     <div className="min-h-screen">
       <Navigation />
