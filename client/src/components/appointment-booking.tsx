@@ -303,21 +303,21 @@ export default function AppointmentBooking() {
                   )}
                 />
 
-                <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-gray-200 mt-6">
                   <Button
                     type="submit"
-                    className="flex-1 bg-gradient-to-r from-[hsl(var(--wellness-blue))] to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white py-4 px-8 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 rounded-xl"
+                    className="flex-1 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white py-6 px-8 text-xl font-bold shadow-2xl hover:shadow-3xl transform hover:scale-105 transition-all duration-300 rounded-xl border-2 border-green-500"
                     disabled={isSubmitting}
                   >
                     {isSubmitting ? (
                       <>
-                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-3"></div>
-                        Booking...
+                        <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white mr-3"></div>
+                        Booking Your Appointment...
                       </>
                     ) : (
                       <>
-                        <Calendar className="mr-3 h-5 w-5" />
-                        Book Appointment
+                        <Calendar className="mr-3 h-6 w-6" />
+                        Book My Appointment Now
                       </>
                     )}
                   </Button>
