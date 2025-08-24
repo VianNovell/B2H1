@@ -48,11 +48,8 @@ export default function Navigation() {
                 />
                 <div className="hidden sm:block">
                   <span className="text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent drop-shadow-sm">
-                    Back 2 Health
+                    Specialist and Holistic Healthcare
                   </span>
-                  <div className="text-sm md:text-base text-gray-600 font-medium">
-                    Chiropractic Wellness Centre
-                  </div>
                 </div>
               </Link>
             </div>
