@@ -3,6 +3,7 @@ import { CheckCircle, Users, Target, Heart, Clock, Shield, Briefcase } from "luc
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import corporateWellnessImg from "@assets/corporate-wellness.png";
 
 export default function CorporateWellness() {
   // Scroll to top when page loads
@@ -55,15 +56,26 @@ export default function CorporateWellness() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-500">
+      <section className="py-20 bg-gradient-to-br from-blue-600 to-blue-500 relative overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="text-center text-white">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Corporate Wellness Programs
-            </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-              Our programs are designed to create a healthy and content workforce. The program will look into multiple aspects of health and wellness.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                Corporate Wellness Programs
+              </h1>
+              <p className="text-xl md:text-2xl mb-8">
+                Our programs are designed to create a healthy and content workforce. The program will look into multiple aspects of health and wellness.
+              </p>
+            </div>
+            <div className="flex justify-center">
+              <div className="w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                <img 
+                  src={corporateWellnessImg} 
+                  alt="Corporate Wellness Program"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>

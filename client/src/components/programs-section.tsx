@@ -1,5 +1,6 @@
 import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import corporateWellnessImg from "@assets/corporate-wellness.png";
 
 export default function ProgramsSection() {
   const scrollToServices = () => {
@@ -84,10 +85,20 @@ export default function ProgramsSection() {
 
                 {/* Content */}
                 <div className="relative z-10">
-                  {/* Icon */}
-                  <div className={`${program.iconBg} w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                    <Icon className={`${program.textColor} w-8 h-8 md:w-10 md:h-10`} />
-                  </div>
+                  {/* Icon/Image */}
+                  {program.title === "Corporate Wellness" ? (
+                    <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl overflow-hidden mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <img 
+                        src={corporateWellnessImg} 
+                        alt="Corporate Wellness"
+                        className="w-full h-full object-cover rounded-2xl"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`${program.iconBg} w-16 h-16 md:w-20 md:h-20 rounded-2xl flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                      <Icon className={`${program.textColor} w-8 h-8 md:w-10 md:h-10`} />
+                    </div>
+                  )}
 
                   {/* Title & Subtitle */}
                   <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2 group-hover:text-gray-800 transition-colors duration-300">
