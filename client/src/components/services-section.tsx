@@ -11,7 +11,7 @@ import { useLocation } from "wouter";
 import spineImage from "@assets/K Chiro.png";
 import massageImage from "@assets/M Thera.png";
 import doctorImage from "@assets/Doctor.png";
-import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
+import diabetesWeightLossImage from "@assets/LV Diab.png";
 import cWellnessImage from "@assets/C wellness.png";
 import physiotherapyImage from "@assets/V Therapy.png";
 import pemfImage from "@assets/L PEM.png";
