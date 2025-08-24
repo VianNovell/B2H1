@@ -1,6 +1,6 @@
 import { Building2, Target, ArrowRight, Calendar, Clock, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import corporateWellnessImg from "@assets/corporate-wellness.png";
+import corporateWellnessImg from "@assets/C wellness.png";
 
 export default function ProgramsSection() {
   const scrollToServices = () => {
