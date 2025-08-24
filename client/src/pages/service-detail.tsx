@@ -10,7 +10,7 @@ import { Link } from "wouter";
 import physiotherapyImage from "@assets/Physio.png";
 import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/Massage.png";
-import doctorImage from "@assets/Doctor.png";
+import doctorImage from "@assets/Complex v.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
 export default function ServiceDetail() {
