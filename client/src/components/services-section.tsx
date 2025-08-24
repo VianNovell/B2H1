@@ -12,8 +12,8 @@ import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
-import cWellnessImage from "@assets/c-wellness.png";
-import physiotherapyImage from "@assets/physiotherapy-treatment.png";
+import cWellnessImage from "@assets/C wellness.png";
+import physiotherapyImage from "@assets/Physiotherapy.png";
 
 export default function ServicesSection() {
   const [, setLocation] = useLocation();
