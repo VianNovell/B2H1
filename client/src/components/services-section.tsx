@@ -9,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import spineImage from "@assets/K Chiro.png";
-import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
+import massageImage from "@assets/M Thera.png";
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 import cWellnessImage from "@assets/C wellness.png";
