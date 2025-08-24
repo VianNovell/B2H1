@@ -222,6 +222,73 @@ export default function Doctors() {
               </div>
             </div>
 
+            {/* Anna Erlandsdotter */}
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-gray-100 mx-4 lg:mx-0">
+              <div className="p-8">
+                {/* Centered circular image */}
+                <div className="text-center mb-6">
+                  <div className="w-36 h-36 rounded-full bg-pink-100 border-4 border-pink-200 shadow-lg mx-auto flex items-center justify-center">
+                    <span className="text-4xl">👩‍⚕️</span>
+                  </div>
+                </div>
+                
+                {/* Doctor info */}
+                <div className="text-center">
+                  <h3 className="text-2xl font-bold text-blue-700 mb-2">
+                    Anna Erlandsdotter
+                  </h3>
+                  <p className="text-lg font-bold text-blue-600 mb-3">
+                    Massage Therapist / Personal Trainer
+                  </p>
+                  <div className="flex items-center justify-center gap-2 mb-6">
+                    <span className="text-lg">🌟</span>
+                    <span className="text-sm font-semibold text-gray-700">20+ Years Experience</span>
+                  </div>
+                  
+                  {/* Bio in shorter paragraphs */}
+                  <div className="space-y-3 text-gray-700 text-left">
+                    <p className="leading-relaxed">
+                      I am a Swedish trained massage therapist, dance teacher and personal trainer for over 20 years. I have worked within the field of wellness and dancing since 1996.
+                    </p>
+                    <p className="leading-relaxed">
+                      In 2009 I moved to Uganda and started my own business as a consultant for gym facilities as well as seeing clients at my own studio.
+                    </p>
+                    <p className="leading-relaxed">
+                      I have been working with Dr Sarah Worthington since 2014 and am Co-Founder of the Non-Profit organisation Hand Back Health.
+                    </p>
+                    <p className="leading-relaxed">
+                      We are currently developing a project within wellness and massage which we hope to soon be able to put into place.
+                    </p>
+                  </div>
+                  
+                  {/* Key accomplishments */}
+                  <div className="mt-6 p-4 bg-pink-50 rounded-lg">
+                    <h4 className="font-bold text-blue-700 mb-3 flex items-center justify-center gap-2">
+                      <Award className="h-4 w-4" />
+                      Key Specializations
+                    </h4>
+                    <ul className="text-sm text-gray-700 space-y-2 text-left">
+                      <li>• Swedish Massage Therapy</li>
+                      <li>• Personal Training & Fitness</li>
+                      <li>• Dance Instruction</li>
+                      <li>• Gym Facility Consulting</li>
+                      <li>• Hand Back Health Co-Founder</li>
+                    </ul>
+                  </div>
+                  
+                  {/* CTA Button */}
+                  <div className="mt-6">
+                    <button 
+                      onClick={() => window.location.href = "/#appointment"}
+                      className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-md hover:shadow-lg"
+                    >
+                      Book With Anna
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
