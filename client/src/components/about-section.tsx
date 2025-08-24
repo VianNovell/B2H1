@@ -20,23 +20,6 @@ export default function AboutSection() {
 
         <div className="max-w-4xl mx-auto">
           <div>
-            <div className="bg-blue-50 p-6 rounded-lg mb-6">
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Whether it's back pain, a sports injury, sciatica, or something more complex, we'll match you with the clinician who's the best fit for your body, your goals, and your journey, regardless of their professional title.
-              </p>
-              
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Every member of our team is trained to the same high standards. Every clinician is skilled, collaborative, and focused on getting you better; not selling a profession, but solving your problem.
-              </p>
-              
-              <p className="text-gray-700 leading-relaxed mb-4">
-                We are experts who listen, explain, and guide you forward, together. If any of our clinicians believe that you would be better suited with another therapist they will refer you so that you receive the best possible individual care.
-              </p>
-              
-              <p className="text-gray-700 leading-relaxed">
-                Our Clinicians are all involved with our partner Non-Profit Organisation; Hand Back Health, where they give back their time and expertise.
-              </p>
-            </div>
 
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
               <p className="text-gray-600 leading-relaxed mb-4">
