@@ -14,6 +14,7 @@ import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 import cWellnessImage from "@assets/C wellness.png";
 import physiotherapyImage from "@assets/V Therapy.png";
+import pemfImage from "@assets/L PEM.png";
 
 export default function ServicesSection() {
   const [, setLocation] = useLocation();
@@ -54,7 +55,7 @@ export default function ServicesSection() {
       title: "PEMF Therapy",
       description: "Pulsed Electromagnetic Field Therapy for cellular healing and pain relief",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+      image: pemfImage,
     },
     {
       icon: Target,
