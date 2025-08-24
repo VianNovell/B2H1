@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 import { Link } from "wouter";
 
 // Import service images
-import physiotherapyImage from "@assets/Physiotherapy.png";
+import physiotherapyImage from "@assets/Physio.png";
 import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/Massageimage.png";
 import doctorImage from "@assets/Doctor.png";
