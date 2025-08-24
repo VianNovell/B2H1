@@ -503,17 +503,19 @@ export default function ServiceDetail() {
 
             {/* Sidebar */}
             <div className="space-y-8">
-              <div className="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Conditions We Treat</h3>
-                <ul className="space-y-2">
-                  {service.conditions.map((condition: string, index: number) => (
-                    <li key={index} className="flex items-start">
-                      <div className="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
-                      <span className="text-gray-700 text-sm">{condition}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {slug !== 'pemf-therapy' && (
+                <div className="bg-white rounded-2xl p-6 shadow-lg">
+                  <h3 className="text-xl font-bold text-gray-800 mb-4">Conditions We Treat</h3>
+                  <ul className="space-y-2">
+                    {service.conditions.map((condition: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <div className="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                        <span className="text-gray-700 text-sm">{condition}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               <div className="bg-blue-50 rounded-2xl p-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Ready to Get Started?</h3>
