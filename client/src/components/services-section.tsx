@@ -38,7 +38,7 @@ export default function ServicesSection() {
       title: "Physiotherapy",
       description: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
       color: "wellness-blue",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Hand,
