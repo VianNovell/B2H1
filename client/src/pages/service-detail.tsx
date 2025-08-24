@@ -9,7 +9,7 @@ import { Link } from "wouter";
 // Import service images
 import physiotherapyImage from "@assets/Physio.png";
 import spineImage from "@assets/Spine.png";
-import massageImage from "@assets/Massageimage.png";
+import massageImage from "@assets/Massage.png";
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 
