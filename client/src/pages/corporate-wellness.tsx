@@ -68,7 +68,7 @@ export default function CorporateWellness() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+              <div className="w-96 h-80 md:w-[28rem] md:h-96 rounded-3xl overflow-hidden shadow-2xl transition-transform duration-500">
                 <img 
                   src={corporateWellnessImg} 
                   alt="Corporate Wellness Program"
