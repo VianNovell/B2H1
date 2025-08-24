@@ -13,7 +13,7 @@ import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-2
 import doctorImage from "@assets/Doctor.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
 import cWellnessImage from "@assets/C wellness.png";
-import physiotherapyImage from "@assets/Physiotherapy.png";
+import physiotherapyImage from "@assets/V Therapy.png";
 
 export default function ServicesSection() {
   const [, setLocation] = useLocation();
