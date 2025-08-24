@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import physiotherapyImage from "@assets/Screenshot 2025-08-24 at 2.07.42 pm_1756033667343.png";
+import physiotherapyImage from "@assets/Physiotherapy.png";
 import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import doctorImage from "@assets/Doctor.png";
