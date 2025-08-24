@@ -3,7 +3,7 @@ import { CheckCircle, Users, Target, Heart, Clock, Shield, Briefcase } from "luc
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
-import corporateWellnessImg from "@assets/corporate-wellness.png";
+import corporateWellnessImg from "@assets/C wellness.png";
 
 export default function CorporateWellness() {
   // Scroll to top when page loads
