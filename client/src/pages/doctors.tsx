@@ -225,13 +225,6 @@ export default function Doctors() {
             {/* Anna Erlandsdotter */}
             <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 border border-gray-100 mx-4 lg:mx-0">
               <div className="p-8">
-                {/* Centered circular image */}
-                <div className="text-center mb-6">
-                  <div className="w-36 h-36 rounded-full bg-pink-100 border-4 border-pink-200 shadow-lg mx-auto flex items-center justify-center">
-                    <span className="text-4xl">👩‍⚕️</span>
-                  </div>
-                </div>
-                
                 {/* Doctor info */}
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-blue-700 mb-2">
