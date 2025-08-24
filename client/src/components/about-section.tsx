@@ -23,27 +23,27 @@ export default function AboutSection() {
 
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
               <p className="text-gray-600 leading-relaxed mb-4">
-                Back 2 Health Chiropractic and Wellness Centre is dedicated to providing <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">natural and drug free solutions</span> to disease and pain while promoting <span className="bg-green-100 text-green-800 px-2 py-1 rounded font-medium">Wellness</span>.
+                Back 2 Health Chiropractic and Wellness Centre is dedicated to providing natural and drug free solutions to disease and pain while promoting Wellness.
               </p>
               
               <p className="text-gray-600 leading-relaxed mb-4">
-                We believe in <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-medium">addressing the root cause</span> of health issues rather than just treating symptoms. We maintain that everyone deserves to <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">live free from pain</span>—without relying on painkillers or being limited in doing what they love.
+                We believe in addressing the root cause of health issues rather than just treating symptoms. We maintain that everyone deserves to live free from pain—without relying on painkillers or being limited in doing what they love.
               </p>
               
               <p className="text-gray-600 leading-relaxed mb-4">
-                We deliver a <span className="bg-red-100 text-red-800 px-2 py-1 rounded font-medium">professional, highly specialised and patient centred approach</span>; combining <span className="bg-green-100 text-green-800 px-2 py-1 rounded font-medium">individually tailored healthcare plans</span> with the most effective, long-term treatment available.
+                We deliver a professional, highly specialised and patient centred approach; combining individually tailored healthcare plans with the most effective, long-term treatment available.
               </p>
               
               <p className="text-gray-600 leading-relaxed mb-4">
-                We see people from all walks of life, from <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-medium">2-week old babies to pensioners in their 90s</span>, from pregnant women to office workers to professional athletes to <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">improve movement and function, reduce pain and enhance wellbeing</span>.
+                We see people from all walks of life, from 2-week old babies to pensioners in their 90s, from pregnant women to office workers to professional athletes to improve movement and function, reduce pain and enhance wellbeing.
               </p>
               
               <p className="text-gray-600 leading-relaxed mb-4">
-                Whether you are looking for <span className="bg-red-100 text-red-800 px-2 py-1 rounded font-medium">relief from injury or chronic pain</span>, or trying to <span className="bg-green-100 text-green-800 px-2 py-1 rounded font-medium">maintain a healthy, active lifestyle</span> we can help.
+                Whether you are looking for relief from injury or chronic pain, or trying to maintain a healthy, active lifestyle we can help.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
-                With locations in <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded font-medium">Bukoto and Entebbe</span>, we serve the greater Kampala area and beyond, providing <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">accessible, high-quality healthcare</span> that focuses on your overall wellbeing and long-term health goals.
+                With locations in Bukoto and Entebbe, we serve the greater Kampala area and beyond, providing accessible, high-quality healthcare that focuses on your overall wellbeing and long-term health goals.
               </p>
             </div>
 
