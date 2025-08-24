@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import physiotherapyImage from "@assets/Physiotherapy.png";
 import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/pexels-funkcines-terapijos-centras-927573878-20860619_1753688160058.jpg";
 import doctorImage from "@assets/Doctor.png";
@@ -39,7 +38,7 @@ export default function ServicesSection() {
       title: "Physiotherapy",
       description: "Physiotherapy is a science-based, personalised approach to restoring movement, improving function, and enhancing quality of life. Through hands-on techniques, tailored exercise programs, and education, we help alleviate pain, restore strength and flexibility, prevent further injury, and improve movement mechanics.",
       color: "wellness-blue",
-      image: physiotherapyImage,
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
     {
       icon: Hand,
@@ -74,7 +73,7 @@ export default function ServicesSection() {
       title: "Corporate Wellness",
       description: "Comprehensive workplace health solutions designed to create healthy, productive employees. Our programs include group wellness presentations, one-to-one consultations, mini massage sessions, Qi Gong classes, nutrition presentations, ergonomic assessments, and exercise rehabilitation programs tailored to your company's needs.",
       color: "wellness-blue",
-      image: physiotherapyImage,
+      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&h=300",
     },
 
   ];
