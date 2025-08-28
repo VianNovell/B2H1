@@ -12,6 +12,7 @@ import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/Massage.png";
 import doctorImage from "@assets/Complex v.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
+import pemfImage from "@assets/PEmf.png";
 
 export default function ServiceDetail() {
   const { slug } = useParams();
@@ -120,7 +121,7 @@ export default function ServiceDetail() {
       title: "PEMF Therapy",
       shortDescription: "Pulsed Electromagnetic Field Therapy for cellular healing and accelerated recovery",
       fullDescription: "A strong magnetic energy field of electrons is channeled through your body to promote its natural healing process and accelerate recovery through improved micro-circulation and neuro-musculo activation.\n\nBack 2 Health (Entebbe) is equipped with modern technology to provide PEMF therapy. After understanding your needs and conditions, our qualified and experienced professionals provide the gentle magnetic pulses for a stipulated time. It often induces a relaxed feeling, such as a massage.",
-      image: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      image: pemfImage,
       imageAlt: "PEMF therapy equipment",
       benefits: [
         "Accelerates Injury Recovery Time",
