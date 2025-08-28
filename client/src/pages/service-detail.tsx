@@ -12,6 +12,7 @@ import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/Massage.png";
 import doctorImage from "@assets/Complex v.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
+import pregnancyPaediatricImage from "@assets/Pregna.png";
 import pemfImage from "@assets/PEmf.png";
 
 export default function ServiceDetail() {
@@ -257,6 +258,43 @@ export default function ServiceDetail() {
         "Evidence-based diagnosis",
         "Clinical opinion documentation",
         "Referral coordination"
+      ]
+    },
+    "pregnancy-and-paediatric-care": {
+      title: "Pregnancy and Paediatric Care",
+      shortDescription: "Specialized chiropractic care for mothers and babies",
+      fullDescription: "Chiropractic treatment aims to help keep you as comfortable as possible and optimise In-Utero Foetal positioning aiding the birth process. Our Chiropractors are also trained in treating infants and babies; common problems including sleep and feeding difficulties, colic and constipation are common paediatric complaints in a Chiropractor's office. We provide gentle, safe, and effective care tailored specifically for pregnancy and early childhood development.",
+      image: pregnancyPaediatricImage,
+      imageAlt: "Pregnancy and paediatric chiropractic care",
+      benefits: [
+        "Improved comfort during pregnancy",
+        "Optimal foetal positioning for birth",
+        "Reduced pregnancy-related back pain",
+        "Better sleep quality for mothers",
+        "Enhanced nervous system function in babies",
+        "Relief from colic and digestive issues",
+        "Improved feeding patterns in infants",
+        "Support for natural development"
+      ],
+      conditions: [
+        "Pregnancy-related back pain",
+        "Pelvic pain during pregnancy",
+        "Breech presentation",
+        "Infant colic and crying",
+        "Sleep difficulties in babies",
+        "Feeding problems",
+        "Constipation in infants",
+        "Developmental concerns",
+        "Birth trauma recovery"
+      ],
+      techniques: [
+        "Webster Technique for optimal foetal positioning",
+        "Gentle pregnancy-specific adjustments",
+        "Infant craniosacral therapy",
+        "Soft tissue work for pregnant mothers",
+        "Paediatric chiropractic techniques",
+        "Postural support and education",
+        "Breathing and relaxation techniques"
       ]
     }
   };
