@@ -5,6 +5,7 @@ import {
   Activity,
   Target,
   Building2,
+  Baby,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
@@ -15,6 +16,7 @@ import diabetesWeightLossImage from "@assets/LV Diab.png";
 import cWellnessImage from "@assets/C wellness.png";
 import physiotherapyImage from "@assets/V Therapy.png";
 import pemfImage from "@assets/L PEM.png";
+import pregnancyPaediatricImage from "@assets/d2688fc5-aa1b-4875-83b9-e680081c3d4c_1756033465509.png";
 
 export default function ServicesSection() {
   const [, setLocation] = useLocation();
@@ -77,6 +79,13 @@ export default function ServicesSection() {
       description: "Comprehensive workplace health solutions designed to create healthy, productive employees. Our programs include group wellness presentations, one-to-one consultations, mini massage sessions, Qi Gong classes, nutrition presentations, ergonomic assessments, and exercise rehabilitation programs tailored to your company's needs.",
       color: "wellness-blue",
       image: cWellnessImage,
+    },
+    {
+      icon: Baby,
+      title: "Pregnancy and Paediatric Care",
+      description: "Chiropractic treatment aims to help keep you as comfortable as possible and optimise In-Utero Foetal positioning aiding the birth process. Our Chiropractors are also trained in treating infants and babies; common problems including sleep and feeding difficulties, colic and constipation are common paediatric complaints in a Chiropractor's office.",
+      color: "wellness-blue",
+      image: pregnancyPaediatricImage,
     },
 
   ];
