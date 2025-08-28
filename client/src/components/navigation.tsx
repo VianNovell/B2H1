@@ -47,10 +47,10 @@ export default function Navigation() {
                   className="h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24 object-contain drop-shadow-lg"
                 />
                 <div className="hidden sm:block">
-                  <div className="text-lg md:text-xl lg:text-2xl font-bold text-[hsl(var(--wellness-blue))] drop-shadow-sm">
+                  <div className="text-lg md:text-xl lg:text-2xl font-bold text-[#1e3a8a] drop-shadow-sm" style={{fontFamily: 'Inter, system-ui, -apple-system, sans-serif'}}>
                     Specialist and Holistic
                   </div>
-                  <div className="text-lg md:text-xl lg:text-2xl font-bold text-[hsl(var(--wellness-blue))] drop-shadow-sm">
+                  <div className="text-lg md:text-xl lg:text-2xl font-bold text-[#1e3a8a] drop-shadow-sm" style={{fontFamily: 'Inter, system-ui, -apple-system, sans-serif'}}>
                     Healthcare
                   </div>
                 </div>
