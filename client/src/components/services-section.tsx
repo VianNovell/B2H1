@@ -15,7 +15,7 @@ import doctorImage from "@assets/Complex.png";
 import diabetesWeightLossImage from "@assets/LV Diab.png";
 import cWellnessImage from "@assets/C wellness.png";
 import physiotherapyImage from "@assets/V Therapy.png";
-import pemfImage from "@assets/L PEM.png";
+import pemfImage from "@assets/PEmf.png";
 import pregnancyPaediatricImage from "@assets/Pregna.png";
 
 export default function ServicesSection() {
