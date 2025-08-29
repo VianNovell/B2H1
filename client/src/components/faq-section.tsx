@@ -32,6 +32,10 @@ export default function FAQSection() {
     {
       question: "Are your practitioners licensed?",
       answer: "Yes all our practitioners are fully licensed and certified in their respective field. Our team includes highly qualified Chiropractors, Physiotherapists and Massage therapists. We maintain the highest standards of professional excellence and continuing education."
+    },
+    {
+      question: "Is Chiropractic Safe?",
+      answer: "It's one of the most common questions people ask when considering care.\n\nWhen it comes to managing back and neck pain, all treatments carry some level of risk. To help you make informed decisions, here's how chiropractic compares with other common interventions…\n\nChiropractic treatment: serious side effects occur in 1 in 476,000 treatments (Chu et al., 2023). No strokes or cauda equina reported.\n\nSpinal surgery: 3–5 in 100 risk complications\n\nOpioids: up to 1 in 4 risk long-term dependence\n\nParacetamol: limited benefit, 1–4 in 100 risk of liver stress\n\nChiropractors in Uganda are regulated by the Allied Health Professions Council (AHPC) and complete years of training to ensure safe, evidence-based care.\n\nPlease ensure that the Chiropractor you choose to receive treatment from is registered with the AHPC as a qualified Chiropractor. There are a number of unqualified professionals advertising themselves as Chiropractors without the requisite qualifications. All Chiropractors at B2H are duly qualified and registered."
     }
   ];
 
