@@ -84,9 +84,52 @@ export default function FAQSection() {
               {openIndex === index && (
                 <div className="px-6 pb-6">
                   <div className="pt-2 border-t border-gray-200">
-                    <p className="text-gray-700 leading-relaxed mt-4">
-                      {faq.answer}
-                    </p>
+                    {faq.question === "Is Chiropractic Safe?" ? (
+                      <div className="text-gray-700 leading-relaxed mt-4 space-y-4">
+                        <p>It's one of the most common questions people ask when considering care.</p>
+                        
+                        <p>When it comes to managing back and neck pain, all treatments carry some level of risk. To help you make informed decisions, here's how chiropractic compares with other common interventions:</p>
+                        
+                        <ul className="space-y-2 ml-4">
+                          <li className="flex items-start">
+                            <span className="text-[hsl(var(--wellness-blue))] mr-2">•</span>
+                            <span><strong>Chiropractic treatment:</strong> serious side effects occur in 1 in 476,000 treatments (Chu et al., 2023). No strokes or cauda equina reported.</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-[hsl(var(--wellness-blue))] mr-2">•</span>
+                            <span><strong>Spinal surgery:</strong> 3–5 in 100 risk complications</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-[hsl(var(--wellness-blue))] mr-2">•</span>
+                            <span><strong>Opioids:</strong> up to 1 in 4 risk long-term dependence</span>
+                          </li>
+                          <li className="flex items-start">
+                            <span className="text-[hsl(var(--wellness-blue))] mr-2">•</span>
+                            <span><strong>Paracetamol:</strong> limited benefit, 1–4 in 100 risk of liver stress</span>
+                          </li>
+                        </ul>
+                        
+                        <p className="italic text-gray-600 bg-blue-50 p-4 rounded-lg">
+                          Chiropractors in Uganda are regulated by the Allied Health Professions Council (AHPC) and complete years of training to ensure safe, evidence-based care.
+                        </p>
+                        
+                        <p className="font-medium">
+                          Please ensure that the Chiropractor you choose is registered with the AHPC as a qualified Chiropractor. All Chiropractors at B2H are duly qualified and registered.
+                        </p>
+                        
+                        <p>
+                          What most patients notice? Temporary muscle soreness — like the ache after exercise — followed by a sense of relief and freedom to move again.
+                        </p>
+                        
+                        <p className="text-gray-600">
+                          No healthcare option is completely risk-free, but the data shows chiropractic is a low-risk, effective choice for many. Explore your options, ask questions, and make the decision that feels right for you.
+                        </p>
+                      </div>
+                    ) : (
+                      <p className="text-gray-700 leading-relaxed mt-4">
+                        {faq.answer}
+                      </p>
+                    )}
                   </div>
                 </div>
               )}
