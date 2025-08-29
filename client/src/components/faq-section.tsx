@@ -117,12 +117,15 @@ export default function FAQSection() {
                           Please ensure that the Chiropractor you choose is registered with the AHPC as a qualified Chiropractor. All Chiropractors at B2H are duly qualified and registered.
                         </p>
                         
+                        <p className="font-semibold text-gray-800">
+                          What most patients notice?
+                        </p>
                         <p>
-                          What most patients notice? Temporary muscle soreness — like the ache after exercise — followed by a sense of relief and freedom to move again.
+                          Temporary muscle soreness — like the ache after exercise — followed by a sense of relief and freedom to move again.
                         </p>
                         
                         <p className="text-gray-600">
-                          No healthcare option is completely risk-free, but the data shows chiropractic is a low-risk, effective choice for many. Explore your options, ask questions, and make the decision that feels right for you.
+                          No healthcare option is completely risk-free, but the data shows chiropractic is a low-risk, effective choice for many. Explore your options, ask questions, and make the decision that feels right for you. We are happy to discuss best treatment options for every individual.
                         </p>
                       </div>
                     ) : (
