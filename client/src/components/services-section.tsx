@@ -16,7 +16,7 @@ import diabetesWeightLossImage from "@assets/LV Diab.png";
 import cWellnessImage from "@assets/C wellness.png";
 import physiotherapyImage from "@assets/V Therapy.png";
 import pemfImage from "@assets/PEmf.png";
-import pregnancyPaediatricImage from "@assets/Final.png";
+import pregnancyPaediatricImage from "@assets/Preg.jpg";
 
 export default function ServicesSection() {
   const [, setLocation] = useLocation();
