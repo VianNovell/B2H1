@@ -12,7 +12,7 @@ import spineImage from "@assets/Spine.png";
 import massageImage from "@assets/Massage.png";
 import doctorImage from "@assets/Complex v.png";
 import diabetesWeightLossImage from "@assets/diabetes-weight-loss.png";
-import pregnancyPaediatricImage from "@assets/Pregna.png";
+import pregnancyPaediatricImage from "@assets/Preg.jpg";
 import pemfImage from "@assets/PEmf.png";
 
 export default function ServiceDetail() {
